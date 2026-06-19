@@ -39,6 +39,10 @@
   .csvbtn{flex:1;padding:10px;border:1px solid var(--accent2);background:#fff;
           color:var(--accent2);border-radius:10px;font-size:13px;font-weight:600;cursor:pointer}
   .csvbtn:active{background:#eef4fa}
+  .ord{border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:7px;
+       width:30px;height:30px;font-size:15px;line-height:1;cursor:pointer;padding:0;flex:0 0 auto}
+  .ord:active:not(:disabled){background:#eef2f0}
+  .ord:disabled{opacity:.3;cursor:not-allowed}
   .grip{border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:7px;
         width:34px;height:30px;font-size:15px;line-height:1;cursor:grab;padding:0;flex:0 0 auto;
         touch-action:none;user-select:none}
@@ -218,8 +222,10 @@ function render(){
   $("#empty").hidden = items.length>0;
   list.innerHTML = items.map((p,idx)=>{
     const isSeen = seen.has(p.numer), isFav = fav.has(p.numer);
-    const grip = manual
-      ? `<button class="grip" data-grip title="Przeciągnij, aby zmienić kolejność" aria-label="Przeciągnij">≡</button>`
+    const reorder = manual
+      ? `<button class="ord" data-up="${p.numer}" title="w górę" aria-label="w górę" ${idx===0?'disabled':''}>↑</button>`
+      + `<button class="ord" data-down="${p.numer}" title="w dół" aria-label="w dół" ${idx===items.length-1?'disabled':''}>↓</button>`
+      + `<button class="grip" data-grip title="Przeciągnij, aby zmienić kolejność" aria-label="Przeciągnij">≡</button>`
       : "";
     const where = p.typ==="PONADOSIEDLOWE" ? "Ogólnołódzki"
                   : `${p.dzielnica||""}${p.osiedle? " — "+p.osiedle:""}`;
@@ -232,7 +238,7 @@ function render(){
           <span class="tag num">${p.numer}</span>
           <span class="tag ${p.typ==='PONADOSIEDLOWE'?'pon':''}">${p.typ==='PONADOSIEDLOWE'?'ogólnołódzki':'osiedlowy'}</span>
           <button class="fav${isFav?' on':''}" data-f="${p.numer}" title="Ulubiony" aria-label="Ulubiony">${isFav?'♥':'♡'}</button>
-          ${grip}
+          ${reorder}
         </div>
         <div class="ttl">${esc(p.tytul)||'(bez tytułu)'}</div>
         <div class="meta">
@@ -282,6 +288,19 @@ function exportCsv(){
 $("#csv").addEventListener("click", exportCsv);
 
 $("#list").addEventListener("click", e=>{
+  // up/down reorder — swaps with the adjacent *visible* favourite
+  const o = e.target.closest(".ord");
+  if(o && !o.disabled){
+    const up = "up" in o.dataset, n = up ? o.dataset.up : o.dataset.down;
+    const vis = [...$("#list").querySelectorAll(".card")].map(c=>c.dataset.numer);
+    const neighbour = vis[vis.indexOf(n) + (up ? -1 : 1)];
+    if(neighbour){
+      const a = favOrder.indexOf(n), c = favOrder.indexOf(neighbour);
+      [favOrder[a], favOrder[c]] = [favOrder[c], favOrder[a]];
+      saveFav(); render();
+    }
+    return;
+  }
   const f = e.target.closest(".fav"); if(!f) return;
   const n = f.dataset.f;
   const adding = !fav.has(n);
