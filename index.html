@@ -39,9 +39,15 @@
   .csvbtn{flex:1;padding:10px;border:1px solid var(--accent2);background:#fff;
           color:var(--accent2);border-radius:10px;font-size:13px;font-weight:600;cursor:pointer}
   .csvbtn:active{background:#eef4fa}
-  .ord{border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:7px;
-       width:30px;height:30px;font-size:16px;line-height:1;cursor:pointer;padding:0;flex:0 0 auto}
-  .ord:active{background:#eef2f0}
+  .grip{border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:7px;
+        width:34px;height:30px;font-size:15px;line-height:1;cursor:grab;padding:0;flex:0 0 auto;
+        touch-action:none;user-select:none}
+  .grip:active{cursor:grabbing;background:#eef2f0}
+  .card.dragging{opacity:.45;box-shadow:0 6px 18px rgba(0,0,0,.18)}
+  .seam{height:0;margin:-5px 0;border-top:3px solid var(--accent);border-radius:3px;
+        box-shadow:0 0 0 1px rgba(11,110,79,.25)}
+  .seam::before{content:"";display:block;width:10px;height:10px;border-radius:50%;
+        background:var(--accent);margin:-6px 0 0 -2px}
   #toast{position:fixed;left:50%;bottom:calc(70px + var(--pad));transform:translateX(-50%);
          background:#16241f;color:#fff;padding:10px 16px;border-radius:10px;font-size:13px;
          box-shadow:0 3px 12px rgba(0,0,0,.3);z-index:60;max-width:90vw;text-align:center}
@@ -212,22 +218,21 @@ function render(){
   $("#empty").hidden = items.length>0;
   list.innerHTML = items.map((p,idx)=>{
     const isSeen = seen.has(p.numer), isFav = fav.has(p.numer);
-    const ord = manual
-      ? `<button class="ord" data-up="${p.numer}" title="w górę" ${idx===0?'disabled':''}>↑</button>`
-      + `<button class="ord" data-down="${p.numer}" title="w dół" ${idx===items.length-1?'disabled':''}>↓</button>`
+    const grip = manual
+      ? `<button class="grip" data-grip title="Przeciągnij, aby zmienić kolejność" aria-label="Przeciągnij">≡</button>`
       : "";
     const where = p.typ==="PONADOSIEDLOWE" ? "Ogólnołódzki"
                   : `${p.dzielnica||""}${p.osiedle? " — "+p.osiedle:""}`;
     const addr = p.adres ? `<br>${esc(p.adres)}` : "";
     const opis = p.opis ? `<details class="opis"><summary>Pokaż opis</summary><p>${esc(p.opis)}</p></details>` : "";
-    return `<div class="card${isSeen?' seen':''}">
+    return `<div class="card${isSeen?' seen':''}" data-numer="${p.numer}">
       <label class="chk"><input type="checkbox" data-n="${p.numer}" ${isSeen?'checked':''}></label>
       <div class="body">
         <div class="tags">
           <span class="tag num">${p.numer}</span>
           <span class="tag ${p.typ==='PONADOSIEDLOWE'?'pon':''}">${p.typ==='PONADOSIEDLOWE'?'ogólnołódzki':'osiedlowy'}</span>
           <button class="fav${isFav?' on':''}" data-f="${p.numer}" title="Ulubiony" aria-label="Ulubiony">${isFav?'♥':'♡'}</button>
-          ${ord}
+          ${grip}
         </div>
         <div class="ttl">${esc(p.tytul)||'(bez tytułu)'}</div>
         <div class="meta">
@@ -277,17 +282,6 @@ function exportCsv(){
 $("#csv").addEventListener("click", exportCsv);
 
 $("#list").addEventListener("click", e=>{
-  // reorder favourites
-  const o = e.target.closest(".ord");
-  if(o){
-    const up = "up" in o.dataset, n = up ? o.dataset.up : o.dataset.down;
-    const i = favOrder.indexOf(n), j = up ? i-1 : i+1;
-    if(i>=0 && j>=0 && j<favOrder.length){
-      [favOrder[i], favOrder[j]] = [favOrder[j], favOrder[i]];
-      saveFav(); render();
-    }
-    return;
-  }
   const f = e.target.closest(".fav"); if(!f) return;
   const n = f.dataset.f;
   const adding = !fav.has(n);
@@ -304,6 +298,52 @@ $("#list").addEventListener("click", e=>{
   updateProgress();
   if((state.preset==="fav" && !adding) || (state.hideseen && adding)) render();
 });
+
+// drag-and-drop reordering of favourites, with a visual drop seam
+(function(){
+  const list = $("#list");
+  let drag = null, seam = null;
+  function others(){ return [...list.querySelectorAll(".card")].filter(c=>c!==drag.card); }
+  function placeSeam(clientY){
+    let ref = null;
+    for(const c of others()){
+      const r = c.getBoundingClientRect();
+      if(clientY < r.top + r.height/2){ ref = c; break; }
+    }
+    drag.anchor = ref ? ref.dataset.numer : null;
+    list.insertBefore(seam, ref);   // ref===null -> append at end
+  }
+  list.addEventListener("pointerdown", e=>{
+    const g = e.target.closest(".grip"); if(!g) return;
+    e.preventDefault();
+    const card = g.closest(".card");
+    drag = { card, numer: card.dataset.numer, anchor: null, moved: false };
+    card.classList.add("dragging");
+    seam = document.createElement("div"); seam.className = "seam";
+    try { g.setPointerCapture(e.pointerId); } catch(_){}
+    placeSeam(e.clientY);
+  });
+  list.addEventListener("pointermove", e=>{
+    if(!drag) return;
+    e.preventDefault();
+    drag.moved = true;
+    placeSeam(e.clientY);
+  });
+  function finish(){
+    if(!drag) return;
+    const d = drag; drag = null;
+    d.card.classList.remove("dragging");
+    if(seam && seam.parentNode) seam.remove();
+    seam = null;
+    if(!d.moved) return;                          // a plain tap must not reorder
+    let arr = favOrder.filter(x => x !== d.numer);
+    const ai = d.anchor ? arr.indexOf(d.anchor) : arr.length;
+    arr.splice(ai < 0 ? arr.length : ai, 0, d.numer);
+    favOrder = arr; saveFav(); render();
+  }
+  list.addEventListener("pointerup", finish);
+  list.addEventListener("pointercancel", finish);
+})();
 
 let toastT;
 function toast(msg){
