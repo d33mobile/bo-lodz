@@ -96,8 +96,12 @@
   .reorder .card{padding:8px 10px}
   .reorder .card .meta,.reorder .card .links,.reorder .card .chk{display:none}
   .reorder .card details.opis{display:none}
-  .reorder .card details.opis[open]{display:block}  /* tap to expand still works in tidy mode */
   .reorder .card .ttl{margin:3px 0 0;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  /* expanding a card in tidy mode reveals its full normal-mode content */
+  .reorder .card.expanded .chk,.reorder .card.expanded .meta,
+  .reorder .card.expanded details.opis{display:block}
+  .reorder .card.expanded .links{display:flex}
+  .reorder .card.expanded .ttl{white-space:normal;overflow:visible;font-size:15px}
   .meta{font-size:12.5px;color:var(--muted);line-height:1.5}
   .meta b{color:var(--ink);font-weight:600}
   .opis{margin-top:7px;font-size:13px;color:#33403b}
@@ -391,10 +395,12 @@ $("#list").addEventListener("click", e=>{
     if((state.preset==="fav" && !adding) || (state.hideseen && adding)) render();
     return;
   }
-  // a tap anywhere on the card (not on a control/link) toggles its description
+  // a tap anywhere on the card (not on a control/link) toggles its description;
+  // in tidy mode this expands the card to show its full normal-mode content
   if(e.target.closest("a, button, input, summary, label, .grip")) return;
-  const det = e.target.closest(".card") && e.target.closest(".card").querySelector("details.opis");
-  if(det) det.open = !det.open;
+  const card = e.target.closest(".card");
+  const det = card && card.querySelector("details.opis");
+  if(det){ det.open = !det.open; card.classList.toggle("expanded", det.open); }
 });
 
 // long-press on ↑/↓ moves the favourite to the very start/end
