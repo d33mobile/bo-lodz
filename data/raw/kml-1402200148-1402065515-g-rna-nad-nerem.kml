@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-green-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTG004NN">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G004NN</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G004NN</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Piknik osiedlowy nad Nerem - pożegnanie lata</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Nad Nerem</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200765-3ddbacdff844d475c0053d4cfbfa6457" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'NN', 1402200765, 'G004NN');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3539434548, 51.7119733750, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G004NN</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG005NN">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G005NN</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G005NN</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wiata przystankowa Sanitariuszek (przy moście)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Nad Nerem</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>80&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200802-4da6c786d8f4fe4e73f0ec186f0b2721" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'NN', 1402200802, 'G005NN');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3661396479, 51.7127319169, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G005NN</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG006NN">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G006NN</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G006NN</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświetlenie parku nad Nerem /Parking Droga/+ monitoring</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Nad Nerem</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>219&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200805-f2713fa55e70bc91c2806e5ac32b9590" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'NN', 1402200805, 'G006NN');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3545189524, 51.7113665547, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G006NN</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG028NN">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G028NN</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G028NN</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpiecznie na plac zabaw - oświetlenie i remont pobocza ul. Łaskowice do OSP</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Nad Nerem</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>424&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201667-cf7cef485d98a55202dc162a3e84a262" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'NN', 1402201667, 'G028NN');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3559515127, 51.7123310794, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G028NN</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG029NN">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G029NN</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G029NN</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Lodowisko - zimowa atrakcja w Parku nad Nerem</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Nad Nerem</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201670-e8e934756f4ce15f565fe0836621517b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'NN', 1402201670, 'G029NN');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3540317161, 51.7119931030, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G029NN</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG095NN">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G095NN</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G095NN</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświetlenie drogi na Charzew (ul. Południowa)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Nad Nerem</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>151&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209563-7c117855f628b107be6ed7fba80dbd63" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'NN', 1402209563, 'G095NN');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3892766755, 51.7094876764, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G095NN</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG098NN">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G098NN</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G098NN</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Chocianowicka BEZ DZIUR (fezowanie + uzupełnianie + walcowanie + krawężniki)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Nad Nerem</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>285&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209637-44dc68b643189bcbedade3b80855a952" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'NN', 1402209637, 'G098NN');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4077620392, 51.7073774087, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G098NN</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG099NN">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G099NN</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G099NN</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nowe KRAWEŻNIKI (po obu stronach) – Chocianiowicka</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Nad Nerem</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>120&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209665-b30c99defced256f490f2c04ca66b1c9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'NN', 1402209665, 'G099NN');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3996356326, 51.7079112995, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G099NN</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

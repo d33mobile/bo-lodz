@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-purple-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTP027ZM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P027ZM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P027ZM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont zieleńców na al. Unii Lubelskiej - Zdrowie Mania - nasadzenia krzewów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Zdrowie-Mania</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201037-e6d528f19b9fabd966e05d4b37ca8671" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZM', 1402201037, 'P027ZM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4207456565, 51.7682301775, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P027ZM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP029ZM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P029ZM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P029ZM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont zieleńców na ul. Solec/Biegunowej - nasadzenia drzew i krzewów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Zdrowie-Mania</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201046-5a036464d391e0a2a2a056174ca45966" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZM', 1402201046, 'P029ZM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4056166424, 51.7763334300, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P029ZM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP063ZM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P063ZM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P063ZM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Postawmy na bezpieczeństwo na osiedlu Zdrowie Mania</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Zdrowie-Mania</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201878-b5dbc96a077ce51fd9c43187671a41ce" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZM', 1402201878, 'P063ZM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3983533937, 51.7690424355, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P063ZM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP097ZM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P097ZM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P097ZM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Poprawa estetyki mini skwerku ul. Owsiana/Żniwna</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Zdrowie-Mania</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>6&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206864-93e522922dd0444e2344b446b41f834f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZM', 1402206864, 'P097ZM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4092567414, 51.7803566927, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P097ZM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP099ZM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P099ZM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P099ZM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kurs tańca towarzyskiego dla mieszkańców Osiedla Zdrowie-Mania</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Zdrowie-Mania</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>5&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206973-a25e58f17335459d3e49944e21a65aa8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZM', 1402206973, 'P099ZM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4121275927, 51.7785397487, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P099ZM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP122ZM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P122ZM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P122ZM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Utworzenie legalnych miejsc parkingowych na ul. Kusocińskiego – uporządkowanie „dzikiego” parkowania</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Zdrowie-Mania</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209421-78662949ab147fd41b187ed1decb0990" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZM', 1402209421, 'P122ZM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4062463215, 51.7525035658, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P122ZM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP158ZM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P158ZM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P158ZM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne przejście przez ul. Solec – progi zwalniające przy Jarzynowej!</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Zdrowie-Mania</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>21&nbsp;600.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212377-3ca211cc66bcb14dd2a8a4a2253f8c31" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZM', 1402212377, 'P158ZM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4137322813, 51.7779273719, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P158ZM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP167ZM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P167ZM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P167ZM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Pielęgnacja drzew na Zdrowiu i Manii</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Zdrowie-Mania</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212523-2da9e36e5605f792ccd9ea48bc471240" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZM', 1402212523, 'P167ZM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4096848128, 51.7777466408, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P167ZM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP168ZM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P168ZM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P168ZM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Światło dla Srebrzyńskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Zdrowie-Mania</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>117&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212537-ae56d1e4fef3271252a1eb323b666e0e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZM', 1402212537, 'P168ZM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4089572924, 51.7744140094, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P168ZM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP201ZM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P201ZM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P201ZM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ustawienie 5 ławek z koszami na śmieci wzdłuż ciągu pieszo-rowerowego przy ul. Krzemienieckiej na odc. od ul. Retkińskiej do ul. Konstantynowskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Zdrowie-Mania</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>73&nbsp;750.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213487-3c002a197b5163254031e1f1092079fa" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZM', 1402213487, 'P201ZM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4108195440, 51.7595024657, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P201ZM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP204ZM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P204ZM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P204ZM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ogród Deszczowy – Młyński Mostek na Mani - skwer przy Jęczmiennej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Zdrowie-Mania</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>190&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213536-5c173b4284204a702d870a777f2b6cf6" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZM', 1402213536, 'P204ZM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4090009691, 51.7748614156, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P204ZM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP224ZM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P224ZM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P224ZM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Spacerujmy bezpiecznie - naprawa ogrodzenia przy ulicy Borowej i Siewnej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Zdrowie-Mania</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>140&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213818-dd9e7d01a6281a4f9e75f5d0ace89d1f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZM', 1402213818, 'P224ZM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4090603538, 51.7798828015, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P224ZM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP231ZM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P231ZM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P231ZM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Spotkajmy się na Mani - budowa altany ogrodowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Zdrowie-Mania</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>76&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213870-573e899cc1dc91ab59bb03828380b051" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZM', 1402213870, 'P231ZM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4121620692, 51.7785397818, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P231ZM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP237ZM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P237ZM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P237ZM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Doposażenie siedziby Rady Osiedla Zdrowie Mania przy ulicy Grzybowej 1</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Zdrowie-Mania</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>35&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213931-9855b6cedbe6f9455c2301f36b26f4a2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZM', 1402213931, 'P237ZM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4122144049, 51.7785081290, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P237ZM</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

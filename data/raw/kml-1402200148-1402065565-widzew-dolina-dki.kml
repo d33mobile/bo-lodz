@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-seledyn-cyrcle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTW004DL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W004DL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W004DL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczeństwo dzieci w drodze do szkoły i przedszkola- chodnik w Dolinie Łódki wzdłuż ul. Dębowskiego od Hyrnej do Krokiew</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Dolina Łódki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>150&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200674-b484ca28931324b7e2250278c8e945f0" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'DL', 1402200674, 'W004DL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5371579115, 51.7801280107, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W004DL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW007DL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W007DL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W007DL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Monitoring pumptracku jako element poprawy bezpieczeństwa przestrzeni rekreacyjnej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Dolina Łódki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>166&nbsp;800.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200688-5e9ca16274f12e2db5ab4331c250cc1d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'DL', 1402200688, 'W007DL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5324868867, 51.7830707333, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W007DL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW057DL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W057DL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W057DL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Krajobrazowa płyty Jumbo</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Dolina Łódki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>461&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204506-1d60ccb18ff2076a233fc8bfb40dbe16" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'DL', 1402204506, 'W057DL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5054225047, 51.8129350186, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W057DL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW083DL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W083DL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W083DL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Utwardzenie ulicy Okólnej płytami YOMB</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Dolina Łódki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>461&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206342-d1a7f78f2e6a7ffb2a458fd8ecb2099a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'DL', 1402206342, 'W083DL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5217380438, 51.8121733410, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W083DL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW089DL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W089DL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W089DL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Poprawa bezpieczeństwa pieszych w ciągu ulicy Moskuliki</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Dolina Łódki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>31&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207296-55af27170aac9dbe4a7829efc38d0d25" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'DL', 1402207296, 'W089DL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5162598711, 51.8135849192, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W089DL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW113DL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W113DL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W113DL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny spacer nie powinien być odwagą – progi zwalniające na Beskidzkiej. Głosuj dla pieszych!</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Dolina Łódki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>31&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209387-1517f1e456cd7678d43986169b5a69c0" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'DL', 1402209387, 'W113DL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5141218527, 51.7997216830, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W113DL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW123DL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W123DL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W123DL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Równa Opolska dla wszystkich — bezpieczna droga do szkoły (ETAP II)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Dolina Łódki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>461&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210985-618fd94aacb5370e80767b6f7b9b16d9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'DL', 1402210985, 'W123DL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5177184645, 51.8076952399, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W123DL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW128DL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W128DL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W128DL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bieg Powstańców Styczniowych po terenie osiedla Dolina Łódki – Pamięć w ruchu po Wzniesieniach Łódzkich</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Dolina Łódki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>22&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211142-768cd9201dc92581c2414f138a3b25eb" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'DL', 1402211142, 'W128DL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5262064228, 51.8159617192, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W128DL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW149DL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W149DL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W149DL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Progi zwalniające na ulicy Listopadowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Dolina Łódki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212099-ff5a6fedc51f3ca3f2dcca6b7ae29994" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'DL', 1402212099, 'W149DL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5359025877, 51.7916315845, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W149DL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW185DL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W185DL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W185DL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Pumptrack w Dolinie Łódki – Etap II. Rozbudowa Rowerowego Placu Zabaw</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Dolina Łódki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>458&nbsp;600.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213324-24ef5c18836644bc9ddfcd7ec26abe0f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'DL', 1402213324, 'W185DL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5324479737, 51.7827305649, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W185DL</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

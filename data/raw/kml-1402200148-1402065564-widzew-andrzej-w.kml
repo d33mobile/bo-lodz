@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-seledyn-cyrcle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTW098AN">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W098AN</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W098AN</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wszystko WIEMY ! Osiedle Przylesie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Andrzejów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Inne</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>5&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207959-ca4aca6e74b8abaf3dc58eb3f49f5342" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'AN', 1402207959, 'W098AN');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.6150135324, 51.7303955073, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W098AN</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW100AN">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W100AN</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W100AN</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont szatni i łazienek w budynku klubu LKS Polonia Łódź-Andrzejów.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Andrzejów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>354&nbsp;140.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208105-60deb3e39f44d5ded942fb23c15c8af2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'AN', 1402208105, 'W100AN');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.6200478532, 51.7371781927, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W100AN</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW107AN">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W107AN</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W107AN</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nordic walking w Andrzejowie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Andrzejów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>21&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208461-07cd963864b4b0d5cef637e75e117c48" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'AN', 1402208461, 'W107AN');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.6149478800, 51.7422393738, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W107AN</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW156AN">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W156AN</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W156AN</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wieńcowa - budowa oświetlenia</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Andrzejów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>530&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212310-d612dd38fedd244480d79affcc23cd4f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'AN', 1402212310, 'W156AN');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.6227732920, 51.7333184089, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W156AN</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW186AN">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W186AN</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W186AN</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświetlenie na Gajcego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Andrzejów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>55&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213410-159fa049d9bcac646044e2f463961939" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'AN', 1402213410, 'W186AN');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.6310111364, 51.7531282229, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W186AN</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-yellow-cyrcle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTS008WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S008WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S008WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont zieleńców na ul. Wierzbowej- nasadzenia drzew i krzewów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201085-7ea0d1e01783578f98d739245007b9d7" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402201085, 'S008WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4770308106, 51.7802496323, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S008WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS009WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S009WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S009WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont zieleńców na ul. Kamińskiego- nasadzenia drzew i krzewów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201088-38f47f6b4957b54e031140a135878718" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402201088, 'S009WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4750152366, 51.7777556199, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S009WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS010WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S010WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S010WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Uniwersytecka - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201094-3c322b0fa9a4e7e3f2dae7b34a0c2a21" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402201094, 'S010WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4735034755, 51.7727626824, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S010WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS021WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S021WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S021WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Letnie kino plenerowe w parku Staszica</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>36&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402202615-05a35fe1c991ecd9f5dacb332cb9121b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402202615, 'S021WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4769677632, 51.7736345096, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S021WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS023WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S023WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S023WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Skwer miejski "Serce Sterlinga"</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>426&nbsp;940.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203915-853fc4693ef050e0420f3a4b248507d8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402203915, 'S023WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4689526543, 51.7782576375, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S023WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS033WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S033WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S033WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Monitoring skweru im. Aliny Margolis-Edelman</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>165&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206949-c90ab76e9919096ce58ae590daaf166d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402206949, 'S033WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4633781651, 51.7731390714, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S033WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS035WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S035WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S035WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Akcja "Radiostacja" -  bezpieczne osiedle - dodatkowe patrole Straży Miejskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>58&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207682-360b1d153ec01398051184876a9f1df9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402207682, 'S035WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4859422890, 51.7741711233, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S035WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS039WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S039WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S039WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rewitalizacja zieleńców na Kamińskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>35&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209123-16dc9340dc7bfba2c95be9a6c30a3d50" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402209123, 'S039WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4752983593, 51.7766341068, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S039WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS040WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S040WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S040WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Przejście dla pieszych - Północna / Dwernickiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>34&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209131-38efb54705e716fca7f1d43876b64bcc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402209131, 'S040WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4749838029, 51.7807028306, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S040WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS041WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S041WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S041WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny krok – widoczny przejazd - ul. Rewolucji 1905 roku</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>26&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209140-61b5c2bacc9fca5159b4f337581138a1" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402209140, 'S041WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4765349336, 51.7765767450, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S041WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS043WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S043WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S043WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Śródmiejskie parki oazą spokoju - dodatkowe patrole Straży Miejskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>58&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209429-d744a2f6eb9ca09fb585bbdff16a1426" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402209429, 'S043WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4764205815, 51.7733391353, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S043WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS052WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S052WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S052WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny pieszy na Śródmieściu Wschód - doświetlenie przejść dla pieszych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>292&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212578-18d5babc0e6ac5b6d463d4367585bb30" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402212578, 'S052WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4712036540, 51.7782114190, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S052WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS058WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S058WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S058WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Pielęgnacja parku Staszica</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>49&nbsp;050.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213011-1e2e666a9f4fc51a37c2ce2fefd6e60b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402213011, 'S058WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4767520527, 51.7734810055, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S058WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS074WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S074WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S074WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Toalety publiczne - reaktywacja: park im. S. Moniuszki – stała toaleta publiczna dostosowana do potrzeb niepełnosprawnych.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>457&nbsp;550.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213337-c1aaa931dbbe210e1620babf84f1b9d5" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402213337, 'S074WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4648366838, 51.7699497655, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S074WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS077WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S077WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S077WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> „Zielona Pomorska – bezpieczny chodnik, nowe drzewa i krzewy” - Ulica Pomorska, odcinek około 300 metrów, od rejonu skrzyżowania z ul. Tamka (z pominięciem fragmentu na przystanek komunikacji Pomorska-Tamka) do okolic skrzyżowania ul.Patrice Lumumby.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>170&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213453-daa51dbc5bd5078728a8c9517f96231b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402213453, 'S077WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4899303178, 51.7781709736, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S077WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS078WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S078WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S078WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Secesyjna wiata przystankowa wraz z remontem peronu na przystanku Uniwersytecka/Rewolucji 1905 r.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213597-e8a76dbcc7bc9ec1d3694a2dae47abe2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402213597, 'S078WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4769548394, 51.7759371620, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S078WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS080WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S080WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S080WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Mini Park Wierzbowa: Oświetlenie terenu, ścieżki piesze i zielone parkingi. Przebudowa osiedla – etap nr 2. Kontynuacja zadania z BO 2019/2020 dla tej części osiedla (facebook.com/MiniParkWierzbowa)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>720&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213623-76e474f5df02e6108dc9cca7a141414b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402213623, 'S080WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4784247823, 51.7798811467, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S080WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS081WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S081WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S081WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Mini Park Wierzbowa: Oświetlenie placu zabaw i parku. Przebudowa osiedla – etap nr 2. Kontynuacja zadania z BO 2019/2020 dla tej części osiedla (facebook.com/MiniParkWierzbowa)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>187&nbsp;550.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213643-1d6af6a0a4821f9e8caae9f8241f36d9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402213643, 'S081WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4786939448, 51.7800941360, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S081WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS082WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S082WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S082WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Przedłużenie ścieżki wzdłuż linii tramwajowej Radiostacja-Lumumby</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>550&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213650-767c9ebd46fb747f5b381245da340edc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402213650, 'S082WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4965967697, 51.7755882966, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S082WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS083WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S083WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S083WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Uporządkowanie i ochrona skweru przy pętli Radiostacja</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213672-128fda1594e1dfeb1afa56b30991eaa9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402213672, 'S083WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4963012996, 51.7748273314, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S083WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS086WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S086WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S086WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Streetworkout park (do ćwiczeń z wagą własnego ciała) w zielonych okolicach Wydziału Romanistyki UŁ. Etap 2: Doposażenie o brakujące urządzenia. Przestrzeń dla młodzieży, studentów, dorosłych i seniorów #Sport #Rekreacja #Rozciąganie #Rehabilitacja</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>134&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213725-b12da170fe0a480222f7c014b2eb3a59" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402213725, 'S086WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4929337956, 51.7760818563, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S086WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS087WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S087WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S087WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Usprawnienia rowerowe przy Dworcu Fabrycznym</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>10&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213728-a0aa4236d897b74ea3a1db9a2f6c6002" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402213728, 'S087WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4663237124, 51.7700822054, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S087WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS091WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S091WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S091WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Mini Park Wierzbowa: Streetworkout ćwiczenia dla seniorów i dorosłych. Zajęcia gimnastyczne i fizjoterapeutyczne z wykorzystaniem wagi własnego ciała #Sport #Rekreacja #Rozciąganie #Rehabilitacja #Zdrowy kręgosłup (facebook.com/MiniParkWierzbowa)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>13&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213905-b5ef9bd048af137ac5972454488c3229" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402213905, 'S091WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4788091866, 51.7800156242, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S091WS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS092WS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S092WS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S092WS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Streetworkout ćwiczenia dla seniorów i dorosłych na Lumumby przy Wydziale Romanistyki UŁ. Zajęcia gimnastyczne i rehabilitacyjne/fizjoterapeutyczne z wykorzystaniem wagi własnego ciała #Sport #Rekreacja #Rozciąganie #Rehabilitacja #Zdrowy kręgosłup</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Śródmieście-Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>14&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213912-65cfdbed92a4258f765b25f87a800f07" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'WS', 1402213912, 'S092WS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4930458929, 51.7760288321, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S092WS</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-seledyn-cyrcle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTW016SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W016SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W016SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Tablica informacji pasażerskiej - Śmigłego Rydza - Milionowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>180&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200873-8f6ecc088e98b15369381b74adb63f88" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402200873, 'W016SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4893725803, 51.7523169888, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W016SW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW023SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W023SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W023SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont zieleńców na ul. Miedzianej -- nasadzenia drzew i krzewów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201107-522ab11518bafb102f7eede7c73f51d0" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402201107, 'W023SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4797415930, 51.7622010029, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W023SW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW025SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W025SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W025SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont zieleńców na ul. Przędzalnianej - nasadzenia drzew i krzewów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201119-2b16809ddb75524bd7e56bbf0c13cd93" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402201119, 'W025SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4808982556, 51.7628606805, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W025SW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW026SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W026SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W026SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Niciarniana - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>91&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201122-3fe953e2bf3d289664fa5a7572f27e78" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402201122, 'W026SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5076419637, 51.7649269187, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W026SW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW031SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W031SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W031SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zagospodarowanie skarpy przy kładce pieszej prowadzącej od ul. Tuwima do Parku 3 Maja</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>35&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201445-bda2e3574f6ede250d942b1f263839ab" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402201445, 'W031SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4869512346, 51.7677066348, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W031SW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW036SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W036SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W036SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Legalny wjazd na parking przy Parku Widzewskim od Niciarnianej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>225&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201679-3fa92d02df86553760d95250cf9b67e4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402201679, 'W036SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5089282219, 51.7612410666, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W036SW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW038SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W038SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W038SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> ul.Zbiorcza dla ludzi: bezpieczeństwo i widoczność dzięki przejściom, słupkom i remontowi chodników</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>504&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201685-5855bf5cfcd919f9a7dd018066e7507a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402201685, 'W038SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4917915228, 51.7600183378, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W038SW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW101SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W101SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W101SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Szkolenie dla psów i ich właścicieli w Parku nad Jasieniem z zakresu posłuszeństwa.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>21&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208109-e34a9766fc26bbd0395e4e8b0d7c9c42" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402208109, 'W101SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4914956773, 51.7576655621, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W101SW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW103SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W103SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W103SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Skwer na Sarniej - etap I</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>145&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208127-f8f10b539d0d3efdde74deb6d153f8d4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402208127, 'W103SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4933499654, 51.7615944056, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W103SW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW108SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W108SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W108SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wymiana nawierzchni z trylinki na nawierzchnię asfaltową łącznie z infrastrukturą deszczową, nawierzchnia dróg komunikacyjnych zapada się z uwagi na wrastające korzenie w instalację burzową. Łódź , Al. Piłsudskiego 67</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>470&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208828-2c42cf87c02b174da8651c458e277073" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402208828, 'W108SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4832481423, 51.7600327036, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W108SW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW114SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W114SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W114SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Szpitalna i okolice – monitoring miejski. Osiedle Stary Widzew – ulice Konstytucyjna i Józefa. Etap Pierwszy</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>460&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209525-bc837bfcdc5da3140241fcf5e8c1b262" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402209525, 'W114SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5004219117, 51.7643463991, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W114SW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW134SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W134SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W134SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> MAMY Przestrzeń w Parku Widzewskim</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>15&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211275-93c232ff2c162ff6c7361620fc5159b6" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402211275, 'W134SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5094920813, 51.7619998221, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W134SW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW138SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W138SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W138SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nowe życie strefy rekreacyjnej w Parku 3 Maja - stół do ping-ponga, stoliki szachowe, do warcab.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211669-2a41f1990d61a9ee7c0e9940de4a271b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402211669, 'W138SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4895756664, 51.7690316389, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W138SW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW155SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W155SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W155SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kwiaty na tory – zasadzenie roślin cebulowych (tulipany, żonkile) wzdłuż torów tramwajowych na al. Piłsudskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212298-37c53480cc406472a9243621102df840" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402212298, 'W155SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4749749561, 51.7606479933, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W155SW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW170SW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W170SW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W170SW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny pieszy na Starym Widzewie - doświetlenie przejść dla pieszych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stary Widzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>326&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212594-a09355eb7047820c7e6d2b86244a49c2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'SW', 1402212594, 'W170SW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4761169138, 51.7638712968, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W170SW</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

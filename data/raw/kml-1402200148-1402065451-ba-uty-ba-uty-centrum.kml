@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-blue-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTB010BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B010BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B010BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Z serca Bałut: porządki na "Psim Polu" - Zieleniec ul. Lutomierska/Drewnowska</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>7&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200631-6b2e2f3ea99d1ed0196118cef36a8684" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402200631, 'B010BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4380436991, 51.7832744359, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B010BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB012BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B012BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B012BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Z serca Bałut: wygodniej tramwajem z Dolnego Rynku - dodatkowe wiaty</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>70&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200645-f624bb9df447e280044e2f31e92727a8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402200645, 'B012BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4492781668, 51.7901417903, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B012BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB013BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B013BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B013BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Z serca Bałut: doposażenie Parku Struga - nowe ławki i kosze na śmieci</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200649-66a9a0b3519818cfd9a70b873d80741e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402200649, 'B013BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4415080873, 51.7932252165, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B013BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB028BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B028BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B028BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Julianowska - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200969-e7f3b7227fd4d203e9869e9abe820dc4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402200969, 'B028BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4464135087, 51.7978830548, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B028BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB029BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B029BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B029BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona al. Włókniarzy - drzewa i krzewy wzdłuż drogi - Bałuty Centrum</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200972-755b1b6d52e4c091556774ef9ace4407" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402200972, 'B029BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4212925853, 51.7882685137, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B029BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB030BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B030BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B030BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Uzupełnienia szpalerów drzew i nowe nasadzenia - Bałuty Centrum</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>80&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200975-a89f24e67030ae9a5f333a38af9d513a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402200975, 'B030BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4456208618, 51.7953290866, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B030BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB056BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B056BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B056BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rowerem wzdłuż Limanowskiego - i co dalej? Radłową do Hipotecznej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>195&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201717-ace54893ce09adf1ab33c749862a0c28" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402201717, 'B056BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4299446216, 51.7915851217, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B056BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB060BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B060BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B060BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rowerowe osiedle - wlot przy skrzyżowaniu Drewnowska / Piwna</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>180&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201736-7ef6cabb90f66d5c006da78970583859" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402201736, 'B060BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4442327203, 51.7813608017, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B060BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB076BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B076BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B076BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> RozwijajMY osiedle Pojezierska: Remont nawierzchni ulicy Mackiewicza na odcinku Pojezierska–Olsztyńska</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>893&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204434-5884154688ed8f0f9e453d175f1ef7bc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402204434, 'B076BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4352302780, 51.7964381261, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B076BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB077BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B077BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B077BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> RozwijajMY osiedle Pojezierska: Remont nawierzchni ulicy Jana na odcinku Pojezierska–Sierakowskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>700&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204438-54cda6f01e3f9d874be19f045fee6650" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402204438, 'B077BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4362576440, 51.7986049160, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B077BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB078BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B078BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B078BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> RozwijajMY osiedle Pojezierska: Street workout w parku przy Hipotecznej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>373&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204441-9795c5a92997d826e82500d5ef06725c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402204441, 'B078BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4314916476, 51.7953872672, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B078BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB080BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B080BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B080BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> RozwijajMY osiedle Pojezierska: Ogólnodostępne defibrylatory AED</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>56&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204447-8780ac6b306251f478a03422b63441bf" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402204447, 'B080BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4319326296, 51.7970548515, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B080BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB081BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B081BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B081BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> RozwijajMY osiedle Pojezierska: Park kieszonkowy Pojezierska</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>275&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204459-930cad2c49fbfdd1b15538951d1ca7f3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402204459, 'B081BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4433652323, 51.7977774733, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B081BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB091BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B091BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B091BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Znaki świetlne na przejściach dla pieszych na ulicy Limanowskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>695&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205784-8762cf61a48bf08d89ec8ad2231f7427" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402205784, 'B091BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4409244459, 51.7881896854, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B091BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB093BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B093BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B093BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wymiana chodnika na ul. Powstańców Wielkopolskich (strona północna) - od odnogi Powstańców Wielkopolskich (nr 17-9) do ul. Lutomierskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>320&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206088-20efa1ddcf3ebab3265e911427275f6f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402206088, 'B093BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4287619207, 51.7861084472, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B093BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB103BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B103BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B103BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Równa Ulica Srebrna</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>853&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206966-9c787cb42143cb78cff114f3cc4e4d88" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402206966, 'B103BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4302324601, 51.7936210633, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B103BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB111BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B111BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B111BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zieleń i cień na Kasprzaka – od ul. Drewnowskiej do ul. Gandhiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>45&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207608-47b8842a87aa48004014a9ea09f99395" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402207608, 'B111BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4266017828, 51.7818319688, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B111BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB114BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B114BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B114BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Usiądź i odpocznij sobie w trakcie zakupów na Bałuckim - instalacja ławek  w okolicy rynku przy Dolnej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>60&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208867-2d526edca4a193589cc31760028ac92a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402208867, 'B114BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4519818531, 51.7900923225, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B114BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB115BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B115BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B115BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Odpoczynek po zakupach na Bałuckim - nowe ławki na przystankach tramwajowych Zgierska-Dolna</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208895-b16de488d87c5bd2d57d907d2d576d6f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402208895, 'B115BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4493790529, 51.7898249613, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B115BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB122BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B122BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B122BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne parkowanie przed Żłobkiem Nr 14 przy ul. Pawiej 20</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>341&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209472-8dba0174145cc1ec67a3316e1a52cea2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402209472, 'B122BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4416455595, 51.7861922359, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B122BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB137BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B137BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B137BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Monitoring na Osiedlu Bałuty-Centrum</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>70&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211004-091cce6f36f54a76a69436d7ef8109aa" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402211004, 'B137BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4379326477, 51.7944003003, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B137BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB144BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B144BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B144BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Sąsiedzka integracja - piknik dla mieszkańców Osiedla Bałuty-Centrum</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211103-f545014a0570b977be44944d17b74c3a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402211103, 'B144BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4293572067, 51.8029248932, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B144BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB145BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B145BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B145BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bookcrossing dla Osiedla Bałuty-Centrum - skrzynka przy ul. Mokrej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>25&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211107-6f3dbf08130c3401d7dcab5ce6d5753e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402211107, 'B145BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4228328940, 51.7868024941, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B145BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB148BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B148BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B148BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> MAMY Przestrzeń w Parku Struga</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>15&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211120-3fcb2a8053ef030627064f5f1fd1889e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402211120, 'B148BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4411885096, 51.7934032314, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B148BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB175BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B175BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B175BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kwiaty na drogi – zasadzenie roślin cebulowych (tulipany, żonkile) wzdłuż ul. Julianowskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>65&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212295-0a2bd7ff40b426efe3066dbee3f6d0cf" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402212295, 'B175BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4511721633, 51.7994082865, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B175BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB177BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B177BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B177BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Razem dla Bałut: kosze na śmieci na terenie osiedla Bałuty-Centrum</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>69&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212336-b974a7bd9bb379949346add380376186" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402212336, 'B177BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4373325437, 51.7868899840, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B177BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB178BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B178BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B178BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Razem dla Bałut: remont ulicy Kołodziejskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>326&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212339-256be83ae36e6024f643d79373b0aba0" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402212339, 'B178BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4372742300, 51.7873831279, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B178BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB180BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B180BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B180BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Razem dla Bałut: wymiana warstwy ściernej na ul. Kutrzeby</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>435&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212350-35f48776a335ec9f41eca254ab6b91d3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402212350, 'B180BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4320856717, 51.7850890795, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B180BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB181BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B181BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B181BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Razem dla Bałut: wymiana nawierzchni na ul. Odolanowskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>86&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212358-0fe45c447123dc029b6c813b2ff8834d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402212358, 'B181BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4320463288, 51.7847234723, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B181BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB185BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B185BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B185BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Psi Zakątek – bezpieczny wybieg dla psów na Osiedlu Władysława Jagiełły</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>305&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212424-1ed3a7eabc75d3c3e75f3ea67d685792" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402212424, 'B185BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4476994185, 51.7965363619, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B185BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB186BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B186BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B186BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Budowa wzbudzanej sygnalizacji świetlnej dla pieszych na ul. Zgierskiej (odcinek Wspólna – Sędziowska)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>536&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212478-eb8b7527c76e137eed1d2e84638f2171" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402212478, 'B186BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4467234233, 51.7945699003, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B186BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB194BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B194BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B194BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny pieszy na Bałutach Centrum - doświetlenie przejść dla pieszych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>293&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212622-4ef760d1653c919af46f186d33e3d07c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402212622, 'B194BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4463651507, 51.7946852042, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B194BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB195BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B195BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B195BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> EkoSłupek na ulicy Wspólnej przy Zgierskiej - kompleksowy monitoring powietrza obejmujący pomiary stężenia: pyłów zawieszonych, gazów cieplarnianych i formaldehydu</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>19&nbsp;043.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212646-f2b49aabd5fe4ef501a1ab7f64de6621" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402212646, 'B195BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4467547384, 51.7946675345, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B195BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB202BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B202BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B202BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Pielęgnacja zieleni na Osiedlu Bałuty-Centrum</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>15&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212720-7f4f4b8afc689f904d07163e30594bd9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402212720, 'B202BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4416891435, 51.7939768122, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B202BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB203BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B203BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B203BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> MAMY Przestrzeń w Parku przy Hipotecznej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>15&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212723-e46e4393cf6b0da04ead7605b19c4b3b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402212723, 'B203BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4315037159, 51.7961836431, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B203BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB226BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B226BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B226BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wyniesione przejście na Urzędniczej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>191&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213238-c131553abab58515e9091579d87fd4e3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402213238, 'B226BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4440588465, 51.7900212228, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B226BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB227BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B227BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B227BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Równo przez tory - Zgierska/Dolna</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>181&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213245-4741b6b8b43075a64624b505ae9cfb58" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402213245, 'B227BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4491795090, 51.7903426097, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B227BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB230BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B230BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B230BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> 10 metrów chodnika przy ul. Urzędniczej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>9&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213289-e676e54ff7fc6ea1950b6bc19dd7a4c7" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402213289, 'B230BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4437080412, 51.7891769075, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B230BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB234BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B234BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B234BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny przejazd – Zgierska/Adwokacka</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>256&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213315-d1e42ff7199aad727abd5b843517b2ae" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402213315, 'B234BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4473397468, 51.7929435329, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B234BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB238BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B238BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B238BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> „Obraz JA” – warsztaty arteterapii w technice kolażu mieszkańców osiedla Bałuty-Centrum</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>17&nbsp;625.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213403-67866a57fc2c0b24e5347e9551c10dba" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402213403, 'B238BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4543681516, 51.7987225541, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B238BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB246BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B246BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B246BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Modernizacja peronu oraz montaż wiaty na przystanku Zgierska/Bałucki Rynek (nr 1466)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>140&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213594-726cc65c6f281d4785afcc0e1b14f8ba" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402213594, 'B246BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4513516235, 51.7877502747, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B246BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB247BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B247BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B247BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> „Aktywny umysł" – wsparcie psychiczne i społeczne dla seniorów i osób samotnych z osiedla Bałuty-Centrum</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>62&nbsp;200.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213602-d18d7917733acbf2a960dfa753e462bd" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402213602, 'B247BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4543109289, 51.7986962237, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B247BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB250BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B250BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B250BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczna droga do domu na Klonowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>66&nbsp;200.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213679-9d80e416414902a943567e2287e8678d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402213679, 'B250BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4273516575, 51.7870788309, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B250BC</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB251BC">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B251BC</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B251BC</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> RozwijajMY osiedle Pojezierska: Remont placu zabaw w parku przy Hipotecznej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Centrum</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>600&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213772-3d9fa803b2e3922d86c3a53276d2bda4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BC', 1402213772, 'B251BC');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4316302532, 51.7960260455, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B251BC</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

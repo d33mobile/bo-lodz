@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-blue-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTB001BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B001BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B001BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Pacjent w zieleni - teren przed przychodnią przy ul. Majzela</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>52&nbsp;250.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200489-ed3b6a23d7fa34d2750f2e5296f89cfb" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402200489, 'B001BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4560224431, 51.7831929415, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B001BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB003BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B003BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B003BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Doświetlenie przejścia dla pieszych na ul. Zgierskiej przy skrzyżowaniu z ul. Drewnowską</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200511-58faf1730efad005f00a327780d69dee" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402200511, 'B003BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4535235408, 51.7820750607, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B003BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB004BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B004BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B004BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Monitoring na Starym Mieście - skrzyżowanie ul. Wojska Polskiego/Majzela</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>164&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200522-c4246e711017848cb87f800220405af0" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402200522, 'B004BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4560792535, 51.7837581912, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B004BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB005BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B005BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B005BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Z serca Bałut: na kołach z Kościelnej na Stary Rynek - pochylnia dla wózków i rowerów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>51&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200603-1ad184d8943b6600830897a9b0a0062e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402200603, 'B005BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4548527110, 51.7821213409, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B005BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB006BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B006BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B006BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Z serca Bałut: Plac Strażacki - pielęgnacja terenu</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>55&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200608-7b24213f69f22af6cf6e1a626d98477e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402200608, 'B006BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4510244580, 51.7843131832, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B006BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB007BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B007BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B007BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Z serca Bałut: róże zamiast klepiska na Limance</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>35&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200611-22de56e8c96301ed6f49a1066a9dd687" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402200611, 'B007BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4500456639, 51.7868592328, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B007BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB016BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B016BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B016BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zaprośmy pszczoły na Doły - kwietny dywan na Woja Polaka</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200750-e9a1349b0782d199aee7534d68716dd8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402200750, 'B016BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4772013757, 51.7887740734, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B016BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB017BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B017BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B017BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Prosto na Bałucki - wymiana zdewastowanego chodnika przy Szkole Podstawowej 58</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>158&nbsp;400.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200773-c659b283c489a4383fad72eefdc2f93a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402200773, 'B017BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4576315738, 51.7909545220, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B017BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB018BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B018BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B018BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Jaśniej i BEZPIECZNIEJ w Parku Szarych Szeregów przy Pękniętym Sercu.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>160&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200784-a5fdcfc38024bc44ed71bc93832aae1e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402200784, 'B018BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4700800348, 51.7918720810, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B018BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB019BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B019BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B019BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wyremontujmy sobie skwer przy kapliczce na Sojczyńskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>265&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200854-96f25144d2892e0702b3baccf82ee8fc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402200854, 'B019BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4657870429, 51.7869960266, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B019BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB020BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B020BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B020BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Doświetlamy Doły - bezpieczny skwer przy Spornej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>111&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200864-0abdcd814d5b4a1087a861b39c248f67" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402200864, 'B020BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4776000670, 51.7892302381, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B020BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB021BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B021BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B021BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wyremontujmy Skwer Matuszaka - etap I - Strykowska / Wojska Polskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>343&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200879-ab3b5cb1115189b1c377bd74d55d3ba6" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402200879, 'B021BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4869393536, 51.7924090075, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B021BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB023BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B023BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B023BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne przejście dla pieszych na Wojska Polskiego przy Brzeskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>60&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200890-11540059c2ef881244c8c7baa05843ba" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402200890, 'B023BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4754814617, 51.7880231208, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B023BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB034BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B034BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B034BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Uzupełnienia szpalerów drzew i nowe nasadzenia - Bałuty Doły</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>160&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201005-a7c11e3ae19fd027202f9fb0fdad329e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402201005, 'B034BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4644136977, 51.7910916574, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B034BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB059BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B059BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B059BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Przywróćmy pasy rowerowe na Pankiewicza</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>10&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201733-981a73edabfad2cf608878a8e079456c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402201733, 'B059BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4825262121, 51.7837999544, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B059BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB075BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B075BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B075BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ulżyć seniorom i osobom z niepełnosprawnościami - montaż ławek na Osiedlu Bałuty-Doły</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>34&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204378-89d3800c7c333b89014374657011b64e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402204378, 'B075BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4769489694, 51.7887537492, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B075BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB095BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B095BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B095BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Budowa monitoringu miejskiego ul. Jonschera</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>160&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206578-222a2ba73c10062cc45572a4beb338ea" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402206578, 'B095BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4735819742, 51.7987927870, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B095BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB096BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B096BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B096BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Budowa monitoringu miejskiego na ul. Karola Miarki</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>160&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206591-c86b7a40678f4ff7247408c67f5a723c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402206591, 'B096BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4721164815, 51.7984820687, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B096BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB097BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B097BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B097BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont chodnika ul. Niemojewskiego strona północna (parzysta)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>110&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206666-e7f81ef170fc931a25adf3e77839ba3d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402206666, 'B097BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4745861953, 51.7969758656, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B097BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB098BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B098BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B098BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Aktywność mieszkańców osiedla - siłownia plenerowa przy ulicy Kowalskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>379&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206670-61f406e95ce9ec9981aee0fbcab127c8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402206670, 'B098BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4574921132, 51.7954139146, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B098BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB112BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B112BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B112BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Lepsze parkowanie na Marysinie - nowy parking na rogu Górniczej i Marysińskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>433&nbsp;725.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208141-f965ca5a6dc7080fec1976510cada9d7" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402208141, 'B112BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4656440309, 51.7947538706, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B112BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB123BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B123BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B123BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zazielenienie wzdłuż bloku ul. Chryzantem 2</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>5&nbsp;600.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209552-49e1643ab34410eb4b799ecb731f08fe" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402209552, 'B123BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4844716790, 51.7910868566, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B123BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB129BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B129BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B129BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ulica Kilińskiego – drzewa i krzewy przy ul. Północnej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209790-5ee76f2df7fb0df01e4d4036f20eb006" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402209790, 'B129BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4615724347, 51.7789196153, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B129BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB192BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B192BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B192BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny pieszy na Bałutach-Dołach - doświetlenie przejść dla pieszych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>342&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212606-4386df9b42c7592b840a78fa7cf9b7cc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402212606, 'B192BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4581627934, 51.7875327690, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B192BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB206BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B206BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B206BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> "Odkłamać Bałuty" - Film dokumentalny</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>125&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212802-64c7c3d1772d74f32664fe6af8d72e77" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402212802, 'B206BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4580491073, 51.7825299304, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B206BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB208BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B208BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B208BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Budowa dodatkowych miejsc postojowych przy ulicy Mostowskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>120&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212818-53f727e02140678cf64b761e8ed73015" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402212818, 'B208BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4752069410, 51.7924907818, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B208BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB211BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B211BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B211BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont miejsc parkingowych przy ul. Sukienniczej 5 w Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>420&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212922-95ffb66466959c6c756401e98cd1e275" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402212922, 'B211BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4597531097, 51.7976166196, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B211BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB214BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B214BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B214BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Równy chodnik na ul. Kościelnej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>240&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213017-24b5b3a1e1c6eec9047ecb4f403c2354" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402213017, 'B214BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4545786274, 51.7829603813, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B214BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB254BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B254BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B254BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Park Helenów: Siłownia i Street workout park. Budowa siłowni zewnętrznej i street workout parku dla osób sprawnych i niepełnosprawnych: dla młodzieży, dorosłych i seniorów. Strefa „bez barier”: #Sport #Rekreacja #Rozciąganie #Rehabilitacja</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>303&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213812-c226425112444f23c7fcef8f4721a78e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402213812, 'B254BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4682286831, 51.7828969574, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B254BD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB255BD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B255BD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B255BD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Streetworkout ćwiczenia dla seniorów i dorosłych w Parku im. Szarych Szeregów. Zajęcia gimnastyczne i rehabilitacyjne/fizjoterapeutyczne z wykorzystaniem wagi własnego ciała #Sport #Rekreacja #Rozciąganie #Rehabilitacja #Zdrowy kręgosłup</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Doły</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>13&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213836-1af27f3139427a67145e1cbfced46b6a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BD', 1402213836, 'B255BD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4683247533, 51.7899226871, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B255BD</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

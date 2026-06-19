@@ -1,0 +1,2694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-red-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTL001">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L001</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L001</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Modernizacja szatni (remont, szafki wielofunkcyjne, monitoring) w Szkole Podstawowej nr 19 w Łodzi, al. ks. kard. Stefana Wyszyńskiego 100</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>280&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200537-651974b0bdda6313e27af85fd20a95f5" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402200537, 'L001');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3886607967, 51.7416418364, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L001</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402200537</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL170">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L170</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L170</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Aktywnie Razem – ogólnodostępne boisko wielofunkcyjne przy ul. Ustronnej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;534&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200562-40af66e271593aa02734639c0b2e6cd6" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402200562, 'L170');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4755067728, 51.7013971617, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L170</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402200562</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL003">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L003</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L003</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wóz bojowy dla strażaków – bezpieczeństwo mieszkańców Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>800&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200585-cf4925c3f7521419138d531ea6f45597" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402200585, 'L003');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5484242355, 51.7121383225, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L003</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402200585</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL005">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L005</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L005</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> "Bezpieczny Łodzianin" Łódź</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200592-fbfcd5c913342fa25eff80a0305ba4f2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402200592, 'L005');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4548378502, 51.7769488016, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L005</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402200592</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL006">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L006</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L006</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne centrum sportowo- rekreacyjne w IX LO dla uczniów i mieszkańców Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;640&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200760-5aed5d5b3b3f037e4fe95a3ab9173041" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402200760, 'L006');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4663291912, 51.7282516029, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L006</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402200760</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL007">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L007</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L007</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Doposażenie pomieszczenia siłowni w IX LO dla uczniów i mieszkańców Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>60&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200769-dba3cd37f7479ee4073251583a5e39af" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402200769, 'L007');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4663780630, 51.7282462384, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L007</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402200769</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL008">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L008</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L008</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> IX LO (szkoła) bez barier – dla uczniów i mieszkańców Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>550&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200795-1895ba3969d90449b4befcc663d791c1" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402200795, 'L008');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4663148223, 51.7282426861, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L008</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402200795</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL012">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L012</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L012</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> IX LO (szkoła) bez barier – dla uczniów i mieszkańców Łodzi-cz. II</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>630&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201383-089fa0d52d638c8a0f7575b363709aac" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402201383, 'L012');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4663654010, 51.7282429412, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L012</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402201383</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL013">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L013</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L013</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Szatnie w "Strefie21" - rozbudowa infrastruktury sportowej przy boisku wielofunkcyjnym przy Kopernika 2</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201389-14b807bfe63e5ab72ba347940b231bca" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402201389, 'L013');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4526593257, 51.7631944484, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L013</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402201389</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL014">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L014</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L014</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Czytelnia “OTWARTA” przy Kopernika 2 – Twoje miejsce w Łodzi!</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>160&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201417-746769c5a2bd6b11064365a4cda6cc6a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402201417, 'L014');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4526373309, 51.7631663858, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L014</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402201417</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL015">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L015</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L015</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Budowa boiska do siatkówki i koszykówki w Szkole Podstawowej nr 153- I etap</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>960&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201461-1c4ef02f099fba42fc94473bb64e804a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402201461, 'L015');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4662638993, 51.7897884148, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L015</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402201461</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL016">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L016</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L016</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Muszla koncertowa na Zdrowiu – remont dla mieszkańców całej Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>790&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201780-d785ca99d0b7df78a53ef695991aff08" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402201780, 'L016');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4155327306, 51.7629084574, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L016</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402201780</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL018">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L018</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L018</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Scena w auli XXVI LO</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>55&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402202332-2cd3ef7cd6cab1bdbd2394fcd2da3eee" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402202332, 'L018');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4235005720, 51.7519609491, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L018</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402202332</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL019">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L019</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L019</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont boiska na Olimpijskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;160&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203209-bff79bbde040fc26fd15b2953df1529a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402203209, 'L019');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4115412945, 51.7446106899, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L019</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402203209</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL021">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L021</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L021</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Postawmy na bezpieczeństwo w naszym mieście. Radiowóz dla Straży Miejskiej ze specjalistyczną zabudową do przewozu osób</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>280&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203283-770eff7a7f0ac47242ad0f335ae0a133" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402203283, 'L021');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4545555843, 51.7766117480, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L021</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402203283</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL022">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L022</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L022</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Łódź bez wraków</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Inne</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>75&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203573-340dad7224dd9dfab672036fd821c1e7" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402203573, 'L022');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4548943148, 51.7770852547, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L022</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402203573</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL023">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L023</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L023</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ogród Zdrowia w Szpitalu im. dr. Karola Jonschera w Łodzi, ul. Milionowa 14, 93-113 Łódź</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>413&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203655-d217453695245b34ee2141c54fd44f5d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402203655, 'L023');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4851073305, 51.7516061459, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L023</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402203655</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL024">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L024</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L024</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ogród Zimowy na Przyrodniczej, ul. Przyrodnicza 7/9, 91-480 Łódź</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;154&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203727-67128f495b3b8976dc294abb01e193dc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402203727, 'L024');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4540937187, 51.8024215853, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L024</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402203727</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL148">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L148</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L148</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wysepki żądamy - o bezpieczeństwo pieszych zadbamy - wysepka na przejściu dla pieszych na Kusocińskiego przy Babickiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>11&nbsp;700.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204013-6609220cd2b78b4ad4cef2a42121efa8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402204013, 'L148');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3992836883, 51.7520428039, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L148</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402204013</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL025">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L025</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L025</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zakup książek i bezpłatny dostęp do audiobooków i ebooków dla mieszkańców Łodzi we wszystkich Filiach Biblioteki Miejskiej w Łodzi.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;400&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204190-ad04c33d0b8ef2f2753b388592244818" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402204190, 'L025');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4547389468, 51.7766259255, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L025</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402204190</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL027">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L027</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L027</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Gładka Czechosłowacka -Próba Nr 3</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;995&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205777-ff7a7f2a943dca207880e9b48560139f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402205777, 'L027');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5147374101, 51.7706926250, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L027</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402205777</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL028">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L028</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L028</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Sprzed komputera do rzeczywistości – otwarte zajęcia sportowo - edukacyjne z szermierki historycznej dla mieszkańców Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>43&nbsp;100.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206358-d2c4c34cd8e3bf35e27dcafd2564950b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402206358, 'L028');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4645097027, 51.7736527333, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L028</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402206358</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL033">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L033</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L033</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zagraj razem z nami - czyli boisko wielofunkcyjne przy Szkole Podstawowej nr 54 w Łodzi, ul. Wróbla 5</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;500&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207058-a5e803172761b2011749d70d899a3b3d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402207058, 'L033');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4417189174, 51.7855821752, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L033</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402207058</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL034">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L034</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L034</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Łódzkie brzmienia - spotkania poświęcone łódzkim muzykom</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>123&nbsp;600.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207103-7b45e473b89c1bfb07bf9d8b3834e1e7" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402207103, 'L034');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4585325948, 51.7680005965, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L034</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402207103</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL035">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L035</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L035</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Uspokajam umysł- otwieram możliwości w IV LO - strefa równowagi i rekreacji dla uczniów IV Liceum Ogólnokształcącego w Łodzi, ul. Pomorska 16.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>257&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207112-a2d546d795bc02d5fe5a16c9afb5db8b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402207112, 'L035');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4582588289, 51.7772006907, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L035</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402207112</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL151">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L151</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L151</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rozbudowa boiska wielofunkcyjnego przy XV Liceum Ogólnokształcącym w Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>596&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207275-f1beb40fbfc5b5dacf38d8f0496c74d2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402207275, 'L151');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3955169702, 51.7992118325, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L151</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402207275</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL152">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L152</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L152</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Strefa Relaksu - przestrzeń relaksu i rekreacji na terenie zielonym przy XV Liceum Ogólnokształcącym w Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>93&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207286-2b80b554f4a3b2262c9d29e4f0201bf9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402207286, 'L152');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3952796664, 51.7992350077, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L152</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402207286</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL036">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L036</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L036</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Domknijmy przejazdy rowerowe Przybyszewskiego / Lodowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>800&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207290-f866f6486d9c0d7e1ee139f591078105" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402207290, 'L036');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5200914729, 51.7515435271, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L036</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402207290</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL039">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L039</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L039</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Poprawa retencji wody w Lesie Łagiewnickim - oczyszczenie i pogłębienie stawu Łużyk i jego okolicy</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>105&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207590-e41cb06d76591cfd2986a79b9242b0d1" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402207590, 'L039');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5026912244, 51.8566681517, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L039</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402207590</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL041">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L041</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L041</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Sportowa Strefa Aktywności przy Zespole Szkół Politechnicznych - Boisko i Siłownia (Al. Politechniki 38)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;225&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207700-2d0863394a8ead080de9e5f46fc298bf" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402207700, 'L041');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4526723328, 51.7406515108, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L041</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402207700</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL160">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L160</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L160</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Linia Życia – defibrylatory w centrum Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>21&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208101-7ae44f8661350f6c6fe477708546c2b7" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402208101, 'L160');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4551905349, 51.7766633804, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L160</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402208101</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL042">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L042</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L042</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Chodnik po prawej stronie przed wejściem do SOSW nr 1 w Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>205&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208116-3995024aedf114e3efd6c9fb053d1f52" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402208116, 'L042');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4836397448, 51.7413419710, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L042</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402208116</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL043">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L043</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L043</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bieżnia i skocznia to podstawy zdrowej zabawy - budowa bieżni ze skocznią przy Szkole Podstawowej nr 122 w Łodzi ul. Jesionowa 38 91-363 Łódź</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>800&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208920-e85f367e14172927ead232f88fc02afb" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402208920, 'L043');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4223369866, 51.8202144536, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L043</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402208920</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL047">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L047</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L047</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> „Czwórka w grze - boisko przy SP nr 4 w Łodzi” - Szkoła Podstawowa nr 4 im Komisji Edukacji Narodowej w Łodzi ul. Piłsudskiego 101</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;199&nbsp;800.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209573-07db5fc63abe30f8a362967b8b2ba6eb" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402209573, 'L047');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4899514852, 51.7616802120, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L047</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402209573</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL048">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L048</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L048</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont szatni szkolnej w Zespole Szkolno-Przedszkolnym nr 9 w Łodzi ul. Miedziana 1/3 90-038 Łódź</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>208&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209713-b11d4454d2efc31cbb508a1fde2c267e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402209713, 'L048');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4777081753, 51.7616979081, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L048</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402209713</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL049">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L049</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L049</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Na pomoc łódzkim kotom wolno żyjącym – edycja 9</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;061&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209740-a0e736073f1d52d0b04080b8e37c44f5" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402209740, 'L049');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4544589228, 51.7767612105, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L049</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402209740</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL050">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L050</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L050</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Podaruj radość! Wsparcie terapeutyczne dla dzieci leczących się na oddziałach onkologicznych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>138&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209750-cc1d6e9cd00974556d6a48b1444fd853" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402209750, 'L050');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4544307822, 51.7768627751, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L050</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402209750</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL051">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L051</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L051</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Tysiące godzin czułości. Opieka pozamedyczna dla nieuleczalnie chorych dzieci</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>233&nbsp;200.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209754-923fa16b72921fd13856b1df4b335e7c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402209754, 'L051');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4544942608, 51.7764788620, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L051</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402209754</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL155">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L155</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L155</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Boisko piaskowe do gry w bule przy Szkole Podstawowej nr 83 im Stanisława Jachowicza w Łodzi, Podmiejska 21, 93-165 Łódź</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>52&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209764-b18edc58767b846801b928891da76b63" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402209764, 'L155');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4756153904, 51.7359298444, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L155</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402209764</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL052">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L052</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L052</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Boisko poliuretanowe do koszykówki i piłki ręcznej wraz z osprzętem przy Szkole Podstawowej nr 83 im Stanisława Jachowicza w Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>951&nbsp;941.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209769-f372dd5de73f0c2751619eaa1a88b94e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402209769, 'L052');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4757785385, 51.7358684061, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L052</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402209769</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL153">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L153</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L153</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Dostosowanie Przedszkola nr 2 przy ul. Sygnałowej do potrzeb wszystkich dzieci</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>60&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209806-6bc084fc13fabfc1051c6f8223596cd5" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402209806, 'L153');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4405675448, 51.7076566018, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L153</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402209806</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL053">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L053</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L053</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Edukacja w Nowym Wydaniu: modernizacja sali w Zespole Szkół Politechnicznych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210342-e67bf57ac1f99ab70f33d867475c6499" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402210342, 'L053');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4528318689, 51.7403915437, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L053</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402210342</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL054">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L054</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L054</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Skok po zdrowie- budowa skoczni lekkoatletycznej przy Szkole Podstawowej nr 184 w Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>70&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210480-c9a48c2a2adc4bcc4d9837c12b0c3ff9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402210480, 'L054');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4440390688, 51.8244213666, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L054</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402210480</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL055">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L055</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L055</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rzut ku zdrowiu- budowa boiska do pchnięcia kulą przy Szkole Podstawowej nr 184 w Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>44&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210606-84aefafa467aa4c34402b0546bf9b6e8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402210606, 'L055');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4441577259, 51.8243688381, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L055</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402210606</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL056">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L056</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L056</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Mobilne Centrum Dowodzenia dla OSP Nowe Złotno w Łodzi – zakup specjalistycznego pojazdu operacyjno – sztabowego.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>700&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210818-8094f70de989d41155d90658a8f31e3d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402210818, 'L056');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3870573685, 51.7771027410, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L056</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402210818</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL058">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L058</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L058</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zwierzęta w Łodzi są ważne</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>2&nbsp;000&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210898-9df2617250aa245caa4bbddd124c8769" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402210898, 'L058');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5342060047, 51.7972307105, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L058</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402210898</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL059">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L059</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L059</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> "Poczuj naturę na własnej skórze". - montaż edukacyjnej instalacji sensorycznej. Zewnętrzna strona muru łódzkiego zoo od strony ulicy Konstantynowskiej.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>181&nbsp;228.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210960-5b0bf79e98fb7e7931f7335b35c05abc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402210960, 'L059');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4101545629, 51.7631442200, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L059</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402210960</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL162">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L162</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L162</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Tunel treningowy do baseballu na terenie Stawów Jana w Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>260&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210965-1706030a3fa1acc44391aa38b343d1f3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402210965, 'L162');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4812184071, 51.7120773345, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L162</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402210965</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL060">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L060</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L060</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kręgielnia dla łodzian w Centrum Kształcenia Zawodowego i Ustawicznego w Łodzi, ul. Stefana Żeromskiego 115</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>542&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210998-65f6eb1d326b6a206589e53b21af9f3c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402210998, 'L060');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4482501368, 51.7555872983, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L060</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402210998</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL061">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L061</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L061</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zdrowy Maluch - konsultacje z logopedą i fizjoterapeutą</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211009-d130fd220521f4b752dff041072f1d92" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211009, 'L061');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4547647627, 51.7764980522, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L061</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211009</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL062">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L062</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L062</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ekologiczny i zawsze aktualny rozkład jazdy - wyświetlacze e-ink na przystankach</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>160&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211013-0ec320606ddc5de5027277cffd45af34" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211013, 'L062');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4570345672, 51.7592338757, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L062</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211013</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL063">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L063</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L063</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Maszt flagowy na dziedzińcu w Centrum Kształcenia Zawodowego i Ustawicznego w Łodzi, ul. Stefana Żeromskiego, 90-542 Łódź</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>5&nbsp;600.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211016-42ca62ebdc7a850c09dd7430a5a3f9c8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211016, 'L063');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4483927639, 51.7555940042, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L063</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211016</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL064">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L064</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L064</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Herb Łodzi w każdej szkole!</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>45&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211025-2ce23cc7d525d02d2c4731c5a28b55bc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211025, 'L064');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4549740804, 51.7766985011, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L064</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211025</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL066">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L066</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L066</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Prząśniczka w każdej szkole!</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>15&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211044-309cbe6d5b6c427f571787c04a3f2ea7" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211044, 'L066');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4545024096, 51.7769227006, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L066</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211044</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL067">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L067</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L067</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> MAMY Przestrzeń na Młynku</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211052-1e50fc7df735ba1d25e16d36080fb3ee" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211052, 'L067');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5235581040, 51.7255772836, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L067</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211052</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL068">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L068</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L068</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> MAMY Przestrzeń na Stawach Stefańskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211055-990fae87d15d8aff251cef61471bc57f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211055, 'L068');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4363940119, 51.6966574210, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L068</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211055</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL069">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L069</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L069</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> MAMY Przestrzeń w Łagiewnikach</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>9&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211061-3c1c0145b67648fe320b55ce4bd894e3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211061, 'L069');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4791034906, 51.8448980426, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L069</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211061</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL070">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L070</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L070</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> MAMY Przestrzeń w Arturówku</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211066-0b1a253c84f9bc7371e861ef2855c225" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211066, 'L070');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4748233980, 51.8231808955, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L070</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211066</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL071">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L071</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L071</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> MAMY Przestrzeń na Stawach Jana</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211079-a17339701fabc4b0b4e59e8c47d96809" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211079, 'L071');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4830557408, 51.7112671828, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L071</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211079</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL072">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L072</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L072</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Patronki dla łódzkich tramwajów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>2&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211085-7a5c1fabe943f6a3178d615e1af57854" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211085, 'L072');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4551214854, 51.7769806910, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L072</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211085</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL074">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L074</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L074</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Sterylizacja, kastracja i leczenie bezdomnych kotów w Łodzi - interwencje standardowe i przypadki trudne</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>105&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211184-438dfecdf67be992a814f4a09070cab5" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211184, 'L074');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4549277419, 51.7769083529, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L074</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211184</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL076">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L076</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L076</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Konserwacja podłoża boiska wielofunkcyjnego w Zespole Szkolno-Przedszkolnym nr 6 w Łodzi przy ul. Janosika 136</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>134&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211359-171612a4ab7351c4bcf984ae5f29a260" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211359, 'L076');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5228098839, 51.7916020343, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L076</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211359</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL077">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L077</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L077</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Miejski Ośrodek Pomocy Społecznej, ul. Będzińska 5, III Wydział Pracy Środowiskowej - Poprawa dostępności do budynku</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>283&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211367-7d98ec4e307f61308b8085ab10861f1d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211367, 'L077');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4515214041, 51.7263523712, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L077</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211367</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL078">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L078</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L078</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Plac zabaw przy Szkole Podstawowej Specjalnej nr 194 w Łodzi, ul. Siarczana 29/35</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>350&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211376-17de5e6dec3e28d4e2cf8b3ce9ad6eae" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211376, 'L078');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4841321885, 51.7341487861, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L078</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211376</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL154">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L154</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L154</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Defibrylator AED przy Szkole Podstawowej nr 174 im. Jana Machulskiego w Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>12&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211383-72dcc754119999b97f99887543d07b7b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211383, 'L154');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4920526663, 51.7311485116, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L154</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211383</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL079">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L079</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L079</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> "ROZMOWA POTRZEBUJE CISZY" - zakup budki akustycznej dla uczniów Szkoły Podstawowej Specjalnej nr 105</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>63&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211497-f9eecc6bd0a8581a4246f406c4af7671" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211497, 'L079');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4728838397, 51.7890830093, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L079</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211497</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL080">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L080</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L080</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> MŁODZIEŻOWA SCENA ROZMAITOŚCI w Pałacu Młodzieży im. Juliana Tuwima w Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>156&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211641-a11c24634f64a7a7a3ebdbf4ae2d6abc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211641, 'L080');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3899312549, 51.7415138637, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L080</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211641</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL081">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L081</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L081</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Muminki - Dolina Muminków. Teren nieogrodzony przed Ogrodem Botanicznym.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>237&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211720-f34e47c6ad70d34f9e17f34b82517238" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211720, 'L081');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4084802444, 51.7611182446, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L081</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211720</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL082">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L082</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L082</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Chrońmy serca Małych Łodzian- Automatyczne Defibrylatory Zewnętrzne (AED) przy 32 miejskich żłobkach i szkolenia z pierwszej pomocy dla mieszkańców Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>409&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211746-c43e0c342ff8146a662bdd0660ea9fab" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402211746, 'L082');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4505761836, 51.7775627046, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L082</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402211746</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL083">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L083</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L083</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> SeniorAI: Cyfrowa Przygoda dla Aktywnych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Inne</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>66&nbsp;600.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212028-ac9db198ef9e86a4aa0b8868e34ce2be" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212028, 'L083');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4551580098, 51.7768192182, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L083</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212028</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL084">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L084</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L084</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> „Od zmysłu do umysłu” – ścieżka sensoryczna i park linowy dla dzieci na terenie Zespołu Szkolno-Przedszkolnego nr 2 w Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>189&nbsp;290.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212104-d71f1442e5d7cc13c674735c8bf225d5" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212104, 'L084');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5863609493, 51.7932823401, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L084</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212104</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL085">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L085</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L085</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bez dymu do celu - zakaz palenia w komunikacji miejskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Inne</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>239&nbsp;590.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212121-0b2cea87f21a04325cec3df2812d3102" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212121, 'L085');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4542817934, 51.7765854275, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L085</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212121</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL086">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L086</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L086</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Przystanek zawieszony - nowa forma informacji miejskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>43&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212125-5de6045469cf4c61d713900add6e99d6" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212125, 'L086');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4542111361, 51.7769028678, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L086</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212125</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL156">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L156</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L156</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Razem dla Bałut: montaż nowych wiat przystankowych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>600&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212138-45e291b392f5c8db6c9b9c21127ec2a7" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212138, 'L156');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4493518422, 51.7876589709, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L156</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212138</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL157">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L157</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L157</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Razem dla Bałut: tablice dynamicznej informacji pasażerskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>900&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212141-1655417c262b84b1accc8c7aafcc103d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212141, 'L157');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4354291249, 51.7892273105, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L157</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212141</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL091">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L091</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L091</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Społeczny Dom Kultury – Zawsze coś się dzieje.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;337&nbsp;400.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212180-1cfd6320a07178adc97a00079dae1e20" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212180, 'L091');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4592980208, 51.7559142897, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L091</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212180</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL094">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L094</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L094</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> „Strefa Spokoju – Bezpieczne Emocje”. Program wsparcia psychologicznego dla dzieci i młodzieży zamieszkującej Domy Dziecka w Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>291&nbsp;880.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212215-c03c808a69aa3805ee0a846244704790" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212215, 'L094');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4549528174, 51.7768071559, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L094</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212215</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL097">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L097</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L097</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Taras marzeń w Przedszkolu Miejskim nr 141</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>280&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212235-33419ea09cee3487b3f6c9857b28e482" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212235, 'L097');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3897941668, 51.7941352831, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L097</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212235</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL098">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L098</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L098</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Adaptacja pomieszczenia na salę terapii i wsparcia rozwoju dziecka w Przedszkolu Miejskim nr 141 w Łodzi al. Pasjonistów 15</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>250&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212238-659aa84f9239d0174eadcea57ced5f83" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212238, 'L098');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3897589528, 51.7941508447, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L098</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212238</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL099">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L099</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L099</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Łódź bez smogu - miasto Łódź</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>400&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212263-7f4c2938c28e459a04e0d907ac697372" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212263, 'L099');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4550191201, 51.7765201043, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L099</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212263</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL101">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L101</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L101</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> „Bezpieczny elektryk” – zakup urządzenia do gaszenia pojazdów elektrycznych.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212410-e3984ba3fd550aa0bc45b9d3303eed90" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212410, 'L101');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4649282113, 51.8411391463, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L101</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212410</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL102">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L102</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L102</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> „Strażak XXI wieku” – zakup środków ochrony indywidualnej dla OSP Łódź-Łagiewniki.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>42&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212413-595c8860b1d96c4958b580430e61b410" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212413, 'L102');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4649640181, 51.8411381898, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L102</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212413</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL103">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L103</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L103</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> „Skuteczniej na ratunek!” – zakup torby medycznej i defibrylatora (AED) dla OSP Łódź-Łagiewniki</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>11&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212420-2fa4b14ac276b91b633b4368e652b28b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212420, 'L103');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4649751005, 51.8411419558, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L103</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212420</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL104">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L104</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L104</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wyposażenie sali w sprzęt do ćwiczeń ogólnorozwojowych, wzmacniających i usprawniających dla młodzieży SP nr 182.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>52&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212467-888981ffa16a25a77afcfcc12fab3579" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212467, 'L104');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3981574342, 51.7904809053, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L104</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212467</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL105">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L105</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L105</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Modernizacja biblioteki wraz z kącikiem wyciszeń w Szkole Podstawowej Specjalnej  nr 168 dla dzieci z niepełnosprawnościami.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>61&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212472-7b03194f0357b01618ae539b92d0b4b2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212472, 'L105');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4057287533, 51.7914421421, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L105</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212472</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL106">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L106</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L106</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpłatna joga dla mieszkańców Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>41&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212504-10c21b58c415f6375a620b2018210af3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212504, 'L106');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4544750421, 51.7766546926, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L106</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212504</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL108">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L108</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L108</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Strefa Chillout & Silent Zone – strefy odpoczynku i wyciszenia dla młodzieży, CKZiU w Łodzi, ul. Żeromskiego 115</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>12&nbsp;300.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212532-b809f8194636e615a45bf1309cf5cb5b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212532, 'L108');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4480846249, 51.7555781350, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L108</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212532</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL109">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L109</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L109</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Razem w Łodzi - wolontariat wspierający opiekę wytchnieniową oraz osoby doświadczające przemocy</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>67&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212541-10fc5cd4890153ff604f2f5e3a7e2146" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212541, 'L109');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4543911726, 51.7770347408, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L109</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212541</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL164">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L164</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L164</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Toalety publiczne - reaktywacja: Park na Zdrowiu – stała toaleta publiczna dostosowana do potrzeb niepełnosprawnych obok kompleksu placów zabaw dla dzieci.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>445&nbsp;200.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212609-2b8108df3810dbd0035d47f0fd8557d4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212609, 'L164');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4107598919, 51.7691977127, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L164</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212609</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL116">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L116</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L116</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wzmacnianie – Relacje – Przyszłość: wspieramy rozwój dzieci z domów dziecka i rodzin zastępczych - Łódź. Projekt Ponadosiedlowy.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>178&nbsp;120.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212732-8a66f3fd8d9adc48a88249dfa3d84f37" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212732, 'L116');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4542461351, 51.7767417270, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L116</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212732</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL159">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L159</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L159</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne kąpielisko Stawy Jana - Stacja do ciągłego pomiaru jakości wody i powietrza z InfoKioskiem przy plaży miejskiej na Stawach Jana, dedykowany panel dostępny również w internecie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>215&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212835-05dd531d6641334d60999eedbb179f4d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402212835, 'L159');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4842132678, 51.7107775091, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L159</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402212835</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL121">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L121</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L121</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zakup średniego samochodu ratowniczo-gaśniczego na specjalistycznym podwoziu dla OSP Łódź-Mikołajew</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;500&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213094-929f66d31426c83ab3f32384c8ff71a4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213094, 'L121');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3578275800, 51.8037905040, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L121</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213094</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL122">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L122</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L122</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne i estetyczne ogrodzenie w Przedszkolu Miejskim nr 77</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>150&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213183-a233b1165ebf57978b389afa69e67eeb" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213183, 'L122');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4735823597, 51.7918526278, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L122</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213183</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL125">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L125</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L125</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Doposażenie Jednostki OSP Łódź Retkinia w nowe umundurowanie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213267-9b05627660d7f4528da03991800d90be" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213267, 'L125');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4047471620, 51.7443474931, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L125</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213267</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL130">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L130</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L130</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Łódź w Grze - Frisbee, Sport, Przyjaźń!</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>85&nbsp;700.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213382-9af47d5b85d33cd27041cd6d9c3f5052" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213382, 'L130');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4801128212, 51.7126619317, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L130</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213382</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL169">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L169</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L169</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Budowa ciągu pieszo-rowerowego wzdłuż ogrodzenia Ogrodu Botanicznego od ul. Hufcowej do ul. Retkińskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>548&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213457-a4710b63c3cf9f79acac49c4f4ff875a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213457, 'L169');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4080939782, 51.7530209966, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L169</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213457</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL134">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L134</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L134</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Curling dla wszystkich mieszkańców Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>24&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213524-ed10ecc536bcb44c28da559070b91677" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213524, 'L134');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4549080705, 51.7766411268, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L134</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213524</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL135">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L135</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L135</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zajezdnia Muzealna Brus - naprawa rozpadającej się elewacji</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>250&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213551-e6ab34d3f55a087665318a6cab27a4bc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213551, 'L135');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3811456179, 51.7536928370, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L135</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213551</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL158">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L158</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L158</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Razem dla Bałut: oparcie dla pasażerów na przystankach Bałut-Centrum</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>63&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213587-1b3a5d027b1e6ef2c37772e4d58fcbf1" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213587, 'L158');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4364571497, 51.7855473072, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L158</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213587</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL136">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L136</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L136</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Każda sekunda ma znaczenie, silniejsza Straż Pożarna - bezpieczniejsza Łódź</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;850&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213590-09f486ebca53edf8cc5fedbae4cb1b01" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213590, 'L136');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5238522705, 51.7949586349, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L136</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213590</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL137">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L137</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L137</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wieża widokowa na Stawach Stefańskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>900&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213605-9cdbb3b0ec8436c1d4bb7c9bff436998" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213605, 'L137');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4450369921, 51.6917613679, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L137</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213605</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL163">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L163</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L163</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Platany wokół placu zabaw na Zdrowiu - wokół Wzgórza Trzech Wież- jako dodatkowe schronienie przed słońcem</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>18&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213609-8a5867fa2edca4bc43fb037250f2a1b8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213609, 'L163');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4111878083, 51.7698432870, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L163</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213609</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL141">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L141</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L141</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zajezdnia Muzealna Brus - odtworzenie historycznej bramy wjazdowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>220&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213704-46b79c62bb882eca77cde9ca7f76a2f9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213704, 'L141');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3812169767, 51.7538031862, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L141</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213704</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL142">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L142</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L142</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Sala kinowa w Zespole Szkół Ponadpodstawowych nr 5 w Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;118&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213731-fc5ae5c436545c58ce22c4d8b39aae93" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213731, 'L142');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4403246700, 51.7803842242, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L142</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213731</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL144">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L144</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L144</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont i dostosowanie zaplecza wychowania fizycznego w Zespół Szkół Ekonomiczno-Turystyczno-Hotelarskich w budynka al.1 Maja 89</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>105&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213798-0b8cb0be34677cbafc0f32e3535f908e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213798, 'L144');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4330424898, 51.7700822901, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L144</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213798</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL168">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L168</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L168</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nowe mobilne kontenery szatniowe z sanitariatami oraz balustrady ochronne przy obiekcie sportowym SP 202 – osiedle Nowosolna. Łódź ul.Grabińska 3.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>280&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213801-79de54720f870b6cbb1d442782cdbd6b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213801, 'L168');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5888356487, 51.7975267424, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L168</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213801</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTL145">
+	<styleUrl>#pushpin</styleUrl>
+	<name>L145</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> L145</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Stacja rowerowa Arturówek (do obsługi m.in. rowerów, wózków inwalidzkich i hulajnóg)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> PONADOSIEDLOWE</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>33&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213822-c0fd2f0b9fce698fc2ae4222e553e846" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaP(1402213822, 'L145');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4739320591, 51.8231680691, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>L145</value></Data>
+		<Data name="TYPE"><value>1</value></Data>
+		<Data name="IDWPIS"><value>1402213822</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

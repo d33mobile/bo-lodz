@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-purple-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTP008SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P008SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P008SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielony Salon Starego Polesia – park kieszonkowy, strefa relaksu i wygodny pasaż na 1 Maja</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>298&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200569-ab0611375587da28abab1313957d758f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402200569, 'P008SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4409320942, 51.7718516336, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P008SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP009SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P009SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P009SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zazieleniamy Stare Polesie. Zamieniamy szarą Więckowskiego w zielony pasaż.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>289&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200572-ef7abbe501b1ca2f2d6d7f582997fe8c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402200572, 'P009SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4416214408, 51.7712573417, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P009SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP019SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P019SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P019SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Cywilizacja parkowania na Starym Polesiu</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>130&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200987-ce87c7c1d9d91563e81c56e198c36c52" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402200987, 'P019SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4380776825, 51.7750093064, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P019SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP020SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P020SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P020SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Uzupełnienia szpalerów drzew i nowe nasadzenia - Stare Polesie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200990-1c28843ff98d494a8bf99c38fc41c866" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402200990, 'P020SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4360846619, 51.7725770378, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P020SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP021SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P021SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P021SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont zieleńców na ul. Jerzego - Nasadzenia drzew, krzewów i zabezpieczenie przed parkowaniem</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200996-3b03b6189988a553fd0a36c3ab113bab" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402200996, 'P021SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4383640739, 51.7746965082, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P021SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP022SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P022SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P022SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Blokady parkowania/zieleniec na rogu Kopernika-Lipowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201002-5ee544bda3e91553a07cb7f6c64e1558" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402201002, 'P022SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4461653786, 51.7616940942, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P022SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP066SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P066SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P066SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> „Houston, mamy Łódź! – Instalacja artystyczna z kosmitą, który cieszy się z awaryjnego lądowania w naszym mieście” (ul. Legionów 39)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>350&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203582-945b0a6baa184c11d02c14bed0ddf3b3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402203582, 'P066SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4463272563, 51.7765032876, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P066SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP084SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P084SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P084SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne Stare - Polesie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205987-bad5ad6b86791eae8165dfae14c8a8fe" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402205987, 'P084SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4394465734, 51.7659853468, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P084SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP092SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P092SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P092SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Hamaki pod gwiazdami – odmieniamy park kieszonkowy na Legionów 65</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206387-6584e237ce231e2f62612c143eb1cc8b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402206387, 'P092SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4412295843, 51.7746481523, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P092SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP103SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P103SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P103SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wygodna ścieżka do Zielonej Oazy. Skłodowskiej-Curie 24</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>290&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207311-9abca907637bcb19df3a7e9a9e3c15c0" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402207311, 'P103SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4441761046, 51.7617267104, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P103SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP149SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P149SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P149SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Siłownia napowietrzna i nowe nasadzenia na skwerze T. Mazowieckiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>178&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211729-6fef09a7aa3d11ecbcb155e009e96358" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402211729, 'P149SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4400630360, 51.7636115253, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P149SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP169SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P169SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P169SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny pieszy na Starym Polesiu - doświetlenie przejść dla pieszych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>331&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212560-a1dce1a40dadc6673fe80a8d14c964b4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402212560, 'P169SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4461813256, 51.7686415350, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P169SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP171SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P171SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P171SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Stare Polesie dla Maluchów - doposażenie placu zabaw na skwerze H. Ożogowskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>386&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212691-78a45421352395b31d84cac787e7b504" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402212691, 'P171SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4494099774, 51.7631959516, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P171SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP172SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P172SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P172SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Stare Polesie dla Maluchów - doposażenie placu zabaw na ul. Strzelców Kaniowskich</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>403&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212716-764cc7509ba78cd8eb716a2f431b0b0e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402212716, 'P172SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4418780192, 51.7659058026, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P172SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP182SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P182SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P182SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nauka jazdy na łyżwach na lodowisku Bombonierka dla dzieci z łódzkich przedszkoli i szkół</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>106&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212998-36ab8eacfb05c64a6029ab175b700d55" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402212998, 'P182SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4537129477, 51.7504807558, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P182SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP218SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P218SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P218SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświetlenie Skweru Ożogowskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213708-a2d8197dfd338d5640fe1a083be86372" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402213708, 'P218SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4494888447, 51.7631866413, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P218SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP233SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P233SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P233SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nauka gry w szachy dla dzieci i dorosłych na osiedlu Stare Polesie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>13&nbsp;750.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213899-08e823f15ff588175f62e100e9ad9d36" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402213899, 'P233SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4507441730, 51.7463734744, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P233SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP234SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P234SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P234SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona Więckowskiego - nasadzenia drzew</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>14&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213909-b006a9ce508ba07876a6d66d4702aa2a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402213909, 'P234SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4389723325, 51.7703573637, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P234SP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP236SP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P236SP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P236SP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nauka pływania dla dzieci i dorosłych na osiedlu Stare Polesie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Stare Polesie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;600.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213922-08f277a75897cd6a4ec4528385ebe872" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'SP', 1402213922, 'P236SP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4502055105, 51.7493457019, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P236SP</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-green-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTG003WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G003WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G003WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wiata Mozaikowa Kolumny</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>45&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200707-208eb7270571003a7a2e8059145b985a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402200707, 'G003WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5846171556, 51.7120992148, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G003WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG007WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G007WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G007WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Choinka wiskicka</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>4&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200814-03d63877409080822fb887088e1299c2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402200814, 'G007WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5437395878, 51.7115689698, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G007WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG027WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G027WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G027WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Więcej dronów - więcej bezpieczeństwa OSP GRS Łódź - Jędrzejów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201644-3708ec08528169c6a8531f7b71220e68" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402201644, 'G027WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5389310832, 51.7215107838, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G027WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG084WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G084WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G084WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zakup sprzętu do organizacji zaopatrzenia wodnego dla OSP Łódź-Wiskitno</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>80&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208086-f30432422984c9242106fa8cb43fdd06" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402208086, 'G084WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5484360143, 51.7121939814, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G084WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG092WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G092WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G092WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont remizy Ochotniczej Straży Pożarnej Łódź-Wiskitno. Etap 3.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>378&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209352-1ee44590e8c7c0a17ef7b72fc686271f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402209352, 'G092WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5484165492, 51.7121500132, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G092WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG144WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G144WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G144WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Monitoring przejścia dla pieszych na skrzyżowaniu ulic Kalinowskiego i Kolumny (Łódź - Wiskitno)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>61&nbsp;800.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212627-9f67cacc60140085235bcb111bd1a9ce" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402212627, 'G144WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5500564641, 51.7122356632, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G144WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG157WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G157WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G157WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Droga do równości - remont ulicy Kresowych stanic od ul. Kolumny w kierunku do ul. Gościniec</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>486&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212811-d88418d3591df90d19a9acbaabd84550" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402212811, 'G157WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5963296097, 51.7051923832, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G157WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG158WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G158WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G158WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Droga do równości - remont ulicy Bronisin od Kolumny w kierunku do nowej nawierzchni</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>486&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212820-e400ec4b7d9c439de05f977cbafe8fb3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402212820, 'G158WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5191319644, 51.7057568676, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G158WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG161WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G161WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G161WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświecenie Łodzi - montaż lamp hybrydowych na ulicy Czternastu Straconych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212844-32367a0fae7e1ac489b6ae89659d86da" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402212844, 'G161WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5502058945, 51.7092466717, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G161WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG162WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G162WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G162WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświecenie Łodzi - montaż latarni na ulicy Dzikich Pól</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>360&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212852-5ace69c02a42095e153751d47b8d4dfc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402212852, 'G162WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5494688444, 51.7069705767, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G162WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG165WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G165WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G165WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświecenie Łodzi - montaż lamp hybrydowych na ulicy Mozaikowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>172&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212867-c7b3065907a3a32e58bf38de31db805d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402212867, 'G165WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5887083987, 51.7093902737, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G165WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG168WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G168WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G168WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświecenie Łodzi - montaż latarni LED na ul. Wiskickiej od ul. Bronisin</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>326&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212889-eb4235a36a60ef5d1c11b393ec1db7a2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402212889, 'G168WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5219293699, 51.7043697514, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G168WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG169WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G169WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G169WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświecenie Łodzi - budowa latarni LED na ulicy Brójeckiej od Czternastu Straconych do al. 600-lecia</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>326&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212898-d937f90b44d937a7e37603d4e1198e99" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402212898, 'G169WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5444103330, 51.7053863211, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G169WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG174WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G174WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G174WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Tu był kiedyś chodnik - remont chodnika na Tomaszowskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>486&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212970-c731e83a71b84b49aa8b7484de4a47f3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402212970, 'G174WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5416980729, 51.7164728403, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G174WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG176WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G176WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G176WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne zakupy - chodnik na Tomaszowskiej od Dino do przejścia dla pieszych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>250&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212982-0c430955046330dac0edc19aa93ba246" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402212982, 'G176WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5435638025, 51.7127369452, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G176WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG177WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G177WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G177WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Festiwal Świateł - oświetlenie skrzyżowania ul. Kresowych Stanic i ul. Gościniec</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>49&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212987-f1cbb7dbff37db8428255d82ebab202e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402212987, 'G177WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5946384302, 51.7032121350, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G177WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG178WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G178WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G178WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Równanie szans - naprawa płyt chodnikowych na ul. Kolumny w okolicach numeru 338</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>60&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212994-367c1a1bd3f26a4c5321efea393f170f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402212994, 'G178WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5512383605, 51.7123963549, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G178WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG179WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G179WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G179WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Z deszczu pod daszek - wiata przystankowa na ul. Kolumny 335, przystanek 0327</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>55&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213002-2fb81b7072e948ee172257e5eab38a26" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402213002, 'G179WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5513630616, 51.7123462671, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G179WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG181WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G181WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G181WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Fotoradar - rejestrator prędkości przy szkole SP130 przy Kalinowskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213013-f7aaa7f0c467dcae2f47145d856f1b36" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402213013, 'G181WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5521762325, 51.7093366334, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G181WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG184WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G184WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G184WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczniej na Kolumny</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>34&nbsp;200.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213041-76c2df8f06ea729c4b4e2efebb20a170" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402213041, 'G184WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5654497237, 51.7165599674, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G184WI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG186WI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G186WI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G186WI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Biblioteczka plenerowa na Wiskitnie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Wiskitno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>25&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213104-7784c810865407607971497595d8f50c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'WI', 1402213104, 'G186WI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5436243454, 51.7118735073, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G186WI</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

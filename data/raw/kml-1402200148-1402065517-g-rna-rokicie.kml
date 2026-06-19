@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-green-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTG019RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G019RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G019RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Pabianicka - drzewa i krzewy wzdłuż drogi - Rokicie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>2&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201156-6c443674f579dbba6f87b32aeb684b10" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402201156, 'G019RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4500983649, 51.7291435858, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G019RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG042RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G042RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G042RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Postawmy na bezpieczeństwo na osiedlu Rokicie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>70&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203270-3a981890d4478a49ba11f83de2ece36d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402203270, 'G042RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4411403105, 51.7438598189, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G042RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG063RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G063RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G063RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Przyszkole z nowym chodnikiem</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>350&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205083-50a4bdc72f0965dc60cf256b978d5f6f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402205083, 'G063RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4467485215, 51.7293159606, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G063RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG073RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G073RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G073RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Utwardzenie miejsc parkingowych płytami z betonu przed nieruchomością Brzozowskiego 7</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>230&nbsp;350.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205715-6e73eb9d7d48447589a30b76a75f5984" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402205715, 'G073RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4448548999, 51.7314689254, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G073RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG088RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G088RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G088RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kieszonkowy park  - skwer u zbiegu ulic: Przyszkole i Cieszkowskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>82&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208850-db56a33721e4dfb6a292f8eacd48688d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402208850, 'G088RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4470683648, 51.7290466165, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G088RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG107RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G107RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G107RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczeństwo, wsparcie dla niepełnosprawnych rodziców z wózkami, nowe schody z podjazdami Łódź Obywatelska 31/43B</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>105&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210202-ae7a5c60df2454f9d71411b9036939e5" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402210202, 'G107RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4502108197, 51.7367901948, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G107RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG108RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G108RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G108RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bohdanowicza: Bezpieczna droga do szkoły. Wygodny krok dla mieszkańców</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>730&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210278-1402fb21cf8db418209688ed99b0d644" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402210278, 'G108RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4461278872, 51.7301769175, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G108RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG112RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G112RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G112RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ruch siłą życia - Nowe Rokicie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>18&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210586-77bdab8350989d8ef9bfb4e323ffef32" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402210586, 'G112RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4482158999, 51.7343525889, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G112RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG123RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G123RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G123RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Jednokierunkowa ul. Komfortowa i fragment ul. Brzozowskiego – więcej miejsc parkingowych dla całego osiedla Rokicie i bezpieczniejsza przestrzeń dla mieszkańców. Lokalizacja: Łódź, ul. Komfortowa (od Brzozowskiego do Rogozińskiego, ok. 205 m) oraz fragment ul. Brzozowskiego (od Komfortowej do Bohdanowicza, ok. 104 m), dzielnica Górna, os. Rokicie.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>403&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211585-7e12f01a2d7ece2763cd0b0f5b13ac5e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402211585, 'G123RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4432710290, 51.7316068434, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G123RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG134RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G134RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G134RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielone Skrzydła Ronda Lotników Lwowskich - kwietne łąki i nasadzenia między ul. Pabianicką a al. Politechniki</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>90&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212354-0b7937a424a1d2f638299ab191a70aa4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402212354, 'G134RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4521747901, 51.7311773257, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G134RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG135RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G135RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G135RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny parking zamiast ruin – ratujemy teren przy Rogozińskiego 6</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>350&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212373-465313f2c424be731887a6bdbfce597b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402212373, 'G135RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4494304925, 51.7323106709, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G135RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG137RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G137RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G137RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rowerem na Nowe Rokicie - montaż stojaków rowerowych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>12&nbsp;100.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212383-cd5514961417238b6271eefe058c099e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402212383, 'G137RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4495747192, 51.7324699785, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G137RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG187RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G187RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G187RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne Rokicie - wymiana oświetlenia ulicy Pustynna i Nizinna na nowoczesne, energooszczędne oraz dodanie nowego oświetlenia chodnika na ulicy Pustynnej od ulicy Nowe Sady do ulicy Czahary</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>407&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213131-d81f635e472e15029cc1051cb2edf327" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402213131, 'G187RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4263444076, 51.7312867575, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G187RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG190RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G190RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G190RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> "Ul. Odrzańska w kwiatach i zieleni"</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>17&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213154-09f2df58fa92b1afbb6c578ffbd989ca" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402213154, 'G190RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4276032969, 51.7114713901, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G190RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG197RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G197RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G197RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielone Rokicie - ławki oraz nasadzenia na ul. Świętojańskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>26&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213440-40f3924c696a97462a9b7661e3afb412" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402213440, 'G197RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4295323206, 51.7192880640, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G197RO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG100RO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G100RO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G100RO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> LOT (Lokalny Obszar Treningowy) w dolinie rzeki Jasień</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Rokicie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>216&nbsp;400.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213828-57c11268b5fa21a616aab651b353e8ed" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RO', 1402213828, 'G100RO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4214166355, 51.7315614229, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G100RO</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

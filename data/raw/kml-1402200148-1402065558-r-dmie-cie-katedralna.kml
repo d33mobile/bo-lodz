@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-yellow-cyrcle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTS001KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S001KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S001KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona Przestrzeń dla Perły Secesji – nowe zieleńce oraz uspokojenie ruchu przed Willą Leopolda Kindermanna.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>150&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200534-2b757237bd617e24cabd22fcfcf558eb" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402200534, 'S001KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4518374246, 51.7691409670, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S001KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS002KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S002KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S002KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Poprawa bezpieczeństwa na Osiedlu Katedralna. Poziome oznakowanie wjazdów do Strefy Tempo 30.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>69&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200554-57560fd00e677f5e88ec042d7b0f2ab3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402200554, 'S002KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4565924798, 51.7683116529, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S002KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS003KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S003KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S003KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielony zakątek Kilińskiego - Włókiennicza</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200870-cdef22fb176bb4fb02511fcf080fc1ad" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402200870, 'S003KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4623462120, 51.7744723920, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S003KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS013KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S013KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S013KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont zieleńców na ul. Dowborczyków- nasadzenia drzew i krzewów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201177-41e10b0ebe35580bc0fc0e8c58c7c894" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402201177, 'S013KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4696896720, 51.7644783368, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S013KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS014KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S014KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S014KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont zieleńców na ul. Tuwima- nasadzenia drzew i krzewów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201186-81e6de0c201979d88b8580516f864801" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402201186, 'S014KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4637717201, 51.7660673633, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S014KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS015KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S015KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S015KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświetlenie Jednorożca. Niech rzeźba zachwyca również po zmroku!</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Inne</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>65&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201659-a435b3dc7cdbd791c22a21da95bd3a72" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402201659, 'S015KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4584020013, 51.7591003320, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S015KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS017KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S017KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S017KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rowerem do Parku Abramowskiego - wjazd od Kilińskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>56&nbsp;750.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201758-22d92913a8b0b586c4fafc82a60a0988" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402201758, 'S017KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4713691773, 51.7548040852, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S017KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS022KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S022KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S022KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny "Manhattan" - dodatkowe patrole Straży MIejskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>98&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203397-c03851b1c61f3c00c12a8feb17d0751d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402203397, 'S022KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4619078970, 51.7565112433, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S022KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS024KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S024KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S024KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wiata przystankowa na ul. Abramowskiego/Sienkiewicza</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>170&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204262-e50dcafd4f3e949f486cc71324a3c3af" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402204262, 'S024KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4654466842, 51.7542511377, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S024KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS025KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S025KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S025KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Naprawa chodnika wzdłuż budynków z dojściem do bram wraz z zagospodarowaniem terenu od nr 17 do nr 23 przy ul. Abramowskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>300&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204265-5bdfc9694b95a0d48fdd87df89640724" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402204265, 'S025KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4675219486, 51.7543280704, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S025KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS026KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S026KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S026KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Park Sienkiewicza wraz z przyległymi szkołami - bezpieczeństwo ponad wszystko</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>80&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204338-ed8f0ea640c2fc538605e11d920e15f9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402204338, 'S026KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4645146222, 51.7646150946, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S026KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS027KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S027KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S027KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Odnowa alei PCK</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>48&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204390-b54cb420184e3e5de194c6c287849985" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402204390, 'S027KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4598303985, 51.7510320940, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S027KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS028KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S028KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S028KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Piotrkowska bez śmieci</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>15&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204394-382f085bed358e36222448d6b1e62ffd" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402204394, 'S028KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4605795826, 51.7509904039, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S028KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS031KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S031KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S031KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wygodne czekanie na Gdańskiej – Wiata i ławka na przystanku Gdańska - Legionów (0196)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>400&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206394-55d370736a47480c45884ec724e98a6c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402206394, 'S031KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4478116922, 51.7757823827, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S031KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS034KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S034KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S034KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ukryte podwórka Piotrkowskiej – spacery międzypokoleniowe.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>10&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207356-5ca5aaf264252938b978617ff313fd85" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402207356, 'S034KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4568950035, 51.7664548416, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S034KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS038KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S038KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S038KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Czysta cegła na Tymienieckiego. Oczyszczenie elewacji na budynkach pod numerami 12, 14, 16.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>120&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208173-bbad29b2050315df702a61ad167b08b9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402208173, 'S038KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4656148626, 51.7498628440, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S038KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS042KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S042KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S042KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczeństwo w rejonie Serca WOŚP - dodatkowe patrole Straży Miejskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>58&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209417-f67ae429d33d824d0c7c7b2eecaff769" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402209417, 'S042KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4512730924, 51.7783489558, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S042KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS048KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S048KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S048KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Chodnik który łączy – Piotrkowska 218, SP nr 2 i Pogotowie. Uporządkowanie Skweru Aleksandra Zwierki</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>281&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211777-322165b104787afd604e5b1252b5ef2a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402211777, 'S048KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4606041493, 51.7541328069, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S048KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS051KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S051KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S051KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Na bank będzie tam zielono! Nasadzenia na Kilińskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>183&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212546-2af505e542f8267dad61557a2dfa91fd" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402212546, 'S051KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4654014665, 51.7676120501, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S051KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS053KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S053KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S053KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny pieszy na Katedralnej - doświetlenie przejść dla pieszych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>394&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212615-68f85d8845ba37adf0174a2d36db9d79" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402212615, 'S053KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4692608694, 51.7665854086, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S053KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS056KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S056KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S056KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Baletowa Łódź – interaktywna trasa miejska w formie pudełka edukacyjnego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;700.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212965-9189b1df746e9a9dcb1d343e00aa5e48" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402212965, 'S056KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4552670806, 51.7683024199, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S056KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS059KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S059KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S059KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rekultywacja trawników wzdłuż ulicy Kilińskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>80&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213099-d428d191060bca08e32c0b559ff718a2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402213099, 'S059KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4706771127, 51.7556525728, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S059KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS062KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S062KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S062KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Odnowa skweru przy ulicy Brzeźnej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213122-27a8f28a9425cf3cca317f6960a8e4a2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402213122, 'S062KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4613672214, 51.7527140850, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S062KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS063KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S063KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S063KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont chodnika przy ulicy Kilińskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;053&nbsp;440.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213125-0c8d26fb5a9ea910afb55dbb09250110" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402213125, 'S063KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4698376632, 51.7582059724, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S063KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS064KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S064KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S064KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Poznajmy się! Piknik sąsiedzki w parku Abramowskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>15&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213128-e61c69826e16bf441d24548029264a90" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402213128, 'S064KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4679677287, 51.7539434897, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S064KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS065KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S065KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S065KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Dostępna al. Kościuszki: Remont chodnika i likwidacja barier przy ul. Radwańskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>896&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213142-75ef6beb7d163ab540bbafd9c08e9f69" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402213142, 'S065KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4575464715, 51.7537381715, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S065KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS068KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S068KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S068KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Naprawa kostek w "Pomniku Łodzian" na ulicy Piotrkowskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Inne</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>382&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213179-dceaf2860a48b051a26edab0079a9ded" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402213179, 'S068KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4575595294, 51.7637175979, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S068KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS072KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S072KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S072KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Droga rowerowa przy Centralu</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>240&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213309-9b1d9ce8bdefba72a9342239e1404a44" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402213309, 'S072KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4572363734, 51.7590164087, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S072KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS076KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S076KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S076KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> „Obraz JA” – warsztaty arteterapii w technice kolażu mieszkańców Osiedla Katedralna</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>16&nbsp;887.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213448-ee165b77990e3d310c84b22aefc6c4eb" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402213448, 'S076KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4587422208, 51.7656817908, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S076KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS079KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S079KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S079KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Razem dla Więckowskiego: remont chodników oraz aranżacja zieleni przy ulicy Więckowskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>665&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213616-6b7b59b9acdb5342b101f8732e5cf06e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402213616, 'S079KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4543707532, 51.7725532436, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S079KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS089KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S089KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S089KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Świadomi i Bezpieczni - bezpłatny kurs samoobrony</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>7&nbsp;190.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213763-1e6ec05ba5b0ec8a2d2ebd2c80c7886b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402213763, 'S089KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4546876633, 51.7769341183, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S089KA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTS090KA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>S090KA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> S090KA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Streetworkout ćwiczenia dla seniorów i dorosłych w Parku Abramowskiego. Zajęcia gimnastyczne i rehabilitacyjne/fizjoterapeutyczne z wykorzystaniem wagi własnego ciała #Sport #Rekreacja #Rozciąganie #Rehabilitacja #Zdrowy kręgosłup</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Śródmieście - Katedralna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>13&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213902-56d42f26a189d3df0b4131aa51b16255" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('S', 'KA', 1402213902, 'S090KA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4674364314, 51.7539319575, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>S090KA</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

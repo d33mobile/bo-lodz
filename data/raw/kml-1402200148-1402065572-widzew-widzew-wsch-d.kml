@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-seledyn-cyrcle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTW002WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W002WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W002WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne przejście - Widzewska/Cicha</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>56&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200496-90b1d5f0799f889751e269042beb1f33" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402200496, 'W002WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5188555026, 51.7569782324, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W002WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW003WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W003WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W003WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Teqball na Widzewie-Wschodzie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>170&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200530-edfab981be05c32f450ccc3915a84067" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402200530, 'W003WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5290856900, 51.7579487435, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W003WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW020WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W020WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W020WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Puszkina - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201052-8867a2f878d83be7dc8b66af73670d85" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402201052, 'W020WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5349354230, 51.7564250516, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W020WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW021WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W021WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W021WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Rokicińska - drzewa i krzewy wzdłuż drogi - Widzew Wschód</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201055-5af1d3a8216ee61b4f695094536ca6b1" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402201055, 'W021WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5293095959, 51.7622574510, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W021WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW039WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W039WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W039WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Uzupełnienie chodnika wzdłuż ul. Wujaka przy SP198</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201702-1ae5e1f2d420e962db147bc66c12280b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402201702, 'W039WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5414113932, 51.7561630091, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W039WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW041WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W041WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W041WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rowerem na wprost Chmielowskiego - przez osiedle i do szkoły</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>60&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201772-c9d99330df179071227c827602aa886b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402201772, 'W041WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5265242484, 51.7585397446, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W041WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW074WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W074WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W074WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Budowa chodnika przy ul. Adamieckiego - między ul. Rokicińską a ul. Służbową</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>220&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205673-f70f3c23fb6da2b45a5be8153bd7176c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402205673, 'W074WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5396209559, 51.7607641159, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W074WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW082WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W082WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W082WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Chodnik zamiast ścieżki – wygodne dojście do żłobka nr 6, SP 199 oraz na boisko Orlik</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>125&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206239-0582e697c0c7767bb2fd167a84e8313c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402206239, 'W082WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5306471178, 51.7568601895, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W082WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW092WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W092WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W092WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bądź bezpieczna - zajęcia z samoobrony dla kobiet na Widzewie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>14&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207889-193b4d19534288eb97853e1911a2d2a8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402207889, 'W092WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5283924130, 51.7574399173, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W092WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW094WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W094WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W094WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kino plenerowe na Widzewskiej Górce</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>90&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207911-972cc07707ecef9b94345108122915f8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402207911, 'W094WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5242592281, 51.7579416494, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W094WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW097WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W097WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W097WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Gimnastyka na Widzewskiej Górce</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>13&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207955-2171e6bbb06352a968527e720305af6d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402207955, 'W097WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5243014068, 51.7580493841, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W097WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW099WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W099WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W099WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Monitoring miejski na terenie osiedla im. Stefana Batorego - Etap Trzeci</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>780&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208081-49f722a3160d31f1dec67c65c0f0ddcd" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402208081, 'W099WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5345800207, 51.7574041296, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W099WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW143WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W143WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W143WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Sportowy festyn rodzinny dla mieszkańców Widzewa-Wschodu</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>14&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211938-1e1938ddeb7ff2b165de1df340f26a98" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402211938, 'W143WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5232173952, 51.7583600630, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W143WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW144WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W144WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W144WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Defibrylator dla Widzewa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>16&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212006-1d314c7fd40cde0e5830499ec84efd70" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402212006, 'W144WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5229555648, 51.7583516686, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W144WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW152WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W152WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W152WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kwiaty na drogi – zasadzenie roślin cebulowych (tulipany, żonkile) przy Dworcu Łódź - Widzew</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>150&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212118-e9a4f0a8729495cbb6747170b153858c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402212118, 'W152WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5428676234, 51.7623496316, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W152WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW165WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W165WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W165WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświetlone przejście dla pieszych na Widzewskiej przy Cichej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212575-ed2931429fca47351372eac9ba2b54ae" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402212575, 'W165WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5188903588, 51.7569302140, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W165WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW166WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W166WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W166WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Letnie koncerty na scenie w Parku Widzewska Górka II</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>120&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212582-ff18b5504ebf8a5de821784bdd00ed12" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402212582, 'W166WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5288793046, 51.7570974774, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W166WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW168WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W168WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W168WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Parking przy Haska pomiędzy Węgierską a Milionową</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>350&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212588-37abc3f5fdf2f6241e969ad52a0095c3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402212588, 'W168WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5251927104, 51.7541176559, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W168WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW169WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W169WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W169WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Teatr familijny na scenie w Parku Widzewska Górka II</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>92&nbsp;200.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212591-aef49b1151371b2ea41de565524a8f13" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402212591, 'W169WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5288663820, 51.7571010592, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W169WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW171WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W171WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W171WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Toalety w Parku Widzewska Górka</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212597-db35a180c72d29d9e3cb51d976ff8d28" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402212597, 'W171WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5291396948, 51.7569019806, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W171WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW173WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W173WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W173WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zebra bez barier przy ul. Ćwiklińskiej 4</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>70&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212612-f815ea21a78ead6d24d5c5dfa98c0314" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402212612, 'W173WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5341495758, 51.7532047747, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W173WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW174WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W174WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W174WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona joga na osiedlu Widzew-Wschód</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>7&nbsp;400.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212632-a56a9ddd3303259332f8daf542b8f0f5" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402212632, 'W174WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5450396420, 51.7516206790, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W174WW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW183WW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W183WW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W183WW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nasz własny kawałek przestrzeni - zagospodarowanie terenu przy ulicy Bartoka</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Widzew Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>977&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213217-18387abe377cc9e8f51f490dda419275" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'WW', 1402213217, 'W183WW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5233849506, 51.7625008407, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W183WW</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

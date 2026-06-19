@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-blue-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTB040BZ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B040BZ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B040BZ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Pojezierska - drzewa i krzewy wzdłuż drogi - Bałuty Zachodnie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Zachodnie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201040-db331333485c348e95e32da34d485a5a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BZ', 1402201040, 'B040BZ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4214413129, 51.7993486625, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B040BZ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB041BZ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B041BZ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B041BZ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Brukowa - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Zachodnie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201049-a0c95e7c02cf632d3f97f64bf4cade25" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BZ', 1402201049, 'B041BZ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4090910555, 51.7951843301, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B041BZ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB065BZ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B065BZ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B065BZ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Jasno i bezpiecznie na ul. Safrina – montaż nowoczesnych latarni LED</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Zachodnie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>83&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201858-f9a7663243f30aad010bb57bed9719ad" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BZ', 1402201858, 'B065BZ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3535427588, 51.8050848754, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B065BZ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB083BZ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B083BZ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B083BZ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczna Liściasta - oświetlenie od torów kolejowych do ul. Żabieniec</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Zachodnie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204530-24ad8cc27f65be3207f5467ade587cf4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BZ', 1402204530, 'B083BZ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4079415607, 51.8161271264, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B083BZ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB113BZ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B113BZ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B113BZ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Na ratunek szybko i sprawnie - doposażenie OSP ORW Łódź</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Zachodnie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>60&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208671-5c3315018b4a896899e6417ceb6f4d61" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BZ', 1402208671, 'B113BZ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4126279736, 51.8000495356, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B113BZ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB161BZ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B161BZ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B161BZ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rewitalizacja Parku im. Armii Łódź (Park im. Armii Łódź)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Zachodnie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211536-0661595dc0c8ac38f8fa78b3e35798b0" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BZ', 1402211536, 'B161BZ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3604017616, 51.8133094208, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B161BZ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB168BZ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B168BZ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B168BZ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Altana w Parku im. Armii Łódź (Park im. Armii Łódź)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Zachodnie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>143&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212172-4aa0ac4ce595553d1c4eee54b3b98f17" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BZ', 1402212172, 'B168BZ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3614925405, 51.8135132677, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B168BZ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB170BZ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B170BZ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B170BZ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Aktywna Kochanówka - zajęcia ruchowe dla każdego (Park im. Armii Łódź)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Zachodnie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>22&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212189-eb357be53915a45eefdef5b5f7f62227" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BZ', 1402212189, 'B170BZ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3614668536, 51.8132947326, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B170BZ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB171BZ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B171BZ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B171BZ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kino plenerowe na Kochanówce (Park im. Armii Łódź)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Zachodnie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>7&nbsp;300.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212202-dc0339cab7a016a1c0416dc59403a763" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BZ', 1402212202, 'B171BZ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3614911279, 51.8133558857, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B171BZ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB174BZ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B174BZ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B174BZ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zajęcia sportowe i wydarzenia kulturowe na osiedlu Bałuty Zachodnie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Zachodnie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>57&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212241-e58069abb7cbc367df2cca6750a30fc4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BZ', 1402212241, 'B174BZ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3257525126, 51.8057578582, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B174BZ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB210BZ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B210BZ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B210BZ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Postawmy na bezpieczeństwo na osiedlu Bałuty Zachodnie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Zachodnie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>45&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212881-bac2eeb3a791c7ff50ab6bfcaf3a0504" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BZ', 1402212881, 'B210BZ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3732167038, 51.8072491414, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B210BZ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB216BZ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B216BZ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B216BZ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Doposażenie OSP - Łódź Mikołajew</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Zachodnie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213036-278a6cf0e0c44f71f9fa3e46a969fc3e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BZ', 1402213036, 'B216BZ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3578179650, 51.8037973513, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B216BZ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB256BZ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B256BZ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B256BZ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Doposażenie sali szkoleniowej znajdującej się w siedzibie OSP Mikołajew</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Bałuty Zachodnie</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>435&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213844-006d81f2f844d8d4fa7bad329a2436af" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'BZ', 1402213844, 'B256BZ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3582133827, 51.8039324351, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B256BZ</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

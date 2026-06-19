@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-green-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTG046RU">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G046RU</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G046RU</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpiecznie na Rudzie - dodatkowe patrole Straży Miejskiej Oddziału Górna</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Ruda</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>60&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203899-f3b702b07f75a5946ae53624583c5275" target="_blank">kliknij tutaj</a></p>,
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RU', 1402203899, 'G046RU');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4395345862, 51.7031514802, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G046RU</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG080RU">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G080RU</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G080RU</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zieleniec i Mały Parking, Blokowa - Finansowa - Mierzyńskiego  (Lokalizacja :Zielony Rynek Rudy/Rondo /dawny rynek na Rudzie ograniczony ulicami Blokową, Finansową oraz Zdzisława Mierzyńskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Ruda</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>273&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207307-e70f888521fff0eb12f53367216f3504" target="_blank">kliknij tutaj</a></p>,
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RU', 1402207307, 'G080RU');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4355113004, 51.7107593973, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G080RU</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG102RU">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G102RU</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G102RU</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Dzwonowa - porządek musi być</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Ruda</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>400&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209812-8acba39743c8583d276f17139a20f8e8" target="_blank">kliknij tutaj</a></p>,
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RU', 1402209812, 'G102RU');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4454290522, 51.7112328459, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G102RU</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG103RU">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G103RU</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G103RU</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Tajemniczy ogród przy Karowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Ruda</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>148&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209817-170c4c95f84881e01194cdc6a5ddb080" target="_blank">kliknij tutaj</a></p>,
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RU', 1402209817, 'G103RU');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4475027249, 51.7054926869, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G103RU</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG104RU">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G104RU</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G104RU</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona zasłonka na Rudzkiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Ruda</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>6&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209821-19f78bc4c07c3fbd0cc26572abd058f9" target="_blank">kliknij tutaj</a></p>,
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RU', 1402209821, 'G104RU');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4377102472, 51.7028140790, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G104RU</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG106RU">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G106RU</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G106RU</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nordic Walking na Rudzie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Ruda</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>21&nbsp;800.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209832-0f5c5688f787d77544ef5465f7f57a0d" target="_blank">kliknij tutaj</a></p>,
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RU', 1402209832, 'G106RU');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4458459238, 51.6933217200, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G106RU</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG117RU">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G117RU</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G117RU</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Mała architektura na Skwerze dla mieszkańców Rudy</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Ruda</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>86&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211033-e4e7a7b50fa87c2b61992103979dc31a" target="_blank">kliknij tutaj</a></p>,
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RU', 1402211033, 'G117RU');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4354134411, 51.7107818309, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G117RU</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG202RU">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G202RU</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G202RU</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont nawierzchni ul. Łukowej od ul. Ruchliwej w kierunku do ul. Pabianickiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Ruda</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>627&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213516-0d30c4da2b4384d8ebdc37900c06ea03" target="_blank">kliknij tutaj</a></p>,
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'RU', 1402213516, 'G202RU');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4458328915, 51.7207339872, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G202RU</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

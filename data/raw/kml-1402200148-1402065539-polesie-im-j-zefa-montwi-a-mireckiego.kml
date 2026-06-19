@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-purple-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTP013MM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P013MM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P013MM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ratujmy chodnik na ul. Srebrzyńskiej - montaż pachołków</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - im. Józefa Montwiłła-Mireckiego</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;600.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200860-4e05ad6cfed79ed724112c212022b764" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'MM', 1402200860, 'P013MM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4122501360, 51.7738817106, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P013MM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP045MM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P045MM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P045MM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont zieleńców na al. Unii Lubelskiej - Montwiłła Mireckiego - nasadzenia drzew i krzewów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - im. Józefa Montwiłła-Mireckiego</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201220-69c5fb6a9d74b2b0f037e08b24bd5e87" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'MM', 1402201220, 'P045MM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4163416499, 51.7750503856, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P045MM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP054MM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P054MM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P054MM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rowerem z Jarzynowej w osiedle i do szkoły</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - im. Józefa Montwiłła-Mireckiego</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>352&nbsp;220.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201742-e4d72b095b1599892e9e2b935c76716d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'MM', 1402201742, 'P054MM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4112838250, 51.7750478703, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P054MM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP085MM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P085MM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P085MM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rewitalizacja oświetlenia ulicznego na Osiedlu Montwiłła - Mireckiego ETAP II</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - im. Józefa Montwiłła-Mireckiego</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>134&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206137-736e099208c95520c7f216a15ed79efd" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'MM', 1402206137, 'P085MM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4151383392, 51.7747478505, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P085MM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP115MM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P115MM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P115MM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont chodnika przy bloku Perla 9</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - im. Józefa Montwiłła-Mireckiego</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>81&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208777-829920cfe8c35b5e436a0f8760a97415" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'MM', 1402208777, 'P115MM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4138976598, 51.7748213109, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P115MM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP145MM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P145MM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P145MM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne zadbane drzewa Montwiłła-Mireckiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - im. Józefa Montwiłła-Mireckiego</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211019-a53476bf64a715902b9e91d8a9735916" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'MM', 1402211019, 'P145MM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4166833979, 51.7745106022, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P145MM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP163MM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P163MM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P163MM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> „Studnia na osiedlu" - budowa studni wierconej na Osiedlu im. Montwiłła Mireckiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - im. Józefa Montwiłła-Mireckiego</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>278&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212454-4443802fe7cecceff1131edc0ff058d1" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'MM', 1402212454, 'P163MM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4118135546, 51.7748034742, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P163MM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP174MM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P174MM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P174MM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Naprawa nawierzchni ul. Perla – etap I</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - im. Józefa Montwiłła-Mireckiego</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212772-d195c1a03f1e452a5109fc3dec27222e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'MM', 1402212772, 'P174MM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4149823218, 51.7742805341, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P174MM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP175MM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P175MM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P175MM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nasadzenie drzewa z tablicą informacyjną dotyczącą historii powstania osiedla na Skwerze przy ulicy Perla</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - im. Józefa Montwiłła-Mireckiego</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>28&nbsp;050.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212783-7c3a175d6e548c5f92f396e71b79ad9e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'MM', 1402212783, 'P175MM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4149019365, 51.7744443819, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P175MM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP176MM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P176MM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P176MM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wymiana i naprawa chodników na Osiedlu Montwiłła-Mireckiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - im. Józefa Montwiłła-Mireckiego</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>129&nbsp;250.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212815-dd7eb6d166262d999244a866b348d535" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'MM', 1402212815, 'P176MM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4123466407, 51.7743494707, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P176MM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP177MM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P177MM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P177MM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Pielęgnacja i nasadzenia drzew na Osiedlu Montiwłła-Mireckiego.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - im. Józefa Montwiłła-Mireckiego</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212829-c3e0ed0d74d870e01a9d009ae8b49a81" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'MM', 1402212829, 'P177MM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4144172607, 51.7743543711, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P177MM</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

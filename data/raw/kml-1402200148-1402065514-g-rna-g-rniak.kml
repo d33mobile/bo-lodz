@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-green-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTG002GO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G002GO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G002GO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny i zielony zakątek przy ulicy Pabianickiej 27/29</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Górniak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>183&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200577-1c308790a9b7d88c0372cfb466de2af0" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'GO', 1402200577, 'G002GO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4576839866, 51.7354141423, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G002GO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG045GO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G045GO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G045GO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpiecznie na Górniaku - dodatkowe patrole Straży Miejskiej na Osiedlu Górniak</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Górniak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>80&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203804-197c920ea4ba1413d30d53800bed8441" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'GO', 1402203804, 'G045GO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4760075565, 51.7450587597, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G045GO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG091GO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G091GO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G091GO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Czysto i bezpiecznie przy ul. Doroty w Parku Legionów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Górniak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>165&nbsp;200.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209136-a5adf2c80be44056c181f145d9ed716d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'GO', 1402209136, 'G091GO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4637717454, 51.7369515744, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G091GO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG096GO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G096GO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G096GO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne i dostępne dojście do Domu Wielopokoleniowego. Remont alejek i oświetlenia w Parku Legionów od ul. Bednarskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Górniak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>521&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209567-f311daedf61fd77e0f8ab30228c6f24d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'GO', 1402209567, 'G096GO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4632121105, 51.7354734246, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G096GO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG105GO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G105GO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G105GO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Parking osiedlowy - bezpieczeństwo i porządek przy ulicy Pabianickiej 27/29</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Górniak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>208&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209825-f94de3af85225a48bb62306c110a6412" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'GO', 1402209825, 'G105GO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4575403165, 51.7355781416, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G105GO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG140GO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G140GO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G140GO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Park im. Legionów - piękne wejście do parku od strony ul. Bednarskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Górniak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>285&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212444-fc55f94bf26ac9a59f0c2c19ad18c41a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'GO', 1402212444, 'G140GO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4634733308, 51.7353014164, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G140GO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG141GO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G141GO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G141GO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Toalety publiczne - reaktywacja: Plac Niepodległości – nowa toaleta publiczna dostosowana do potrzeb niepełnosprawnych w miejscu zlikwidowanej.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Górniak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>563&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212448-fb7fd79d960a0314cc7b69fb7a0440d0" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'GO', 1402212448, 'G141GO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4632021481, 51.7400765491, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G141GO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG143GO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G143GO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G143GO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Toalety publiczne - reaktywacja: Park im. J. Słowackiego – nowa toaleta publiczna dostosowana do potrzeb niepełnosprawnych w miejscu zlikwidowanej.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Górniak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>437&nbsp;600.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212475-d1111b7d99459183519980f16c702889" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'GO', 1402212475, 'G143GO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4532555297, 51.7327290082, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G143GO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG191GO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G191GO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G191GO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Parking XXI w. przy Skrzywana 16</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Górniak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>320&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213163-771ad006e28656cf72b23093c0e1c3e9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'GO', 1402213163, 'G191GO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4546744194, 51.7400446924, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G191GO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG208GO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G208GO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G208GO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> KOKS (Koło Osiedlowej Kalisteniki Sportowej) w parku Juliusza Słowackiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Górniak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>284&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213775-116fce8d3b53efe39c68387e4bb4c08e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'GO', 1402213775, 'G208GO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4556757239, 51.7341055933, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G208GO</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

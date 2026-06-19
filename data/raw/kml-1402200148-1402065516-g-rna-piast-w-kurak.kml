@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-green-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTG020PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G020PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G020PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Paderewskiego - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>4&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201189-495b19a9b2fba1045ffc7cbc6b5c6229" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402201189, 'G020PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4577670911, 51.7291263456, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G020PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG023PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G023PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G023PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Adaptacja Terenów Zielonych -Ciołkowskiego 9</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>35&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201318-6577ab286f9163e960174cbcd590530b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402201318, 'G023PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4624055657, 51.7291068434, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G023PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG057PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G057PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G057PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne wejście na Skwer Dubaniewicza na osiedlu Piasta -Kurak</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>163&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204470-3d275cf1edb7d36018272170633b21b8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402204470, 'G057PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4660194633, 51.7297620216, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G057PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG074PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G074PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G074PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielony parking pomiędzy ul. Wiwulskiego a ul. Ceramiczną, przy Przedszkolu nr 36</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205736-c5af10ca2ea83772b30b102540aafaf9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402205736, 'G074PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4531195001, 51.7296958239, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G074PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG075PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G075PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G075PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielony parking ul. Wiwulskiego przy ul. Pabianickiej 64/72</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>142&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205746-f1aa719e2492901b4f3ef7e6cceaf604" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402205746, 'G075PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4522431191, 51.7296049570, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G075PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG079PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G079PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G079PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nowa nawierzchnia z miejscami postojowymi przy ulicy Strycharskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>410&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206818-d1c09c6b456a9f52d31a63e89c0cc9a8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402206818, 'G079PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4657822224, 51.7297009821, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G079PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG082PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G082PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G082PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczeństwo i widoczność pieszych - przejście przez ulicę ul. Strycharską przy Myśliwskiej – droga do IX liceum oraz do Skweru im. Dubaniewicza - inteligentne pulsacyjne doświetlenie znaków ostrzegawczych, wzbudzane ruchem nadchodzących osób.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>150&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207321-6ba24129de183ee0c1cdcf9c3ecdc900" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402207321, 'G082PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4637978067, 51.7298764344, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G082PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG086PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G086PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G086PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona oaza przy Karpackiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>205&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208384-4a3da889c4dec4703748eb3ba0886c80" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402208384, 'G086PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4628378834, 51.7251669388, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G086PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG089PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G089PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G089PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona, bezpieczna i uporządkowana ul. Dygasińskiego. Nasadzenia kompensacyjne drzew i krzewów, remont chodników, wymiana słupków oraz wyznaczenie boksów parkingowych ograniczających niechlujne parkowanie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>758&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209109-a5f6ee8e35b2f5d5e96e22f80af32a81" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402209109, 'G089PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4607937355, 51.7339306181, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G089PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG111PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G111PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G111PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Utworzenie miejsc parkingowych przy ul. Kosmonautów 12</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>143&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210580-c019bcc4af0eccc7e77e9055f95d53a5" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402210580, 'G111PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4510810585, 51.7260188853, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G111PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG113PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G113PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G113PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny chodnik między Będzińską 5 i Będzińską 7</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>110&nbsp;110.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210678-81ffb98016d660a8e994449b0a43ac2c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402210678, 'G113PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4517584439, 51.7259146258, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G113PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG121PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G121PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G121PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wybieg dla psów na Kuraku</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211416-d135518a3450f00e76b2b7f182122bff" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402211416, 'G121PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4514309883, 51.7246492745, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G121PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG122PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G122PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G122PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ławeczka wśród drzew. Miejsce odpoczynku przy Zaolziańskiej i Kosmonautów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>26&nbsp;400.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211440-1a2e6384c484089877a75ae3455f71e6" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402211440, 'G122PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4519319083, 51.7255872389, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G122PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG136PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G136PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G136PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> 3 nowe śmietniki dla czystej okolicy – koniec z bałaganem na Kuraku!!</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>14&nbsp;834.85 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212380-6a71e3f4dba2f3e83606dbbb33d9f3dc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402212380, 'G136PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4698835454, 51.7272228425, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G136PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG142PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G142PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G142PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Pielęgnacja drzew wzdłuż ul. Sanockiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>150&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212451-32c0a4debd51e0759fa4defaaf24f924" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402212451, 'G142PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4616263016, 51.7330670060, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G142PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG160PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G160PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G160PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rowerem bez dziury przy wirażu - korekta drogi rowerowej na Paderewskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212840-066f68efd922d1b6dbb00283ae8e936b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402212840, 'G160PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4648800315, 51.7265937338, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G160PK</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG182PK">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G182PK</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G182PK</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny narożnik Sanocka i Browarna, nowy chodnik, uporządkowane parkowanie i rabaty z krzewami</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Piastów-Kurak</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>380&nbsp;655.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213021-7034d5f49a267311b2683e096e340746" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'PK', 1402213021, 'G182PK');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4584051815, 51.7330859744, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G182PK</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

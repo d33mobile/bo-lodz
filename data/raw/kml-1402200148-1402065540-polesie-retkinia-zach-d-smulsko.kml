@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-purple-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTP037RS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P037RS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P037RS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Popiełuszki - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Retkinia Zachód-Smulsko</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>70&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201165-15d946d651a79e9c127ba3fb3a2a5855" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'RS', 1402201165, 'P037RS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3846657451, 51.7394175752, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P037RS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP061RS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P061RS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P061RS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Letni program spokojnego ruchu na świeżym powietrzu – Tai Chi i Joga w Parku na Smulsku</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Retkinia Zachód-Smulsko</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>7&nbsp;300.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201813-fb983de598a38b8d2accfe4d1832076a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'RS', 1402201813, 'P061RS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3717069052, 51.7404093474, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P061RS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP078RS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P078RS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P078RS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Utwardzenie przy ul. Popiełuszki w sąsiedztwie kościoła i ogródków działkowych – mała zmiana, wielka wygoda!</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Retkinia Zachód-Smulsko</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>288&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205642-42614760c66f8191bb02492dd406bcfc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'RS', 1402205642, 'P078RS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3850620900, 51.7394826788, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P078RS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP082RS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P082RS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P082RS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Filmowe wieczory na osiedlu – kino plenerowe na działce w sąsiedztwie Spółdzielni Mieszkaniowej "Retkinia-Południe" i ryneczku "Pod Topolami"</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Retkinia Zachód-Smulsko</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205979-acf52b471a8f82e6b510a6927aa76832" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'RS', 1402205979, 'P082RS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3975352781, 51.7445409300, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P082RS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP148RS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P148RS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P148RS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne i Uporządkowane Smulsko – Strefa Tempo 20</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Retkinia Zachód-Smulsko</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>36&nbsp;600.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211530-76d52806aaf4580453ac24ceabff7c1b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'RS', 1402211530, 'P148RS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3806585211, 51.7363792637, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P148RS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP153RS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P153RS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P153RS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nauka jazdy na łyżwach na lodowsku Retkinia dla dzieci z łódzkich szkół i przedszkoli</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Retkinia Zachód-Smulsko</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>222&nbsp;700.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212282-8a0e6f58d0cf57ead7d1c7f5a2e072e8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'RS', 1402212282, 'P153RS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3887134466, 51.7403698982, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P153RS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP186RS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P186RS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P186RS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> PING PONG - Montaż zewnętrznego stołu do tenisa stołowego na terenie sportowo-rekreacyjnym przy ulicy Gimnastycznej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Retkinia Zachód-Smulsko</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>38&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213083-a2eb5160df2c86e821fb105ab8fba920" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'RS', 1402213083, 'P186RS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3786687488, 51.7426813801, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P186RS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP200RS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P200RS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P200RS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kino Letnie na górce - Retkinia Północ</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Retkinia Zachód-Smulsko</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>48&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213477-f03df33e8359ed74eee256b24b2cff50" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'RS', 1402213477, 'P200RS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3875655197, 51.7458246613, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P200RS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP219RS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P219RS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P219RS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Budki lęgowe dla jerzyków -- Osiedle Retkinia Południe Łódź</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Retkinia Zachód-Smulsko</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>48&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213736-a19a4ca33285df038b811e1914c6d22e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'RS', 1402213736, 'P219RS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3716074245, 51.7417786152, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P219RS</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP221RS">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P221RS</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P221RS</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Majówka z Orkiestrą Młodych – koncert dzieci przy Pałacu Młodzieży</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Retkinia Zachód-Smulsko</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213756-358bb5b6c114264e305f42377d9076bf" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'RS', 1402213756, 'P221RS');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3906400577, 51.7417416362, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P221RS</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

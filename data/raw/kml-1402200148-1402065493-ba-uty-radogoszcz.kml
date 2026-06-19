@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-blue-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTB048RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B048RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B048RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona al. Włókniarzy - drzewa i krzewy wzdłuż drogi - Radogoszcz</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201183-b0adcd046e98dc6199cb7310e44bb875" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402201183, 'B048RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4301897010, 51.8146835130, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B048RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB094RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B094RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B094RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Park linowy, poprawa bezpieczeństwa kontynuacja Park nad Sokołówką rozbudowa XXI wieku</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>90&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206194-da5135e5dfc239c3cbd5b8afe889e450" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402206194, 'B094RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4326129459, 51.8054121135, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B094RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB110RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B110RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B110RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Mini park czytelniczy i wypoczynkowy / Radogoszcz Zachód przy Zgierskiej (od stacji tramwajowej Świtezianki)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>162&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207382-8862827f65c26bbc255ee983ff3a39e2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402207382, 'B110RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4291800348, 51.8236115781, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B110RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB124RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B124RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B124RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne przejścia do Szkoły Podstawowej nr 206 - zwiększenie bezpieczeństwa dla uczniów i mieszkańców osiedla na ul. Wiklinowej i ul. Łozowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>76&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209689-4cc59fd0f414520a5ac8985c98d0ad56" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402209689, 'B124RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4320222451, 51.8261910908, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B124RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB142RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B142RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B142RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rewitalizacja podjazdu nad Sokołówką</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211096-12c2675289bb24eda792f63153be3ffc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402211096, 'B142RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4376336622, 51.8048521864, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B142RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB147RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B147RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B147RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zabawa bez barier nad Sokołówką</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>75&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211117-ee0fd81df5ea048ad9784e9785616b90" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402211117, 'B147RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4399220051, 51.8042000324, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B147RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB149RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B149RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B149RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> MAMY Przestrzeń nad Sokołówką</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>15&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211126-0e5cbb6091050461829d64f7a9bc27a3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402211126, 'B149RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4350090331, 51.8048587117, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B149RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB151RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B151RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B151RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Moc sportowych emocji nad Sokołówką</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>355&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211132-0f3a9a6ba0347e84676a26e42a9d64b0" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402211132, 'B151RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4360430411, 51.8041434737, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B151RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB183RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B183RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B183RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Suchą stopą po chodniku – remont zapadniętego odcinka Świtezianki - Okoniowa (Radodogs)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>64&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212369-a03757232d428cb0dc9d0c784fd05391" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402212369, 'B183RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4323203797, 51.8221939749, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B183RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB228RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B228RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B228RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Festyn na Radogoszczu "POŻEGNANIE LATA"</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>174&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213274-43272ceb16510e49725913531834143f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402213274, 'B228RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4184818417, 51.8168700450, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B228RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB229RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B229RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B229RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zieleń Włókniarzy/Liściasta</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>194&nbsp;600.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213286-e1f900662a15607c48c52f889cc4e919" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402213286, 'B229RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4259161473, 51.8093486458, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B229RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB231RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B231RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B231RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Budowa wiaty przystankowej przy ul. 11-go Listopada, przy stacji kolejowej RADOGOSZCZ ZACHÓD</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>55&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213292-a3e2d7d23c7aae58e8042d05f8d3ae83" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402213292, 'B231RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4168086020, 51.8208509244, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B231RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB240RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B240RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B240RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne przejście Okoniową</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>139&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213460-16fde9e4aef4d62349e296acbf83d9f8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402213460, 'B240RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4358899913, 51.8215745625, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B240RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB241RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B241RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B241RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> RADO-DOGS Zielony Zakątek - X edycja</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>46&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213473-0cbf59b9f1413d3e1d742c64d87e489e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402213473, 'B241RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4339652183, 51.8220562310, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B241RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB242RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B242RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B242RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Park Leśny im. W. Puchalskiego - IV edycja</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>48&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213504-d2d2852d09f062518139336a44f53667" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402213504, 'B242RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4319385878, 51.8223595876, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B242RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB244RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B244RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B244RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny teren za krańcówką  - oświetlenie obszaru za pętlą autobusową Radogoszcz Zachód</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>120&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213576-3484d6954b0b85bbc89df16beadfd961" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402213576, 'B244RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4186261365, 51.8175179376, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B244RA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB260RA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B260RA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B260RA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Streetworkout ćwiczenia dla seniorów i dorosłych w Parku Jesionowa. Zajęcia gimnastyczne i rehabilitacyjne/fizjoterapeutyczne z wykorzystaniem wagi własnego ciała #Sport #Rekreacja #Rozciąganie #Rehabilitacja #Zdrowy kręgosłup</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Radogoszcz</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>13&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213874-197e458455b5c16a08dbeb6a92103982" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'RA', 1402213874, 'B260RA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4243844100, 51.8198076842, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B260RA</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

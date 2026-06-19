@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-purple-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTP011ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P011ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P011ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświetlenie ulicy Wojskowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>83&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200845-de75f857b96d33b307e95b4cd6bfc4e3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402200845, 'P011ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3658448530, 51.7883175059, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P011ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP026ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P026ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P026ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Rąbieńska - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201031-b519d7bb5671f6a7a2686fe4550f972e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402201031, 'P026ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3955361125, 51.7811275928, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P026ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP107ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P107ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P107ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Budowa Górki Saneczkowej na Nowym Złotnie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>92&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207361-6ee6e0f0882ecd906f2eb8e85cd39cb8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402207361, 'P107ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3877236804, 51.7860343830, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P107ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP108ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P108ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P108ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rozbudowa Placu Zabaw oraz Monitoring w Parku im. Pileckiego – Nowe Złotno</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>400&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207366-f83b9e93594849c43b8f965fad28ae30" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402207366, 'P108ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3877472355, 51.7861199701, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P108ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP109ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P109ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P109ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Park bez Potknięć – Równe alejki w Paru im. Pileckiego przy ul. Cedry</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>90&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207375-3d483261174519b7975352bc0bdeec50" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402207375, 'P109ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3873766792, 51.7860365295, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P109ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP114ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P114ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P114ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Złotno stawia na bezpieczeństwo</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208137-9742a606cf5b7d92b8dfd2d2b3005527" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402208137, 'P114ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3836884218, 51.7627422460, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P114ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP117ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P117ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P117ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne przejścia dla pieszych na ul. Podchorążych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>38&nbsp;200.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209154-9a3b152a383c45d65a865f6b2ecc15ea" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402209154, 'P117ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3768922383, 51.7802385000, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P117ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP118ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P118ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P118ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Suchą stopą z autobusu - budowa peronu przystankowego Złotno-Legnicka</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>80&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209158-70affad331395719e86a007fde83e624" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402209158, 'P118ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3768264943, 51.7770601596, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P118ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP119ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P119ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P119ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Chodnik do przystanku Rąbieńska - Rąbieńska 76 NŻ (1837) linii 6</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>290&nbsp;950.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209161-a3edd270de2169d57257a94cecf1e506" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402209161, 'P119ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3787874826, 51.7862800148, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P119ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP132ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P132ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P132ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Górka saneczkowa na Złotnie "Lolkowa Górka"</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>403&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209772-6b760dda9f6f0da98c406c5678e39f58" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402209772, 'P132ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3777817391, 51.7849786142, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P132ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP135ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P135ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P135ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Strażak XXI wieku! Zakup umundurowania dla OSP Łódź Stare Złotno</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210003-40dbf799f59a3d57a933cbaaa59b9de8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402210003, 'P135ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3655672753, 51.7680716867, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P135ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP136ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P136ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P136ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Strażak XXI wieku! Doposażenie OSP Łódź Stare Złotno w sprzęt Ratowniczo-gaśniczy</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210024-589a4e4ef931043525b62953100f0e30" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402210024, 'P136ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3656829002, 51.7680655268, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P136ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP147ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P147ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P147ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Dobrze wyposażony i kompetentny strażak ratownik gwarantem bezpieczeństwa okolicy - doposażenie ratowników OSP Nowe Złotno w Łodzi w nowoczesne mundury i sprzęt poprawiające skuteczność prowadzenia działań.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211489-610c4bfdb2b0c6695be3078357b16a4f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402211489, 'P147ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3870687813, 51.7771206165, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P147ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP154ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P154ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P154ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Utwardzona ścieżka spacerowa łącząca park Pileckiego z planowaną Trasą Wojska Polskiego – ochrona terenów zielonych przy ulicy Cieplarnianej łączących osiedla Złotno i Teofilów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>92&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212286-beb2838bca35b7f6419fb287b3bd1230" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402212286, 'P154ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3845711068, 51.7880559824, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P154ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP155ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P155ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P155ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona aleja drzew wzdłuż ulicy Łubinowej na Nowy Złotnie prowadząca do Parku im. Rotmistrza Witolda Pileckiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>35&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212291-eaa36c5e86e5f004327e16e0e6f1feda" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402212291, 'P155ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3895411285, 51.7858194298, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P155ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP195ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P195ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P195ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne zadbane Drzewa na Złotnie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213389-14e2b412d332134109b4fadad52ed087" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402213389, 'P195ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3957570677, 51.7799408932, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P195ZL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP229ZL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P229ZL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P229ZL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Niebezpieczne drzewa - przycięcie i usunięcie drzew na ul. Podjazdowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Złotno</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>21&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213848-a566b18fe71855fb450f59363e02368f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'ZL', 1402213848, 'P229ZL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3835145795, 51.7809201607, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P229ZL</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-blue-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTB043TW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B043TW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B043TW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Traktorowa - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Teofilów-Wielkopolska</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201070-4891fac5bbe94f5d2f291e6f053214a7" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'TW', 1402201070, 'B043TW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3937781264, 51.7938146549, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B043TW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB044TW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B044TW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B044TW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona al. Włókniarzy - drzewa i krzewy wzdłuż drogi - Teofilów-Wielkopolska</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Teofilów-Wielkopolska</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>70&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201073-a27374fa0b564e7da75ad4e3ad8f9b44" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'TW', 1402201073, 'B044TW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4211018637, 51.7851868856, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B044TW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB058TW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B058TW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B058TW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont nawierzchni al. Pasjonistów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Teofilów-Wielkopolska</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;197&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201728-020011f156b2c9eb3f6c2cb0c3ceb07b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'TW', 1402201728, 'B058TW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3883192972, 51.7935389519, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B058TW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB121TW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B121TW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B121TW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nasadzenia drzew na Skwerze Praw Dziecka</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Teofilów-Wielkopolska</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>90&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209458-9d6e9055580a282f5951afd503981037" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'TW', 1402209458, 'B121TW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4192521217, 51.7868928244, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B121TW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB130TW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B130TW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B130TW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Stoły do ping-ponga na skwerze Praw Dziecka (ul. Inowrocławska)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Teofilów-Wielkopolska</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>76&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209797-e7bc9aadb8019a289c5a838660535da4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'TW', 1402209797, 'B130TW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4201736684, 51.7870719699, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B130TW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB135TW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B135TW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B135TW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont fragmentu nawierzchni ulicy Wici odc. od ul. Rydzowa - wjazd do posesji ul. Wici nr 26</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Teofilów-Wielkopolska</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>556&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210971-e8f995e6aed3d648c4efc69630dadd4e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'TW', 1402210971, 'B135TW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3780700414, 51.7997978153, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B135TW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB138TW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B138TW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B138TW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Strażnik bliżej nas - czysty i bezpieczny Teofilów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Teofilów-Wielkopolska</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211039-8b1318adfcca21b4ec480e825e2e2194" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'TW', 1402211039, 'B138TW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3846067655, 51.7946386152, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B138TW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB187TW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B187TW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B187TW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> ODNOWA TEOFILOWA: Miejsca parkingowe przy Szkole Podstawowej Specjalnej nr 168.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Teofilów-Wielkopolska</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>350&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212491-030fb8092f933ca78d329568e362b496" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'TW', 1402212491, 'B187TW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4065804161, 51.7917991103, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B187TW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB237TW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B237TW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B237TW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Skwer Grabieniec</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Teofilów-Wielkopolska</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>338&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213371-6566f4942704015a27710d0f9bf5ed4c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'TW', 1402213371, 'B237TW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3872975820, 51.7986252286, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B237TW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB258TW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B258TW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B258TW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kultura blisko ludzi – cykl wydarzeń dla mieszkańców Teofilowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Teofilów-Wielkopolska</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>95&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213862-acf6eebcd6b7ed8b2f3ac6312d17ffbe" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'TW', 1402213862, 'B258TW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3990193329, 51.7941310848, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B258TW</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB259TW">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B259TW</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B259TW</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Streetworkout ćwiczenia dla seniorów i dorosłych w Parku Piastowskim. Zajęcia gimnastyczne i rehabilitacyjne/fizjoterapeutyczne z wykorzystaniem wagi własnego ciała #Sport #Rekreacja #Rozciąganie #Rehabilitacja #Zdrowy kręgosłup</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Teofilów-Wielkopolska</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>13&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213865-ddfb8aeb9e94af4275101a9fecbe55a9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'TW', 1402213865, 'B259TW');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3708159007, 51.8000601255, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B259TW</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

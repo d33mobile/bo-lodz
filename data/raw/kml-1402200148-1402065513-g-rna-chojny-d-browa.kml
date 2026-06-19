@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-green-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTG026CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G026CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G026CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Przy Młynku – mini-boisko rekreacyjne dla dzieci i młodzieży</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>272&nbsp;250.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201639-12e87279debf3946e5fcb755a42ec708" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402201639, 'G026CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5245630488, 51.7238287318, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G026CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG037CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G037CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G037CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Eko-Parking przy Przedszkolu: Koniec z błotem i chaosem przy ul. Podgórnej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>352&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402202538-db2590ae22ebdf463a1ff352dd898a50" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402202538, 'G037CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4866520873, 51.7347428418, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G037CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG053CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G053CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G053CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Więcej miejsc parkingowych przy bloku 239, przy ul. Konspiracyjnego Wojska Polskiego 7A</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>317&nbsp;850.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204187-45705062132061bcf9e2e5f37a50d6ba" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402204187, 'G053CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4966990753, 51.7288950106, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G053CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG055CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G055CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G055CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nowa nawierzchnia na Skwerze Kolbego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;049&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204430-75542f84c72fdda8492fa9fcf7832850" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402204430, 'G055CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4951940308, 51.7345242380, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G055CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG058CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G058CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G058CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczna ulica Jachowicza</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>980&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204499-640e14bb0f76a3dc26ca2df707d715fa" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402204499, 'G058CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4758264802, 51.7365830176, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G058CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG064CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G064CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G064CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Spotkanie z gwiazdą - występy artystyczne na Skwerze Kolbego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>8&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205115-a80694196050f196807ce4413c217f84" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402205115, 'G064CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4952300993, 51.7350928301, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G064CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG065CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G065CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G065CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne Osiedle dodatkowe patrole Straży Miejskiej na Osiedlu Chojny-Dąbrowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>60&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205120-c4589bf8c71d2319202be80273ff2cb2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402205120, 'G065CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4947871210, 51.7342833664, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G065CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG067CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G067CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G067CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny plac zabaw na Skwerze Kolbego -monitoring placu zabaw</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>120&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205126-5780b967b913e0a6d391f27d2539cb4e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402205126, 'G067CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4950527460, 51.7351581385, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G067CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG069CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G069CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G069CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ze Światem na Ty cykl 4 spotkań podróżniczych na Skwerze im. Maksymiliana Kolbego w Łodzi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>5&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205135-cbb15184d63dbf23975d2ce1f521b78c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402205135, 'G069CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4951753008, 51.7350136512, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G069CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG070CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G070CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G070CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne przejście dla pieszych - doświetlenie przejścia dla pieszych na ul. Tatrzańskiej pomiędzy Rydla a Felińskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205138-413964725600e3fed142e682e4592952" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402205138, 'G070CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4941375128, 51.7346866898, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G070CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG071CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G071CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G071CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bawmy się Razem - festyn rodzinny na Skwerze Kolbego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>10&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205141-23783dd0eac6f5c35ce5c6477006f404" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402205141, 'G071CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4952388429, 51.7347897383, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G071CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG076CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G076CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G076CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> 400 krzewów i kwiatów w 25 lokalizacjach od Gojawiczyńskiej po Kilińskiego / Chojny-Dąbrowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>65&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206349-ef39f80daab548ba7946296128c8efdd" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402206349, 'G076CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5035033950, 51.7334370698, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G076CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG077CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G077CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G077CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nowe alejki w Parku im. gen. Jarosława Dąbrowskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;049&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206354-6d33b2029cb9d425ca57e44c3751e78e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402206354, 'G077CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4713331690, 51.7380875953, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G077CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG118CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G118CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G118CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont chodnika na ul. Kadłubka na odcinku od ul. Kadłubka 35 do ul. Felińskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>400&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211251-6ca12912c83bcba76eed9e15fbce7613" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402211251, 'G118CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5009947514, 51.7314324360, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G118CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG125CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G125CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G125CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczna Tatrzańska/Broniewskiego – Monitoring Miejski</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>123&nbsp;800.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212070-4753d73590795ee3df3e1b6013f64369" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402212070, 'G125CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4937179152, 51.7329745911, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G125CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG126CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G126CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G126CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Dość dzikiego parkowania- zróbmy to porządnie! Parking dla mieszkańców między blokami Gojawiczyńskiej 3 a Ejsmonda 2 (za śmietnikami)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>468&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212095-1553f909efd5d52fccc1b42e14c47195" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402212095, 'G126CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4993423456, 51.7291749266, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G126CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG127CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G127CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G127CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Jasny i bezpieczny Skwer Kolbego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212114-de9858ea1d4cac5fbf252b301b9b7770" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402212114, 'G127CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4952114023, 51.7349723552, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G127CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG128CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G128CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G128CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Hydro-strefa Dąbrowa. Inteligentny ogród deszczowy przy Skwerze Kolbego.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>234&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212244-8afcacda63074bf35cc3bcafb8a86509" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402212244, 'G128CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4944712248, 51.7345495279, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G128CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG129CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G129CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G129CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Skate-stacja Dąbrowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>689&nbsp;535.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212258-94b1f5a98c17fe502cffd60a58f33450" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402212258, 'G129CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5086942966, 51.7351809481, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G129CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG131CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G131CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G131CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kwiaty na tory – zasadzenie roślin cebulowych (tulipany, żonkile) wzdłuż torów tramwajowych na ul. Dąbrowskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>75&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212304-20de841c3d114066aed01be7b7f82867" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402212304, 'G131CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4962746471, 51.7368823061, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G131CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG132CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G132CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G132CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Modernistyczne uzdrowisko. Multisensoryczny Park Światła, Ciszy i Historii przy ul. Leczniczej.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>404&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212322-d87e9911e499d290b957af25a1cb8675" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402212322, 'G132CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4731303516, 51.7358671028, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G132CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG138CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G138CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G138CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nasze podwórko. Rewitalizacja istniejącego "Ogrodu Jordanowskiego" ul. Dąbrowskiego i Michała Bałuckiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>1&nbsp;080&nbsp;750.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212416-de5833838d3758a1708964086ba69e72" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402212416, 'G138CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4903862827, 51.7370248845, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G138CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG183CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G183CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G183CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Niski Park Linowy – strefa równowagi i sprawności w Parku przy ul. Leczniczej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>684&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213029-49868de4ec43e86568eadd02d2d22a38" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402213029, 'G183CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4723520465, 51.7358486756, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G183CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG192CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G192CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G192CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nauka gry w szachy dla dzieci i dorosłych na osiedlu Chojny Dąbrowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>13&nbsp;750.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213261-c9ae67ebfdf1174201eb8c7a53a03db4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402213261, 'G192CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4940451326, 51.7330503387, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G192CD</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG199CD">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G199CD</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G199CD</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Plac zabaw dla dzieci przy ul. Podgórnej / Krochmalnej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny-Dąbrowa</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>391&nbsp;050.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213465-57d258c4d7d9c1963285d5a680740e9d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CD', 1402213465, 'G199CD');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4860258405, 51.7356822816, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G199CD</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

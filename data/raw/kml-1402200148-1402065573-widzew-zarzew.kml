@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-seledyn-cyrcle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTW017ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W017ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W017ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Tablica informacji pasażerskiej – Śmigłego Rydza – Milionowa, kierunek Zarzew</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>180&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200876-a486fd7774bd28900b1d80ee953c5e48" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402200876, 'W017ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4893285247, 51.7508969559, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W017ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW035ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W035ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W035ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Obniżenie krawężników na przejeździe rowerowym Lodowa / Dostawcza</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>26&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201674-68b0118665f7c0274cb4b5c10c546073" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402201674, 'W035ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5233448001, 51.7418849296, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W035ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW037ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W037ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W037ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Niciarniana - dość kałuży na drodze rowerowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>45&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201682-d2753596e2f12f79e5bbcfb74012134f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402201682, 'W037ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5113964723, 51.7529910010, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W037ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW049ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W049ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W049ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny Zarzew</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>95&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402202547-e85930ac72a62374e50de39e7bb7575d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402202547, 'W049ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5215291715, 51.7454735137, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W049ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW056ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W056ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W056ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Siłownia zewnętrzna z regulowanym obciążeniem</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>503&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204455-2d3c5a96afa766c1a4c2e5c93348d775" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402204455, 'W056ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4930246920, 51.7413190323, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W056ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW076ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W076ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W076ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Poprawa stanu technicznego oraz nowe instalacje na placu zabaw w parku Podolskim od strony al. Śmigłego-Rydza</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>753&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205769-dc84a6cb33d724ff89ac1c5d5cba09d9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402205769, 'W076ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4900186918, 51.7411041291, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W076ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW110ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W110ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W110ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczna nawierzchnia przy kościele Św. Anny</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>223&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209042-e86c98b07cf8ee6d601ae8614de27ef1" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402209042, 'W110ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4902825273, 51.7494100598, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W110ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW119ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W119ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W119ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> „Spotkajmy się przy Przędzalnianej 94A” – Etap II</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>334&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210864-3ae8b32409e34d0ab7193d57fb32bce6" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402210864, 'W119ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4876959897, 51.7483854513, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W119ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW121ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W121ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W121ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zarzew chce parkingu! Wyznaczenie miejsc postojowych przy ul. Łowickiej 12</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>314&nbsp;270.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210908-4eee42aedf3e220b149c1a97265793d2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402210908, 'W121ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4845112672, 51.7488618868, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W121ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW139ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W139ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W139ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wyginam ciało śmiało - joga w Parku Podolskim w sezonie letnim w 2027</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>7&nbsp;100.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211716-e51a0c86b28dab315e6b8a69a181c920" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402211716, 'W139ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4911264555, 51.7415037164, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W139ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW140ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W140ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W140ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Defibrylator AED przy ul. Milionowej 91</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>7&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211743-1c2fcb799c0eb3cad6308eb3a79dcc67" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402211743, 'W140ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4957218989, 51.7517864665, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W140ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW141ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W141ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W141ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zakup i montaż 10 automatycznych defibrylatorów AED na terenie osiedla Zarzew</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>130&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211801-2d1f720d7d2d320315b74f314570aea0" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402211801, 'W141ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4924571491, 51.7415591358, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W141ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW142ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W142ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W142ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Dodatkowe miejsca parkingowe na niezagospodarowanym terenie przy ul. Nurta - Kaszyńskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>426&nbsp;800.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211883-44eea03fc60232799932b31fccd95edf" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402211883, 'W142ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5064072423, 51.7478888658, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W142ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW159ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W159ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W159ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczna Tatrzańska – doświetlenie przejść dla pieszych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>151&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212405-0a28c2217d08ae2c1c2375b0b6a350f9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402212405, 'W159ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4926653802, 51.7501877501, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W159ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW190ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W190ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W190ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Chodnik przy Ogrodach Działkowych wzdłuż Nurta-Kaszyńskiego, Łódź Widzew - Zarzew</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213629-f2f0f8b328dc7e0e292758d254a4a263" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402213629, 'W190ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5078582605, 51.7461421833, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W190ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW196ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W196ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W196ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nauka gry w szachy dla dzieci i dorosłych na osiedlu Zarzew</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>13&nbsp;750.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213886-d7cd03e75c7379bee2df7923db8acd3c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402213886, 'W196ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4974200669, 51.7467404634, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W196ZA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW197ZA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W197ZA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W197ZA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Streetworkout ćwiczenia dla seniorów i dorosłych w Parku Podolskim. Zajęcia gimnastyczne i rehabilitacyjne/fizjoterapeutyczne z wykorzystaniem wagi własnego ciała #Sport #Rekreacja #Rozciąganie #Rehabilitacja #Zdrowy kręgosłup</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Zarzew</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>13&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213889-2615463e5b7ee9f067829cf27ac5db02" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ZA', 1402213889, 'W197ZA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4900789211, 51.7414789870, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W197ZA</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

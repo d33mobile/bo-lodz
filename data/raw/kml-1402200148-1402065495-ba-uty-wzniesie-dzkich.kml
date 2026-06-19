@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-blue-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTB069WL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B069WL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B069WL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zagospodarowanie skweru na działce 5/4 przy łączniku ul. Serwituty pod lasem</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Wzniesień Łódzkich</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>125&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203109-5df468e9cedcab6f84c9d53425626437" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'WL', 1402203109, 'B069WL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5056667232, 51.8574199971, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B069WL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB087WL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B087WL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B087WL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Budowa oświetlenia okablowaniem ziemnym ul. Aksamitnej od ul. Okólnej w kierunku ul. Jana i Cecylii</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Wzniesień Łódzkich</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>175&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205424-bdb9b047df5879dff6192ebd39c48b25" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'WL', 1402205424, 'B087WL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5370144255, 51.8284981704, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B087WL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB088WL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B088WL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B088WL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ciąg dalszy budowy oświetlenia ul. Sawickiego od nr 20 w kierunku ul. Moskule (okablowaniem ziemnym)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Wzniesień Łódzkich</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>117&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205459-b2470e382b3dfed9cd60315ccf6b9fd7" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'WL', 1402205459, 'B088WL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5289767646, 51.8346612283, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B088WL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB089WL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B089WL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B089WL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ciąg dalszy remontu ul. Sawickiego od nr 14 w kierunku ul. Moskule</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Wzniesień Łódzkich</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>60&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205482-f55a207dd133dfb807f1f884ad51afe9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'WL', 1402205482, 'B089WL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5297010014, 51.8325098270, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B089WL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB140WL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B140WL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B140WL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Piknik Sąsiedzki „Od małego do dużego” – integracja mieszkańców Osiedla Wzniesień Łódzkich</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Wzniesień Łódzkich</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>27&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211069-bd9bdcec5a79eac0b794d0c796eb9d7b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'WL', 1402211069, 'B140WL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5228621008, 51.8375874310, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B140WL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB141WL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B141WL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B141WL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświetlenie 3 latarniami ul. Gadomskiego od wjazdu od ul. Żółwiowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Wzniesień Łódzkich</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>83&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211082-cb31daa90a0f0d8ed539c6bc0b4bfdd3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'WL', 1402211082, 'B141WL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5255169808, 51.8459248258, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B141WL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB143WL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B143WL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B143WL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zakup gier planszowych i logicznych do świetlicy osiedlowej przy ul. Moskule 27a</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Wzniesień Łódzkich</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>3&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211099-b9f093ad7b63d99a42babdd466ee9827" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'WL', 1402211099, 'B143WL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5228251435, 51.8376005884, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B143WL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB150WL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B150WL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B150WL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bieg Powstańców Styczniowych po terenie osiedla Wzniesień Łódzkich – Pamięć w ruchu po Wzniesieniach Łódzkich</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Wzniesień Łódzkich</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211129-a5df4e6f91a103c5abf4c4f07a896fff" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'WL', 1402211129, 'B150WL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5165389903, 51.8437056204, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B150WL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB152WL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B152WL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B152WL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zakup automatycznego defibrylatora zewnętrznego (AED) do świetlicy – ul. Moskule 27a</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Wzniesień Łódzkich</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>13&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211139-0d0bac1a7cccc928933336f4e6f68c3c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'WL', 1402211139, 'B152WL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5228974863, 51.8375650591, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B152WL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB153WL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B153WL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B153WL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Cykl bezpłatnych zajęć rozwojowych dla dzieci w świetlicy osiedlowej przy ul. Moskule 27a – sztuka, technologia i kreatywność</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Wzniesień Łódzkich</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>25&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211151-543b05f7c8a6f2d4da1169f9190a1e36" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'WL', 1402211151, 'B153WL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5228672297, 51.8376130962, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B153WL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB165WL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B165WL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B165WL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bieg na orientację po terenie osiedla Wzniesień Łódzkich</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Wzniesień Łódzkich</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>6&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212081-98fd18fe6b12de1ac36e97f2b3d71de0" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'WL', 1402212081, 'B165WL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5055716542, 51.8577110899, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B165WL</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB253WL">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B253WL</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B253WL</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Aktywny Senior na Wzniesieniach – cykl bezpłatnych zajęć w świetlicy osiedlowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Wzniesień Łódzkich</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>28&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213805-554b4bb05b9247d54758af5563f0fb39" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'WL', 1402213805, 'B253WL');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5228674251, 51.8376155137, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B253WL</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

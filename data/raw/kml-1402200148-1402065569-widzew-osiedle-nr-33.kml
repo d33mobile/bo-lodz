@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-seledyn-cyrcle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTW010NR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W010NR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W010NR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczna Olechowska - budowa przejść dla pieszych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Osiedle nr 33</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>120&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200719-35fa87ba18f57306385af55c05a70c81" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NR', 1402200719, 'W010NR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5475323155, 51.7350592551, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W010NR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW011NR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W011NR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W011NR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Tablica informacji pasażerskiej na przystanku przy Dellu</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Osiedle nr 33</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>180&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200725-9cf8e606ddc92844fc18d5e2733db7eb" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NR', 1402200725, 'W011NR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5692503941, 51.7338368817, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W011NR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW012NR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W012NR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W012NR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczniejsze osiedle - Budowa monitoringu miejskiego na ul. Informatycznej i Rondzie Łódzkich Motocyklistów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Osiedle nr 33</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>173&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200728-ca3feef203de9b029be0e21a7e31849c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NR', 1402200728, 'W012NR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5834983426, 51.7353944241, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W012NR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW091NR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W091NR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W091NR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> „Senior i Junior w Ruchu – Mini Siłownia na Osiedlu 33”</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Osiedle nr 33</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>315&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207515-0e8ffdd8606308b90cd4629d13208674" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NR', 1402207515, 'W091NR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5991942471, 51.7398275513, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W091NR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW115NR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W115NR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W115NR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nordic walking na osiedlu nr 33</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Osiedle nr 33</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>21&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209612-ac494b05b3110335839dadcf4153a29f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NR', 1402209612, 'W115NR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5835631613, 51.7387168389, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W115NR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW116NR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W116NR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W116NR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Latarnie przy ulicy Dorabialskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Osiedle nr 33</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>66&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209858-dad95fd50c5c81b7399cde1b1cd71a2e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NR', 1402209858, 'W116NR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5869883207, 51.7379594662, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W116NR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW191NR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W191NR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W191NR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Dwie ławki na ul. Łokietkówny</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Osiedle nr 33</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213720-b245847640eef135ac6161742e4765ab" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NR', 1402213720, 'W191NR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5735801867, 51.7367057225, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W191NR</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

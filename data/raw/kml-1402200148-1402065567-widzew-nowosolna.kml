@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-seledyn-cyrcle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTW058NO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W058NO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W058NO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rozbudowa parkingu miejskiego w Rynku Nowosolna dla potrzeb nowego przedszkola.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Nowosolna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>250&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204860-6c877cf35943842c853fe384186d4821" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NO', 1402204860, 'W058NO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5892904493, 51.7931307423, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W058NO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW061NO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W061NO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W061NO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ciekawość to pierwszy stopień do... Zorganizowanie cyklu edukacyjnych wykładów, spotkań dla mieszkańców osiedla.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Nowosolna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>24&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204938-0edfb0772ac93e67632af860f33acfc3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NO', 1402204938, 'W061NO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5910235475, 51.7943311162, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W061NO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW080NO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W080NO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W080NO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny relaks w Nowosolnej. Budowa monitoringu placu zabaw i boiska  przy ulicy Oliwkowej.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Nowosolna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>260&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206181-0b9bbba89991ced01c61f44f6b862f82" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NO', 1402206181, 'W080NO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5998895451, 51.7972416354, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W080NO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW081NO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W081NO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W081NO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont chodnika na ulicy Pomorskiej. Kontynuacja do granicy z osiedlem Mileszki.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Nowosolna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>510&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206197-81c2fd0da25ca2abedc9ceed1eff62ad" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NO', 1402206197, 'W081NO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5893999634, 51.7911216760, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W081NO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW106NO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W106NO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W106NO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nordic walking w Nowosolnej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Nowosolna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>21&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208458-9ac2ce9c2f21ac130dfc22686887116f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NO', 1402208458, 'W106NO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5972759160, 51.7933703324, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W106NO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW162NO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W162NO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W162NO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Sowie wzgórze - nowe gry i tablice oraz odnowienie ścieżki edukacyjno ekologicznej przy ul. Byszewskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Nowosolna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Edukacja, dzieci i młodzież</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>126&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212549-59d3cb3735aaba957a11805f8967ea79" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NO', 1402212549, 'W162NO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.6018731160, 51.7974326967, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W162NO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW163NO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W163NO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W163NO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Piłkołapy – bezpieczne boisko przy ul. Oliwkowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Nowosolna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>82&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212554-2abac9062134011c583647c1a9333cfc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NO', 1402212554, 'W163NO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.6002069274, 51.7966890236, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W163NO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW164NO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W164NO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W164NO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> 3.	Sowie wzgórze – tyrolka przy ul. Oliwkowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Nowosolna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>150&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212557-ebff1e615d91fae403e6c37e5970dc2f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NO', 1402212557, 'W164NO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.6007648990, 51.7962204572, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W164NO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW167NO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W167NO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W167NO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Sowie wzgórze - łąka dla owadów przy ul. Oliwkowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Nowosolna</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>90&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212585-3582cfd810035104beaf971a6d324f92" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'NO', 1402212585, 'W167NO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.6007439431, 51.7968419217, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W167NO</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

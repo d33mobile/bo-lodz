@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-seledyn-cyrcle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTW070MI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W070MI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W070MI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kolorowa strefa zabawy dla dzieci na Mileszkach</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Mileszki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>248&nbsp;300.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205336-09ac42cd2d62f197846f4639ac6cd934" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'MI', 1402205336, 'W070MI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5872663029, 51.7564830747, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W070MI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW071MI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W071MI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W071MI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona strefa rekreacji i wypoczynku na Mileszkach</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Mileszki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>144&nbsp;300.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205374-5cd77bc6eede3d5b6fe29b219a5a21f6" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'MI', 1402205374, 'W071MI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5872436950, 51.7565092862, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W071MI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW105MI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W105MI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W105MI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Tutaj chodzę, bo tu mieszkam - nordic walking na Mileszkach</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Mileszki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>21&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208431-cd5d571f341f4083a7c0912acca55dab" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'MI', 1402208431, 'W105MI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5741762989, 51.7706313374, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W105MI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW154MI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W154MI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W154MI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zakup wyposażenia osobistego dla strażaków OSP Łódź-Wiączyń; Łódź, ul. Malownicza 212, siedziba OSP</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Mileszki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>178&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212272-f431244698e675c636ca0d47b1700607" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'MI', 1402212272, 'W154MI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.6206123986, 51.7679845103, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W154MI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW181MI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W181MI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W181MI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> OSP Łódź-Mileszki - Remont i modernizacja strażnicy (etap II)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Mileszki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>370&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213190-b7787c2d0833accb9c7f3044e07c3545" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'MI', 1402213190, 'W181MI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5705000580, 51.7701974685, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W181MI</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW182MI">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W182MI</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W182MI</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> OSP Łódź-Mileszki - zapewnienie bezpieczeństwa energetycznego poprzez zakup agregatu prądotwórczego.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Mileszki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>150&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213194-899c2a9681b13be42388a7590fc7360a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'MI', 1402213194, 'W182MI');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5705840327, 51.7701627650, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W182MI</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

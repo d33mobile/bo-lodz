@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-seledyn-cyrcle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTW005ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W005ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W005ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Komfort dzieci w drodze do szkoły i przedszkola- chodnik od ulicy Halnej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>120&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200678-35bdaa16cae6fa4c7211284efd58145c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402200678, 'W005ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5359116683, 51.7799323034, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W005ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW006ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W006ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W006ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Monitoring dla naszej społeczności - etap drugi na osiedlu Stoki - Sikawa-Podgórze</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>205&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200684-ff6aaf8d8227da7055ca6419f6821c98" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402200684, 'W006ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5345188090, 51.7796201962, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W006ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW008ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W008ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W008ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Strefa gier plenerowych przy ul. Hyrnej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>82&nbsp;700.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200696-cf08ec01790fd0b8e066021b8a970c00" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402200696, 'W008ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5410602566, 51.7789405141, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W008ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW022ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W022ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W022ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont zieleńców na ul. Małachowskiego - nasadzenia drzew i krzewów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201104-630e02b0a6e1ddefb3fddeb9b9320338" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402201104, 'W022ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5026969629, 51.7711686645, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W022ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW032ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W032ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W032ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświetlamy Stoki część trzecia.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>75&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201493-650fabc6e2a16ba5f3a3282a0b872f89" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402201493, 'W032ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5390641686, 51.7761942811, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W032ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW043ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W043ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W043ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Przyjazne dla pieszych skrzyżowanie Giewont / Zbocze / Pieniny / Graniowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>120&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201787-302d1df53d3998e88835ef20d9940898" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402201787, 'W043ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5276813506, 51.7787610099, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W043ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW050ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W050ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W050ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne Stoki</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402202575-ba5f1428e95e90190c2afbdb62d1841f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402202575, 'W050ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5155649438, 51.7799256512, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W050ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW054ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W054ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W054ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zamiast zbójeckich ścieżek – porządny chodnik na Janosika!</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>220&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204404-5eb028e3cf0225cd24965a8631dcd407" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402204404, 'W054ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5242338213, 51.7908369977, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W054ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW067ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W067ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W067ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Serce Stoków bije bezpieczniej - Defibrylator AED</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Zdrowie i pomoc społeczna</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>10&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205048-ab0a60b97e2ae37c6dd85195e4fd1bf8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402205048, 'W067ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5332022003, 51.7809678710, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W067ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW093ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W093ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W093ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bądź bezpieczna - zajęcia z samoobrony dla kobiet na Stokach</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>14&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207898-b17c48812075ee21439f32d4d3594840" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402207898, 'W093ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5325993674, 51.7797515932, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W093ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW096ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W096ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W096ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kino plenerowe w Parku im. gen. M. Zaruskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>90&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207949-079f1e9628f57912d7582eb8d54a109c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402207949, 'W096ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5323811938, 51.7801288931, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W096ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW131ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W131ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W131ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Poprawa dostępności wejścia i zejścia głównego w Parku Zaruskiego w Łodzi dla osób niepełnosprawnych i rodziców z wózkami dziecięcymi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>190&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211255-5f4a361f299ea553edf6c0e7e70ea031" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402211255, 'W131ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5304581087, 51.7801725106, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W131ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW132ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W132ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W132ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> MAMY Przestrzeń w Parku Baden-Powella</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211268-299572e9c3449b7f724502de385dc81a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402211268, 'W132ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5024530158, 51.7683087818, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W132ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW145ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W145ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W145ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ekologiczne osiedle etap 2 – rośliny cebulowe (tulipany i żonkile) w Parku im. Zaruskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212041-57262fd7bfe0068778b28fa305a80af8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402212041, 'W145ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5305458646, 51.7816360858, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W145ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW146ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W146ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W146ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kwiaty na drogi – zasadzenie roślin cebulowych (tulipany, żonkile) wzdłuż ul. Brzezińskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>161&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212065-46b6db09e8c4b003daf076854c36d12c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402212065, 'W146ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5103388015, 51.7965139023, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W146ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW147ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W147ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W147ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bieg na orientację na Stokach-Sikawie-Podgórzu</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>6&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212085-9021b1d4e8cbce3830fc8bcf6109a5dc" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402212085, 'W147ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5327937409, 51.7807611590, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W147ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW150ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W150ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W150ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Pumptrack dla Widzewa – budowa toru dla rowerów, hulajnóg, rolek, wrotek na terenie Motodromu przy ul. Małachowskiego w Parku Baden-Powella</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>500&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212108-0e5eb43ab7b5a5cad4a9fa0108ce50cd" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402212108, 'W150ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5044189688, 51.7711580939, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W150ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW172ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W172ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W172ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielone serce Stoków - odzyskany skwer przy aptece</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>308&nbsp;850.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212602-d8f4f0c31d4626c51f06c74862b3bb49" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402212602, 'W172ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5306769890, 51.7764982006, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W172ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW176ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W176ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W176ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> MAMY Przestrzeń w Parku Zaruskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212699-602fa809e2295986c2316c50265f081b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402212699, 'W176ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5319899356, 51.7805406584, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W176ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW180ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W180ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W180ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wiedza, gotowość, działanie - multimedialne centrum szkolenia OSP i MDP z myślą o bezpieczeństwie społeczności lokalnej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>548&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213109-1b5c7b7827dbb911e3b1f5b1ac950a3d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402213109, 'W180ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5239175620, 51.7949605533, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W180ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW184ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W184ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W184ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Tor OCR „Ninja” – parkowy tor przeszkód dla dzieci, młodzieży i dorosłych w Parku Zaruskiego (obok placu zabaw).</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>490&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213227-5c445b71b0765864d30835585cde956a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402213227, 'W184ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5302699155, 51.7796048159, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W184ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW193ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W193ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W193ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Streetworkout Park (do ćwiczeń z wagą własnego ciała) w Zieleńcu przy ul Junackiej (Stoki Sikawa Podgórze) dla osób sprawnych i niepełnosprawnych: dla młodzieży, dorosłych i seniorów. Strefa „bez barier”: #Sport #Rekreacja #Rozciąganie #Rehabilitacja</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>440&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213767-c6bd7b55a35857adf0b4f35499889284" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402213767, 'W193ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5215391966, 51.7949653123, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W193ST</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW194ST">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W194ST</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W194ST</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Siłownia streetworkout i plenerowa dla sprawnych i niepełnosprawnych w Parku Zaruskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Stoki-Sikawa-Podgórze</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>495&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213795-63bbfd6889d665818fc34110c319ee2e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'ST', 1402213795, 'W194ST');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5306343742, 51.7793235074, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W194ST</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

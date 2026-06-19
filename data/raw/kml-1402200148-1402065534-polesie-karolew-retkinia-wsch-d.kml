@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-purple-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTP033KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P033KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P033KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona al. Bandurskiego - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201141-bb37125597a6d7273b5d035e366a2b1b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402201141, 'P033KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4204751045, 51.7526038668, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P033KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP034KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P034KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P034KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Kusocińskiego - drzewa i krzewy wzdłuż drogi - Karolew Retkinia Wschód</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201147-55a1382e361b7ecf0c9286fb991b0046" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402201147, 'P034KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4142669610, 51.7518907619, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P034KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP035KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P035KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P035KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Retkińska - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>70&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201153-f9ff0902fb541410b0f487bf5c418cd3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402201153, 'P035KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4054471264, 51.7457912993, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P035KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP039KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P039KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P039KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona al. Wyszyńskiego - drzewa i krzewy wzdłuż drogi - Karolew</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201180-3e67a96ed7eb11ef8ada59eb39b2cb83" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402201180, 'P039KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4016287663, 51.7471932158, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P039KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP050KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P050KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P050KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Monitoring miejski na terenie osiedla zlokalizowanego między ulicami Retkińską, Wyszyńskiego, Armii Krajowej i Kusocińskiego (etap IV)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>370&nbsp;800.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201249-f0d5e241b08f13268a442f2ea5db654f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402201249, 'P050KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4004656264, 51.7512377008, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P050KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP057KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P057KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P057KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kwiatowy krajobraz wzdłuż ul. Wileńskiej – I ETAP</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>9&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201792-ef9cb9c44515dd807a6bbb7cb6f3ca3d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402201792, 'P057KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4161780891, 51.7548470623, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P057KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP058KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P058KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P058KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Skrzynki bookcrossingowe na Osiedlu Karolew-Retkinia Wschód</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>51&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201797-19f43bac7a6c43a96c82930d87cd2a5d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402201797, 'P058KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4045093487, 51.7495826845, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P058KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP064KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P064KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P064KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Monitoring Miejski na terenie osiedla między ulicami Kusocińskiego, Bandurskiego, Wyszyńskiego i Retkińska III etap</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>205&nbsp;800.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402202879-c44358c8b2e9fd41e211844791455dc1" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402202879, 'P064KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4138062000, 51.7498007757, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P064KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP065KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P065KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P065KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Utwardzenie terenu wzdłuż ulicy Bandurskiego (I etap)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>690&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203194-f5d2026ba05d42892e3552ccf34b9d85" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402203194, 'P065KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4174340848, 51.7493607125, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P065KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP079KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P079KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P079KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny Karolew - Retkinia Wschód</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205865-d223e2d763908ac66ee56f4f3be5fe91" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402205865, 'P079KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4138554982, 51.7547593057, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P079KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP086KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P086KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P086KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielony labirynt iluzji - tyrolka na ul. Wileńskiej - Żubrowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>233&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206187-ca00f9bfda698a648503cb4455110d6a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402206187, 'P086KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4295341462, 51.7525846112, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P086KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP123KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P123KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P123KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kowieńska kolorowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>8&nbsp;800.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209442-0d31bd7d4c4fd3869a0041709912e54c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402209442, 'P123KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4204723721, 51.7550635965, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P123KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP126KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P126KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P126KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Króla pod kościołem z krzewami</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>4&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209492-3baf80452e9743884e891ee4c57bf97d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402209492, 'P126KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4181639366, 51.7500694820, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P126KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP127KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P127KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P127KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Miejsca postojowe ul. Wileńska na odcinku ul. Retkińska/Kozietulskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209499-846a99d348b3012f82291cef0519ffd3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402209499, 'P127KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4123648691, 51.7558471683, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P127KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP129KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P129KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P129KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Stojaki rowerowe na Retkińskiej przy pawilonach</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>8&nbsp;900.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209506-1fdf4ed90fd99cf9973b70772b15c1ba" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402209506, 'P129KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4054581324, 51.7466346702, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P129KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP130KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P130KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P130KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> New przystanek -> Wileńska Park</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>195&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209519-07a0eb4aaa6af58ae0e0ac8ccb313e39" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402209519, 'P130KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4127911060, 51.7551166427, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P130KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP134KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P134KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P134KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Doświetlamy "Ogrody na zieleńcu" - zagospodarowanie terenu w rejonie ulic: Kusocińskiego-Króla-Bandurskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209991-886c6b2c883d18ba50045db110a7d92f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402209991, 'P134KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4155231099, 51.7512024811, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P134KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP137KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P137KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P137KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Alejka parkowa w rejonie ulicy Wł. Króla</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>95&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210041-937fe0d0e4eabb9c50381622b04816b7" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402210041, 'P137KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4172123891, 51.7505375610, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P137KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP138KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P138KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P138KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Sadzimy drzewa przy ul. Kusocińskiego - pomiędzy ul. Rajdową a al. Bandurskiego - III etap</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210120-0da41e9b9b1bd8edd4f3005021dab776" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402210120, 'P138KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4154987306, 51.7517798577, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P138KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP139KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P139KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P139KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Przejście dla pieszych na ul. Kusocińskiego pomiędzy ul. Rajdową a al. Bandurskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210170-4eb4aca9e3483c6444600064e141eb57" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402210170, 'P139KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4163537192, 51.7517025888, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P139KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP142KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P142KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P142KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Naprawa nawierzchni chodnika przyległego wzdłuż szeregu drzew oraz parkingu samochodowego przy ulicy Wyszyńskiego.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>749&nbsp;790.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210951-ab68ac9ac24b1dd6de981d45eb652dd4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402210951, 'P142KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4138905700, 51.7472769127, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P142KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP144KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P144KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P144KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kiss and ride ul Janusza Kusocińskego  / Józefa Babickiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>77&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210995-5dcba17e68dccaf5d36afa8187babf27" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402210995, 'P144KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4001221584, 51.7522497498, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P144KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP160KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P160KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P160KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona Wyspa Osiedla Karolew - Retkinia Wschód</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>65&nbsp;450.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212398-4f26ba03bdaf33a5b7ccf910933ed8a7" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402212398, 'P160KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4054870807, 51.7477386194, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P160KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP166KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P166KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P166KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zieleń 365 - zielona przestrzeń przed Ogrodem Botanicznym</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>37&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212494-3bb80c689c3edc77e238f24533b34537" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402212494, 'P166KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4121520064, 51.7545746141, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P166KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP192KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P192KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P192KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne przejście dla pieszych na ul. Wróblewskiego dzięki dedykowanemu oświetleniu</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>49&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213327-7a23b5b46e79f4b47a5f37a11a6b2e2a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402213327, 'P192KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4249452933, 51.7491357701, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P192KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP198KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P198KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P198KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświetlenie Retkińskiej Moreli przy skrzyżowaniu ul. Maratońskiej i al. Waltera-Jankego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>66&nbsp;200.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213416-c4af241deb155f012062dddb7ca7aaa3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402213416, 'P198KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4194700513, 51.7448505585, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P198KR</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP227KR">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P227KR</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P227KR</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Witajcie Wakacje na Karolewie! – rodzinny piknik na zakończenie roku szkolnego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Karolew-Retkinia Wschód</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213831-8180a2d5b597ff08d2f91ef1b0b32c52" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KR', 1402213831, 'P227KR');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4160531592, 51.7515053209, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P227KR</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

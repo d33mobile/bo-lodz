@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-blue-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTB052LA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B052LA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B052LA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wiata przystankowa na Łagiewnickiej/Jaskółczej (kier. Modrzew)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Łagiewniki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201663-33753a9601b829339137a7fdf83809e4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'LA', 1402201663, 'B052LA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4675270312, 51.8412675721, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B052LA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB086LA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B086LA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B086LA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Dokończenie budowy oświetlenia ulicy Przepiórczej z okablowaniem ziemnym</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Łagiewniki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>66&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205110-caf770d7e438d9e10dc4c7243d0c97a4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'LA', 1402205110, 'B086LA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4544162721, 51.8356908356, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B086LA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB164LA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B164LA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B164LA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bieg na orientację na osiedlu Łagiewniki</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Łagiewniki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>6&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212077-b72b81795de32a67f5cfe407054d0f5a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'LA', 1402212077, 'B164LA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4748368923, 51.8472205290, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B164LA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB172LA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B172LA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B172LA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont sali Ochotniczej Straży Pożarnej Łódź-Łagiewniki</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Łagiewniki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>313&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212210-a842a7512b8b1702abf1187d242c6358" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'LA', 1402212210, 'B172LA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4649418059, 51.8411553324, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B172LA</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB197LA">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B197LA</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B197LA</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nowy chodnik i słupki na skrzyżowaniu Czapli-Łagiewnicka - wstrzymajmy nielegalne parkowanie ograniczające widoczność</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Łagiewniki</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>90&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212679-7ddde12a997ea3ace552c72d96c4c0af" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'LA', 1402212679, 'B197LA');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4599585556, 51.8251433340, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B197LA</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

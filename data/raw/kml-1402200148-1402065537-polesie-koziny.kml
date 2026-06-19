@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-purple-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTP043KO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P043KO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P043KO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont zieleńców na Kasprzaka - nasadzenia drzew i krzewów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Koziny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>45&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201211-62b3ec5d33b228dfb6e7cf8555c0ec8d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KO', 1402201211, 'P043KO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4272370843, 51.7751771314, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P043KO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP071KO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P071KO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P071KO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kameralna strefa relaksu ul. Ossowskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Koziny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>122&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204477-27bb489bb77d4774453a1bc7c0e0e3ba" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KO', 1402204477, 'P071KO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4243054124, 51.7782098652, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P071KO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP072KO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P072KO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P072KO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Stół do Teqballa ul. Drewnowska</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Koziny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>99&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204481-2a0bb97dc264bfee0dc2d36532684be3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KO', 1402204481, 'P072KO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4306908592, 51.7810424614, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P072KO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP073KO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P073KO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P073KO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Tor przeszkód Parkour ul. Drewnowska</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Koziny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>254&nbsp;350.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204485-57e15b1c0865fa401d22ddadf27f830c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KO', 1402204485, 'P073KO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4314569627, 51.7809925079, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P073KO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP074KO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P074KO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P074KO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Łąka kwietna ul. Ossowskiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Koziny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>9&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204489-8861f7cc4e90b2ecb463651d359853ea" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KO', 1402204489, 'P074KO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4238693156, 51.7767738284, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P074KO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP075KO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P075KO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P075KO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Tulipanowe - love: polana z roślin cebulowych na Kozinach</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Koziny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>22&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205005-1326085a374ae42a44664e8b356e88c8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KO', 1402205005, 'P075KO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4226713911, 51.7738150817, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P075KO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP080KO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P080KO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P080KO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne Koziny</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Koziny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205951-595bf43a9f0bcf6674a65ceddd4526a0" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KO', 1402205951, 'P080KO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4269689055, 51.7776836817, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P080KO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP089KO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P089KO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P089KO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Łatwiejszy przejazd, wygodniejsze parkowanie: równoległa zatoka parkingowa na wysokości nr Pietrusińskiego 18/22</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Koziny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>170&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206294-9cf42e09e6e428e5ec01c91eed86cbab" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KO', 1402206294, 'P089KO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4310316127, 51.7770245380, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P089KO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP100KO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P100KO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P100KO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont nawierzchni drogi wewnętrznej do posesji al. Włókniarzy 192 -194</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Koziny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>217&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207088-7058a10b2b6aafb74260abaed6f7cffe" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KO', 1402207088, 'P100KO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4209195178, 51.7747188463, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P100KO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP111KO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P111KO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P111KO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny chodnik na Odolanowskiej – od nr 3 do ul. Drewnowskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Koziny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>230&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207577-c99e59d5d8860dd33bf7ecc13c994ea9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KO', 1402207577, 'P111KO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4328269946, 51.7799449366, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P111KO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP120KO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P120KO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P120KO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Utworzenie miejsc postojowych i dojazdu między blokami - ul. Górna 29/31 i ul. Okrzei 4/12</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Koziny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>303&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209167-5ef32470188af9b2014e0e945db1e3e3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KO', 1402209167, 'P120KO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4291899235, 51.7776530812, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P120KO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP133KO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P133KO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P133KO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Mini - parking na 10 aut .   Koziny – między Okrzei 13A a 15/17</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Koziny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>173&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209777-02ec539a9d6b4748c465a0d8bfed7e4a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KO', 1402209777, 'P133KO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4301709258, 51.7780975088, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P133KO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP193KO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P193KO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P193KO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Gwiazdkowe koziny - iluminacja świąteczna na Kozińskich fontannach</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Koziny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>60&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213333-96a90549e1666d824d36dde606c23fca" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KO', 1402213333, 'P193KO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4248395745, 51.7768629516, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P193KO</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP194KO">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P194KO</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P194KO</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kino letnie na Kozinach!</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Koziny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>25&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213346-2301fa4dfa13dab842b633bd70c25b3f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'KO', 1402213346, 'P194KO');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4251278050, 51.7767274731, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P194KO</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

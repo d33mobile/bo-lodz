@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-purple-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTP001LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P001LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P001LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne rondo ul. Pienista/ul. Obywatelska - monitoring miejski na Lublinku</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>123&nbsp;800.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200514-80356aceae2de0c0bd6d735637d1b607" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402200514, 'P001LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4177370698, 51.7409343476, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P001LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP003LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P003LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P003LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zieleniec "Zielona Lublinkowa Oaza"- wzdłuż bloków przy ul. Pienista 42 do ul. Pienista 48a - zakup i ustawienie koszy na śmieci i tablicy informacyjnej.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>17&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200541-8ed7e9f3a947482117fac15ce3540c7e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402200541, 'P003LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4091067609, 51.7359914651, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P003LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP005LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P005LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P005LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne skrzyżowanie ul. Pienista/ul. Maczka - monitoring miejski na Lublinku</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>123&nbsp;800.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200551-a8dba1d73ba91a8bddca6f410f7fca9e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402200551, 'P005LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4049777100, 51.7338853168, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P005LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP007LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P007LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P007LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Przejście dla pieszych przy przystanku MPK Maczka-Pienista NŻ (1117)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>80&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200566-54a58cd853d986834a9c8fa28b236dda" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402200566, 'P007LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4049801051, 51.7328534908, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P007LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP015LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P015LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P015LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rusz głową i ciałem – tor linowy dla starszych dzieci na placu zabaw przy ul. Maczka (obok osiedla Enklawa Natury)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>90&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200940-c74ecd36719d4ffd87a5f56e574eab38" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402200940, 'P015LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4047354263, 51.7335559125, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P015LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP018LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P018LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P018LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny dojazd z/do osiedla – oświetlenie LED ul. Plocka od Pienistej (etap I)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>151&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200979-d09ec5d73cfb78b0b7ac96d2b01aeb23" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402200979, 'P018LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3958129525, 51.7301304516, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P018LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP030LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P030LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P030LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Romantyczna huśtawka dla dwojga przy stawach Bielice na Uroczysku Lublinek</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>17&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201059-23c8c3e3e15462f5f1a1601f9fb9bb1b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402201059, 'P030LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3818419187, 51.7292148190, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P030LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP031LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P031LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P031LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nasadzenie klonów i uzupełnienie zieleni wzdłuż chodnika  przy ul. Pienistej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>60&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201097-771188e31195efd4b3a76566fa9d44fb" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402201097, 'P031LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3962964893, 51.7298681810, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P031LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP046LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P046LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P046LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Obywatelska - drzewa i krzewy wzdłuż drogi - Lublinek</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201223-9b683855b5d02cfc842c81fcf3c1803d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402201223, 'P046LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4309500610, 51.7369340313, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P046LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP048LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P048LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P048LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Sanitariuszek - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>70&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201229-2ea0231a4975f4bc635c8ae8f6f78e75" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402201229, 'P048LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3452318340, 51.7309645799, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P048LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP056LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P056LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P056LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Chodnik od przystanku MPK Maczka-Pienista (0500) do wjazdu do ul. Maczka 2</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201754-e68126bb1759f5adb49c693fea47effa" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402201754, 'P056LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4051197659, 51.7330308132, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P056LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP060LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P060LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P060LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Letni program spokojnego ruchu na świeżym powietrzu – Tai Chi i Joga na Uroczysku Lublinek</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>7&nbsp;300.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201809-d455373dcde52c3b0dc8880a45590bd3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402201809, 'P060LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3832875718, 51.7301800767, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P060LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP062LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P062LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P062LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Slow jogging – zdrowy i bezpieczny trucht na świeżym powietrzu na Uroczysku Lublinek</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>5&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201817-d89933248e603ab266c2b3846fd06acf" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402201817, 'P062LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3806257826, 51.7277864872, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P062LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP081LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P081LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P081LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny Lublinek - Pienista</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402205968-e94ebfcd93bf3fa063a8ffad1abadac0" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402205968, 'P081LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4046241650, 51.7328991266, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P081LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP088LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P088LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P088LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nasadzenia drzew i krzewów wzdłuż ul. Pienistej 41</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>130&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206231-2b906568ca361587ddcc629276fece88" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402206231, 'P088LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4059033857, 51.7351576687, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P088LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP090LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P090LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P090LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Uporządkowanie działki 51/4  Obr. P33 po budowie chodnika do ul. Pienistej - kontynuacja projektu B.O.2024/25</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>56&nbsp;100.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206367-1f8d925216b7105982336e0da4433c7a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402206367, 'P090LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4078016356, 51.7363036487, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P090LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP091LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P091LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P091LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zrelaksuj się na Lublinku - odpocznij na ławce wśród zieleni c.d.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>8&nbsp;100.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206377-81e059a4dfcee1d55c9fce66ed453e9a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402206377, 'P091LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4217709396, 51.7398775970, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P091LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP095LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P095LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P095LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Wygodny i bezpieczny spacer ul. Plocka - budowa brakującego chodnika</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>140&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206699-6105fdbae37dd50d02d4d8f3e4cd701d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402206699, 'P095LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3957233630, 51.7299866713, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P095LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP104LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P104LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P104LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Widzę Cię! - Aktywne przejście dla pieszych - ulica Pienista</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>91&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207328-0300654641f6337e7b3cf698ced30896" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402207328, 'P104LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4163650088, 51.7402439638, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P104LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP105LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P105LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P105LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> PING-PONG po sąsiedzku - Montaż zewnętrznego stołu do tenisa stołowego przy ul. Dennej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>44&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207333-98595384507eaabb0f0e9e9772cbb6f6" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402207333, 'P105LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4158946156, 51.7389966208, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P105LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP106LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P106LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P106LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne dzieci - Monitoring placu zabaw i strefy rekreacyjno-sportowej przy ulicy Dennej. Etap I</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>132&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207341-d9908e18cfe47b6d9f569677ecc61642" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402207341, 'P106LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4157844031, 51.7392047565, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P106LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP112LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P112LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P112LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rewitalizacja Uroczyska Lublinek.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>90&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402208090-42981abc040925e2e66f142084a1ee2c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402208090, 'P112LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3826605333, 51.7288673510, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P112LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP150LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P150LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P150LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielony zakątek przy Biedronce – strefa relaksu dla mieszkańców Lublinka</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>113&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212149-60074327d14e8e1e406ec26b69e94f46" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402212149, 'P150LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4031050191, 51.7332894218, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P150LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP157LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P157LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P157LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> ZIELONO MI! Przejście, chodnik i parking dla spacerowiczów przy ulicy Pienistej (skrzyżowanie z Komandorską) - część druga.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>150&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212316-d8f56b0435712088f5fe71e3b9f4e9eb" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402212316, 'P157LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4105513320, 51.7373271162, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P157LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP164LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P164LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P164LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Park na czetry łapy! - Wybieg dla psów przy ulicy Maczka i parku Zielony Lublinek</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>260&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212459-e9495780cd96b6afcdd203f19789d99c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402212459, 'P164LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4045268278, 51.7292113519, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P164LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP165LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P165LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P165LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> "Kawa z sąsiadem" - Piknik integracyjny mieszkańców osiedla Lublinek - Pienista</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>27&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212486-4aeb4411017b088c46020cc8cc99eb81" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402212486, 'P165LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4159840833, 51.7390412325, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P165LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP179LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P179LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P179LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> "Nowa wiata przystankowa: Pienista-Komandorska (1667)"</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>45&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212919-68ad2f77b3958ccc284b9bff301be053" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402212919, 'P179LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4075837336, 51.7359307258, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P179LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP180LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P180LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P180LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> "Nowa wiata przystankowa: Maczka-Pienista NŻ (1117)"</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>35&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212928-75ef7c3c1e0d08422a970bb8c01681b4" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402212928, 'P180LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4049702044, 51.7328844958, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P180LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP181LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P181LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P181LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> "Ul. Maczka w kwiatach i zieleni" - nowe nasadzenia dla mieszkańców</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>191&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212941-199a7a7def4f745fd6a533ee2086d621" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402212941, 'P181LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4051354024, 51.7329042201, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P181LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP184LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P184LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P184LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> "Nowy chodnik na ul. Maczka"</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213073-4ef35dc906fabe252029423798468e0e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402213073, 'P184LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4052580981, 51.7339809722, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P184LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP185LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P185LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P185LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpiecznie na Uroczysku - Montaż monitoringu na Uroczysku Lublinek</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>169&nbsp;800.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213076-5c69ada33970996f5d4d5427ec46cce8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402213076, 'P185LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3826078806, 51.7285244505, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P185LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP187LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P187LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P187LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> "Brakujący chodnik na ul. Maczka - czas to zmienić"</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>70&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213090-e955800f208cd59d7a9f5d1740c804da" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402213090, 'P187LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4052161357, 51.7334750237, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P187LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP191LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P191LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P191LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> "Aleja róż i berberysów na ul. Pienistej"</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213253-2b8a0fccc53f94d7bcbb8732c3023a8c" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402213253, 'P191LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4087617625, 51.7365496822, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P191LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP207LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P207LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P207LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kino letnie pod terminalem Łódzkiego Lotniska</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213560-6823d4ced8b851a34198e3bb82d06705" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402213560, 'P207LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4019347608, 51.7273497308, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P207LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP212LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P212LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P212LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zieleniec przy Dennej/Laskowickiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>10&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213665-a6d1a7104356fdd5bce10403205c860d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402213665, 'P212LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4164686011, 51.7322774386, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P212LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP220LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P220LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P220LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Treningi biegowe na Uroczysku Lublinek</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>6&nbsp;400.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213746-aefcc4b4691e761ebfa6242534762acf" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402213746, 'P220LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.3868038518, 51.7315829163, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P220LP</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTP223LP">
+	<styleUrl>#pushpin</styleUrl>
+	<name>P223LP</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> P223LP</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Parking dla mieszkańców - utwardzenie terenu płytą ażurową pod miejsca parkingowe przy ulicy Pienistej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Polesie - Lublinek-Pienista</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>500&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213809-863248f5f7f2117ccbe2c93bf6d8c883" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('P', 'LP', 1402213809, 'P223LP');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4042648705, 51.7341401441, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>P223LP</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

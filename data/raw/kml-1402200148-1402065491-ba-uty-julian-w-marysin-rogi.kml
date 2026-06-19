@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-blue-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTB008JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B008JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B008JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Latarnie w parku Julianowskim - III etap - część wschodnia parku</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200624-27a8d5cd5ea4c0cd149d27590e5573f7" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402200624, 'B008JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4481192435, 51.8064987569, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B008JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB045JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B045JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B045JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Skrzydlata - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201116-86282a002baf07e055d8d625fb038105" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402201116, 'B045JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4730361751, 51.8118529303, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B045JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB046JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B046JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B046JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Wycieczkowa - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201125-567c1e0d79d763128243a3f9e267090d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402201125, 'B046JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4867309551, 51.8146314772, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B046JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB051JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B051JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B051JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Koniec błota na parkingu pod Orlikiem – sucho, zielono i bez kolein - ul. Sasanek Julianów-Marysin-Rogi.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>250&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201654-19267e62558c32503e79c5d24759069b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402201654, 'B051JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4494502437, 51.8133921046, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B051JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB082JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B082JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B082JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczeństwo przechodnia chodnik wzdłuż Strykowskiej do przystanku MPK  Herbowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>340&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204493-e2468927dc10023fc47583c1f03675f9" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402204493, 'B082JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5028880900, 51.8119769145, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B082JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB084JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B084JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B084JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Julianowski Psi Zakątek - park Adama Mickiewicza</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>250&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204535-6425765c96c42c937740ae6d67c8c66d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402204535, 'B084JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4433913833, 51.8056513200, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B084JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB125JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B125JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B125JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczna Głogowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>15&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209746-9cd4468f32f6dc3a7b037149174eb681" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402209746, 'B125JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4501799854, 51.8023288593, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B125JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB126JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B126JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B126JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne skrzyżowanie Przyrodnicza Głogowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>191&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209759-b83b390afde65d0459a489d3c561508f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402209759, 'B126JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4506716608, 51.8029280052, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B126JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB139JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B139JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B139JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zobaczyć Kaloryfer - oświetlenie parkingu "Kaloryfer" przy ul. Wycieczkowej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>274&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211047-d9da059a8f5bf67dc7b2a949cc38bfb7" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402211047, 'B139JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4880702065, 51.8231491088, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B139JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB163JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B163JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B163JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Oświetlony Staw Wasiaka - lampy solarne dla bezpieczeństwa pieszych i spacerowiczów. Osiedle Julianów  Marysin Rogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>385&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211785-755453921b3d13852a25a3dae0a031ae" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402211785, 'B163JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4633256691, 51.8076300834, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B163JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB188JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B188JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B188JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Budowa nowego chodnika na ulicy Góralskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>490&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212498-5fb6d4f1eb41174b4d483a50df5afaf1" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402212498, 'B188JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4745302984, 51.8067751576, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B188JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB189JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B189JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B189JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Skrzyżowanie Morelowa-Kryzysowa-Mimozy - wyłożenie brukowanej nawierzchni i dokończenie chodnika</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>203&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212517-91151ef6117c95f4fb8f8fa4e8676568" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402212517, 'B189JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4611452913, 51.8087971933, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B189JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB191JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B191JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B191JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Toalety publiczne - reaktywacja: Park Julianowski – pierwsza stała toaleta publiczna dostosowana do potrzeb niepełnosprawnych.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>551&nbsp;600.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212563-b9c3496e9e7bb0f11e79666f437846d3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402212563, 'B191JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4426024949, 51.8053162202, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B191JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB193JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B193JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B193JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny pieszy na Julianowie i Marysinie - doświetlenie przejść dla pieszych</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>215&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212618-a9245603c310ce2c0af0cb731c4e948d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402212618, 'B193JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4502888994, 51.8136760138, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B193JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB212JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B212JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B212JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne dojście do przystanku autobusowego. Budowa chodnika przy ul.Łupkowej od ul. Szmaragdowej do ul.Strykowskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212947-3f6dc37bc2414c187425b3270e224b79" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402212947, 'B212JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5032593389, 51.8145838560, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B212JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB217JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B217JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B217JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kwiatowy Pałac Heinzlów w Parku Julianowskim</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>85&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213045-480f7945a06dbf111c6a2541bef0ccbd" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402213045, 'B217JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4427660211, 51.8033404267, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B217JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB218JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B218JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B218JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczna droga ze szkoły - Strykowska, Łupkowa, Herbowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>250&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213050-a601a97d3b7f42396a62ef354fbfef46" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402213050, 'B218JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5034577496, 51.8142562634, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B218JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB220JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B220JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B220JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczny skrót do przystanku – Utworzenie zielonej trasy spacerowo-rowerowej Aleja Róż–Łagiewnicka.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>351&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213064-c6c321e41d50e9f56e89aea7df87e48a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402213064, 'B220JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4572418859, 51.8075994854, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B220JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB223JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B223JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B223JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rowerem nad Sokołówką - etap 2 (na wschód od Łagiewnickiej)</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>368&nbsp;500.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213212-d47435a6b14e499c59e99cf937b49269" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402213212, 'B223JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4596924686, 51.8077305098, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B223JM</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTB236JM">
+	<styleUrl>#pushpin</styleUrl>
+	<name>B236JM</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> B236JM</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zadbajmy o bezpieczeństwo na Julianowie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Bałuty - Julianów-Marysin-Rogi</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>40&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213352-f9ffd07fdc98ced394e570b6098ab37a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('B', 'JM', 1402213352, 'B236JM');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4497698283, 51.8087814748, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>B236JM</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

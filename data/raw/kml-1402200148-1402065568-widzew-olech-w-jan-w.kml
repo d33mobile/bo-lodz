@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-seledyn-cyrcle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTW013OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W013OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W013OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne przejście przez Opolczyka</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>186&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200732-bfe7247a71b45739b25786a07aa7d651" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402200732, 'W013OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5693064950, 51.7393671065, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W013OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW014OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W014OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W014OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Światło, które sprzyja spacerom - montaż oświetlenia w Parku Źródła Olechówki</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>425&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200735-3f394d927a5d03a0c48fa90cbfb4d157" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402200735, 'W014OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5641613756, 51.7363977146, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W014OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW015OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W015OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W015OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne przejście Hetmańska-Dąbrówki</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>115&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402200781-4cd7cedda35ab0e349e10a51c6c5eb96" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402200781, 'W015OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5702176333, 51.7431779474, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W015OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW029OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W029OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W029OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Przybyszewskiego - drzewa i krzewy wzdłuż drogi - Olechów Janów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201208-ac937f926415379a91c364ead3d29bb2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402201208, 'W029OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5421284136, 51.7511147433, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W029OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW030OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W030OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W030OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Rokicińska - drzewa i krzewy wzdłuż drogi - Olechów Janów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201214-91c9110dc5ff268eb58cd26bb437076b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402201214, 'W030OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5617189906, 51.7563048157, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W030OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW034OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W034OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W034OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Leśny Zakątek na Janowie</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201649-cefab0e8a9f54bf548a2b8204dad5762" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402201649, 'W034OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5771812621, 51.7489909022, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W034OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW042OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W042OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W042OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Nowa nawierzchnia na osiedlu Olechów-Janów  wraz z miejscami postojowymi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>693&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201775-b011d25cb40a649df13171564d087762" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402201775, 'W042OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5490205436, 51.7502961075, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W042OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW046OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W046OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W046OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ławeczki na Juranda ze Spychowa</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>8&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402202494-c3e6552521f6f2814e880475bad19287" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402202494, 'W046OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5682439150, 51.7511810831, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W046OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW047OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W047OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W047OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne przejście dla pieszych do szkoły 205 na Drodze Technicznej, na ulicy Stanisława Przybyszewskiego przy kładce</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>7&nbsp;800.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402202519-c7b8a54ffa5a3807ac725ae8391a4e08" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402202519, 'W047OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5643324274, 51.7451233595, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W047OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW052OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W052OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W052OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Doświetlenie przejść dla pieszych na ul. Opolczyka, Mazowieckiego, Odnowiciela, Hermana, Łokietkówny</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>280&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402202691-8248371ee0222a07c0ae3d50ec5315cb" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402202691, 'W052OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5692802097, 51.7383619085, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W052OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW055OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W055OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W055OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Miejsca postojowe, przejście i drzewa na ul. Mazowieckiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204426-dd14c6d1a26e3aae70f53de324effd26" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402204426, 'W055OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5705661338, 51.7388081766, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W055OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW059OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W059OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W059OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczne przejście Hetmańska-Billewiczówny</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>131&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204877-6efbb9b3f034e8a4121640ccd2a5e340" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402204877, 'W059OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5741723737, 51.7520484120, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W059OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW078OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W078OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W078OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona Łokietkówny - kompleksowe uzupełnienie i wykonanie nasadzeń z drzew i krzewów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>204&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402206069-d58d6dffbc2b56d74dee086b678e1876" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402206069, 'W078OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5735923856, 51.7370927515, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W078OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW095OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W095OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W095OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rodzinny tor rowerowy typu pumptrack i flow trail w Parku Źródła Olechówki</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>610&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207920-68f9d8a8271c6df0e197db6396dbc083" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402207920, 'W095OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5619032839, 51.7360492629, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W095OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW117OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W117OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W117OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> "Budowa miejsc parkingowych na Olechowie" I Etap</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>325&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210625-d602f1029e4f7f009970037fa87eb056" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402210625, 'W117OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5691385937, 51.7420651926, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W117OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW177OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W177OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W177OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczna droga do szkoły - skrzyżowanie Odnowiciela/Szczodrego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402212790-274865b621c136a900e303c3c4868cae" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402212790, 'W177OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5636669233, 51.7389028352, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W177OJ</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTW192OJ">
+	<styleUrl>#pushpin</styleUrl>
+	<name>W192OJ</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> W192OJ</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Cztery ławki w lasku przy ul. Mazowieckiego</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Widzew - Olechów-Janów</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>37&nbsp;950.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213743-88de0ac31e523714601fa5ff481d8d3f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('W', 'OJ', 1402213743, 'W192OJ');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.5704415657, 51.7363091074, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>W192OJ</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>

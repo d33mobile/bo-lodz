@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Tytuł</name>
+<description>Miejsca opisowe</description>
+
+<Style id="pushpin">
+	<LabelStyle>
+		<color>FFFFFFFF</color>
+		<scale>1.2</scale> 
+	</LabelStyle> 
+	<IconStyle>
+		<Icon><href>https://budzetobywatelski.uml.lodz.pl/we/ext/we/image/maps-marker/map-marker-green-circle.png</href></Icon>
+		<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+	        <scale>0.9</scale>
+	</IconStyle>
+
+</Style><Placemark id="PROJEKTG010CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G010CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G010CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Zielona ul. Paradna - drzewa i krzewy wzdłuż drogi</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201064-4774719db4720a1d24a6319ead95e605" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402201064, 'G010CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4840727483, 51.7093402301, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G010CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG033CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G033CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G033CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Park Zatorze - letnie kino na górce</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>30&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201825-9afdbcd7cf1bfb2d51488c9195c6536b" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402201825, 'G033CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4730046626, 51.7204473095, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G033CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG034CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G034CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G034CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Park Zatorze - strefy prawdziwego relaksu: 2 hamaki, 2 ławki - huśtawki, 4 leżaki, ławka wokół pnia drzewa, 2 ławki pod zieloną pergolą.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>465&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402201835-525265df4725e9ec90e95c28a4dc640e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402201835, 'G034CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4738299334, 51.7207377538, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G034CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG041CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G041CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G041CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont chodnika w pasie drogowym ul. Strażackiej.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>255&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203205-3185f9e6397f1b1b17279d673e16180d" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402203205, 'G041CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4829249314, 51.7177142986, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G041CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG043CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G043CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G043CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpiecznie na Chojnach - dodatkowe patrole Straży Miejskiej na Osiedlu Chojny</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>80&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402203778-e33eba4820e2395de1665cfb35e37805" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402203778, 'G043CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4867899939, 51.7183801312, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G043CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG052CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G052CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G052CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Prawdziwy Park Chojeński - drzewa na całym terenie, górka saneczkowa i strefa relaksu</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>610&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204020-fac926d72b8ef8ff9fdaebd9d5dbef8f" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402204020, 'G052CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4944913613, 51.7130454407, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G052CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG054CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G054CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G054CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Duże, dorodne drzewa do Parku Zatorze! Bo park to możliwość odpoczynku w cieniu zieleni, a nie pusta przestrzeń niechroniąca przed skwarem i upałem.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>80&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204386-7e75031595183346497ea95c22c901e3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402204386, 'G054CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4736539710, 51.7208268292, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G054CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG060CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G060CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G060CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczeństwo i widoczność pieszych - przejście przez ulicę Tuszyńską do przedszkola nr 66 przy ul. Grażyny - inteligentne pulsacyjne doświetlenie znaków ostrzegawczych, wzbudzane ruchem nadchodzących osób.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>150&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204513-9b003daf6263d35a76b6b01589d131c2" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402204513, 'G060CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4779795772, 51.7206559929, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G060CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG061CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G061CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G061CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczeństwo i widoczność pieszych - przejście przez ulicę ul. Kosynierów Gdyńskich z parkingu do Chojeńskiego Klubu Sportowego - inteligentne pulsacyjne doświetlenie znaków ostrzegawczych, wzbudzane ruchem nadchodzących osób.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>150&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402204516-df0e9dd9c24ee5747eaf9d3fd6b4b3ca" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402204516, 'G061CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4798745658, 51.7141865578, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G061CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG081CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G081CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G081CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Bezpieczeństwo i widoczność pieszych - przejście przez ulicę ul. Pryncypalną na wysokości ul. Przedświt – droga do szkoły nr 109 - inteligentne pulsacyjne doświetlenie znaków ostrzegawczych, wzbudzane ruchem nadchodzących osób.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>170&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402207318-3ab3dfe0e247e955ff43eee9a676958e" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402207318, 'G081CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4693604286, 51.7222107555, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G081CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG097CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G097CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G097CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> "W zdrowym ciele zdrowy duch. Aktywność dla ciała i umysłu w Parku Zatorze". Urządzenia do fitness i stoły do gry w szachy, warcaby, stoły do ping-ponga.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Sport i rekreacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>729&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402209588-9ff08568df4351489ef3d26904a51058" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402209588, 'G097CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4736997716, 51.7207493092, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G097CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG110CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G110CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G110CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Parking z chodnikiem wzdłuż ulicy Jana Bożego - Park Chojny Zatorze</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>350&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210424-e36168aeddff842e2508a704e4b04471" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402210424, 'G110CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4727851500, 51.7208567317, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G110CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG114CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G114CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G114CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont ulicy Mroźnej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>900&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402210905-569319d8f084f3c4dd4aa4045b0bc5ab" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402210905, 'G114CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4752728464, 51.7091880670, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G114CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG119CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G119CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G119CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Poprawa bezpieczeństwa dla pieszych na ulicy Kurczaki od nr 89 do nr 120</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>58&nbsp;600.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402211341-db5da1ccefabadac995daaa18912cd90" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402211341, 'G119CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4993524237, 51.7198313782, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G119CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG193CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G193CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G193CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Remont chodnika - ul. Stanisławy Leszczyńskiej 14/16</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>100&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213356-ca506046b22357f3755745e5c1920331" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402213356, 'G193CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4757838848, 51.7033111720, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G193CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG194CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G194CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G194CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Kino letnie - park Mirabelka</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Kultura i dziedzictwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>50&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213375-b8510f91b2126eaf228d772cf3edc8d8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402213375, 'G194CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4756257745, 51.7020446719, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G194CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG195CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G195CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G195CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Park Mirabelka - stacja naprawy rowerów</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>8&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213386-c643a7274b5f551133a6ceeea23c2a9a" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402213386, 'G195CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4755828516, 51.7020460250, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G195CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG196CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G196CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G196CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Al. Matek Polskich - obniżenie krawężników przy CZMP</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>20&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213407-1e7449ebd662a962816072105e910f64" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402213407, 'G196CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4817518250, 51.7048236139, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G196CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG198CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G198CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G198CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Budowa chodnika od ul. Ustronnej do ul. Leszczyńskiej</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>140&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213444-f4b8d36e8a1bb9ef16d040994ccdbfc8" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402213444, 'G198CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4713381008, 51.7056977690, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G198CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG200CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G200CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G200CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> ul. Cegielniana - wymiana nawierzchni</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>200&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213470-f1cf23edd507f82018772b06397676a3" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402213470, 'G200CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4713694233, 51.7057076532, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G200CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG203CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G203CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G203CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Łącznik rowerowy - Przednia - Ustronna</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura drogowa i komunikacja</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>60&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213521-5b5ca3453ab2e84e054935115eca5f05" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402213521, 'G203CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4755680753, 51.7008363182, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G203CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG204CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G204CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G204CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Rozkwiecamy główny wjazd do Szpitala CZMP od ulicy Rzgowskiej. Sadzimy byliny w kolorze fioletowym, symbolicznym dla wcześniaków.</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Tereny zielone i ochrona środowiska</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>210&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213633-08e43fd889f61fd98aea350edbd3fa10" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402213633, 'G204CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4827773608, 51.7044877020, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G204CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG206CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G206CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G206CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Ławki i kosze na śmieci dla pacjentów i mieszkańców przy szpitalu ICZMP</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>80&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213686-e3ed7c20cfe6152cac29e86474c69763" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402213686, 'G206CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4823866627, 51.7058596744, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G206CH</value></Data>
+	</ExtendedData>
+</Placemark><Placemark id="PROJEKTG207CH">
+	<styleUrl>#pushpin</styleUrl>
+	<name>G207CH</name>
+	<description>
+<![CDATA[ 
+<div>
+<p style="margin:0; padding:0;"><b>Numer projektu:</b> G207CH</p>
+<p style="margin:0; padding:0;margin-top:4px; font-size:1rem;"><b> Suchą nogą na Stawy Jana! Budujemy chodnik od sklepów (Lidl i Biedronka przy ul. Paradnej) na Stawy Jana</b></p>
+
+<p style="margin:0; padding:0; margin-top:10px;"><b>Projekt:</b> OSIEDLOWE - Górna - Chojny</p>
+<p style="margin:0; padding:0;"><b>Kategoria projektu:</b> Infrastruktura komunalna i bezpieczeństwo</p>
+<p style="margin:0; padding:0;"><b>Koszt: </b>70&nbsp;000.00 zł</p>
+<p style="margin:0; padding:0;"><b>Zobacz szczegóły:</b> <a href="https://budzetobywatelski.uml.lodz.pl/szczegoly-projektu-2026-2027-1402200148-1402213740-ae31b76b2d8cae5a813f956f36a0b839" target="_blank">kliknij tutaj</a></p>
+<p style="margin:0; padding:0;"><a href="javascript:ZadanieMapaO('G', 'CH', 1402213740, 'G207CH');" class="btn btn-sm btn-success my-3">GŁOSUJĘ NA TEN PROJEKT</a></p>
+</div>
+ ]]></description>
+	<Point>
+		<coordinates>19.4800024909, 51.7106522086, 0</coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="NUMER"><value>G207CH</value></Data>
+	</ExtendedData>
+</Placemark></Document>
+</kml>
