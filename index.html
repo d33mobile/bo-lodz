@@ -63,6 +63,9 @@
   /* drop indicator sits in the existing gap between cards, inset on the sides */
   .seam{height:4px;background:var(--accent);border-radius:4px;margin:3px 6px;
         box-shadow:0 0 0 2px rgba(11,110,79,.18)}
+  /* in tidy mode the rows are short — keep the seam to the left for easy aim */
+  .reorder .seam{margin-left:0;max-width:55%}
+  .reorder .card{cursor:default}
   #toast{position:fixed;left:50%;bottom:calc(70px + var(--pad));transform:translateX(-50%);
          background:#16241f;color:#fff;padding:10px 16px;border-radius:10px;font-size:13px;
          box-shadow:0 3px 12px rgba(0,0,0,.3);z-index:60;max-width:90vw;text-align:center}
@@ -131,6 +134,7 @@
     <div class="preset" data-p="all">Wszystkie</div>
     <div class="preset" data-p="pon">Ogólnołódzkie</div>
     <div class="preset" data-p="fav">Ulubione ♥</div>
+    <div class="preset" data-p="shared" id="presetShared" hidden>Udostępnione</div>
   </div>
 
   <details class="more">
@@ -171,10 +175,10 @@
   <div class="count" id="count"></div>
   <div id="map"></div>
   <div class="favtools" id="favtools" hidden>
-    <button id="share" class="csvbtn">🔗 Udostępnij ulubione (link)</button>
-    <button id="csv" class="csvbtn">⬇ Pobierz CSV ulubionych</button>
+    <button id="share" class="csvbtn">🔗 Udostępnij</button>
+    <button id="csv" class="csvbtn">⬇ CSV</button>
+    <button id="reorderBtn" class="csvbtn" hidden>↕ Porządkuj</button>
   </div>
-  <button id="reorderBtn" class="csvbtn" hidden>↕ Tryb porządkowania</button>
   <div id="list"></div>
   <div class="empty" id="empty" hidden>Brak projektów dla wybranych filtrów.</div>
 </div>
@@ -196,6 +200,7 @@ let DATA = [];
 let seen = new Set();
 let favOrder = [];   // ordered list of favourite numery (source of truth)
 let fav = new Set();
+let shared = [], sharedSet = new Set();   // a shared list opened from #fav= (view only)
 const $ = s => document.querySelector(s);
 
 try { seen = new Set(JSON.parse(localStorage.getItem(SKEY) || "[]")); } catch(e){}
@@ -215,6 +220,7 @@ function fmtCost(c){
 function passes(p){
   if(state.preset==="pon" && p.typ!=="PONADOSIEDLOWE") return false;
   if(state.preset==="fav" && !fav.has(p.numer)) return false;
+  if(state.preset==="shared" && !sharedSet.has(p.numer)) return false;
   if(state.cat && p.kategoria!==state.cat) return false;
   if(state.dist && p.dzielnica!==state.dist) return false;
   if(state.osiedle && p.osiedle!==state.osiedle) return false;
@@ -240,12 +246,14 @@ function gmaps(p){ return `https://www.google.com/maps?q=${p.lat},${p.lon}`; }
 function render(){
   const list = $("#list");
   const manual = state.preset==="fav" && state.sort==="manual";
-  list.classList.toggle("favview", state.preset==="fav");
+  list.classList.toggle("favview", state.preset==="fav" || state.preset==="shared");
   list.classList.toggle("reorder", state.preset==="fav" && state.reorder);
   $("#reorderBtn").hidden = state.preset!=="fav";
-  $("#reorderBtn").textContent = state.reorder ? "✓ Gotowe" : "↕ Tryb porządkowania";
+  $("#reorderBtn").textContent = state.reorder ? "✓ Gotowe" : "↕ Porządkuj";
+  $("#favtools").hidden = fav.size===0 || state.preset==="shared";
   let items = DATA.filter(passes);
-  if(manual) items.sort((a,b)=> favOrder.indexOf(a.numer)-favOrder.indexOf(b.numer));
+  if(state.preset==="shared") items.sort((a,b)=> shared.indexOf(a.numer)-shared.indexOf(b.numer));
+  else if(manual) items.sort((a,b)=> favOrder.indexOf(a.numer)-favOrder.indexOf(b.numer));
   else items.sort(sortFn);
   $("#count").textContent = `${items.length} z ${DATA.length} projektów`;
   $("#empty").hidden = items.length>0;
@@ -291,8 +299,8 @@ function updateProgress(){
   const total = DATA.length, n = DATA.filter(p=>seen.has(p.numer)).length;
   $("#bar").style.width = total? (100*n/total)+"%" : "0";
   $("#progtxt").textContent = `Odhaczone: ${n} / ${total} · ♥ ${fav.size}`;
-  $("#favtools").hidden = fav.size === 0;
-  $("#csv").textContent = `⬇ CSV ulubionych (${fav.size})`;
+  $("#favtools").hidden = fav.size === 0 || state.preset === "shared";
+  $("#csv").textContent = `⬇ CSV (${fav.size})`;
 }
 
 function csvCell(v){
@@ -331,17 +339,24 @@ $("#list").addEventListener("click", e=>{
     }
     return;
   }
-  const f = e.target.closest(".fav"); if(!f) return;
-  const n = f.dataset.f;
-  const adding = toggleFav(n);
-  f.classList.toggle("on", adding); f.textContent = adding?'♥':'♡';
-  const card = f.closest(".card");
-  if(adding){                           // dodanie do ulubionych odhacza wpis
-    const cb = card.querySelector(".chk input");
-    if(cb) cb.checked = true;
-    card.classList.add("seen");
+  const f = e.target.closest(".fav");
+  if(f){
+    const n = f.dataset.f;
+    const adding = toggleFav(n);
+    f.classList.toggle("on", adding); f.textContent = adding?'♥':'♡';
+    const card = f.closest(".card");
+    if(adding){                           // dodanie do ulubionych odhacza wpis
+      const cb = card.querySelector(".chk input");
+      if(cb) cb.checked = true;
+      card.classList.add("seen");
+    }
+    if((state.preset==="fav" && !adding) || (state.hideseen && adding)) render();
+    return;
   }
-  if((state.preset==="fav" && !adding) || (state.hideseen && adding)) render();
+  // a tap anywhere on the card (not on a control/link) toggles its description
+  if(e.target.closest("a, button, input, summary, label, .grip")) return;
+  const det = e.target.closest(".card") && e.target.closest(".card").querySelector("details.opis");
+  if(det) det.open = !det.open;
 });
 
 // shared favourite toggle (used by the list hearts and the map popups)
@@ -536,40 +551,70 @@ function hideLoading(){
   setTimeout(()=>{ el.style.display="none"; }, 350);
 }
 
-loadData("data/projects.json").then(d=>{
+function boot(d){
   DATA = d.projects;
   $("#sub").textContent = `${DATA.length} projektów`;
   $("#src").textContent = "glosowanie.php?mapa=1";
-  const cats = [...new Set(DATA.map(p=>p.kategoria).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pl"));
-  cats.forEach(c=>{ const o=document.createElement("option"); o.value=o.textContent=c; $("#cat").appendChild(o); });
-  const dz = [...new Set(DATA.map(p=>p.dzielnica).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pl"));
-  dz.forEach(c=>{ const o=document.createElement("option"); o.value=o.textContent=c; $("#dist").appendChild(o); });
+  $("#cat").innerHTML = '<option value="">— wszystkie —</option>';
+  [...new Set(DATA.map(p=>p.kategoria).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pl"))
+    .forEach(c=>{ const o=document.createElement("option"); o.value=o.textContent=c; $("#cat").appendChild(o); });
+  $("#cat").value = state.cat;
+  $("#dist").innerHTML = '<option value="">— wszystkie —</option>';
+  [...new Set(DATA.map(p=>p.dzielnica).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pl"))
+    .forEach(c=>{ const o=document.createElement("option"); o.value=o.textContent=c; $("#dist").appendChild(o); });
+  $("#dist").value = state.dist;
   OSIEDLA = {};
   DATA.forEach(p=>{ if(p.dzielnica && p.osiedle){ (OSIEDLA[p.dzielnica] ||= []).push(p.osiedle); } });
   for(const k in OSIEDLA) OSIEDLA[k] = [...new Set(OSIEDLA[k])].sort((a,b)=>a.localeCompare(b,"pl"));
-  fillOsiedla("");
-  // import a shared favourites list from the URL hash (#fav=NUM,NUM,...)
-  const m = location.hash.match(/^#fav=(.+)$/);
-  if(m){
-    const valid = new Set(DATA.map(p=>p.numer));
-    const shared = decodeURIComponent(m[1]).split(",").map(s=>s.trim()).filter(n=>valid.has(n));
-    if(shared.length){
-      const rest = favOrder.filter(n=>!shared.includes(n));
-      favOrder = [...shared, ...rest];
-      fav = new Set(favOrder); saveFav();
-      state.preset = "fav"; state.sort = "manual";
-      $("#sort").value = "manual";
-      setTimeout(()=> toast(`Zaimportowano ${shared.length} ulubionych z linku`), 400);
+  fillOsiedla(state.dist);
+  if(!boot.hashDone){   // a #fav= link opens a *view-only* "Udostępnione" tab, once
+    const m = location.hash.match(/^#fav=(.+)$/);
+    if(m){
+      const valid = new Set(DATA.map(p=>p.numer));
+      shared = decodeURIComponent(m[1]).split(",").map(s=>s.trim()).filter(n=>valid.has(n));
+      sharedSet = new Set(shared);
+      if(shared.length){
+        $("#presetShared").hidden = false;
+        state.preset = "shared";
+        setTimeout(()=> toast(`Udostępniona lista: ${shared.length} projektów (podgląd)`), 400);
+      }
     }
+    boot.hashDone = true;
   }
   [...$("#presets").children].forEach(c=>c.classList.toggle("on", c.dataset.p===state.preset));
   updateProgress(); render(); hideLoading();
-}).catch(e=>{
-  $("#sub").textContent = "Błąd wczytywania danych (data/projects.json).";
-  $("#loadtxt").textContent = "Błąd wczytywania danych.";
-  $("#loadtrack").style.display = "none";
-  console.error(e);
-});
+}
+
+// Cache the dataset in localStorage and serve it instantly (offline-capable),
+// then revalidate in the background and re-render only if it actually changed.
+// The network fetch itself rides the browser HTTP cache (ETag → cheap 304s),
+// so the 1.2 MB payload is not re-downloaded on every visit.
+const CACHE_KEY = "bo-lodz-2026-2027-data-v1";
+const dataSig = d => [d.count, (d.projects||[]).length,
+                      (d.projects||[]).at(-1) && d.projects.at(-1).idwpis].join("|");
+let shownSig = null;
+
+(async function init(){
+  let cached = null;
+  try { cached = JSON.parse(localStorage.getItem(CACHE_KEY) || "null"); } catch(e){}
+  if(cached && cached.data && cached.data.projects){
+    shownSig = cached.sig;
+    boot(cached.data);
+  }
+  try {
+    const fresh = await loadData("data/projects.json");
+    const sig = dataSig(fresh);
+    try { localStorage.setItem(CACHE_KEY, JSON.stringify({ sig, data: fresh })); } catch(e){}
+    if(sig !== shownSig){ shownSig = sig; boot(fresh); }
+  } catch(e){
+    console.error(e);
+    if(!cached){
+      $("#sub").textContent = "Błąd wczytywania danych (data/projects.json).";
+      $("#loadtxt").textContent = "Błąd wczytywania danych.";
+      $("#loadtrack").style.display = "none";
+    }
+  }
+})();
 </script>
 </body>
 </html>

@@ -142,6 +142,21 @@ def test_browser():
                 check(markers > 0, f"map view shows project markers ({markers})")
             else:
                 print("skip  map view (Leaflet CDN unavailable)")
+
+            # a #fav= link opens a VIEW-ONLY "Udostępnione" tab, no import
+            sc = b.new_context(viewport={"width": 390, "height": 844})
+            sp = sc.new_page()
+            sp.goto(url + "#fav=L001,L003", wait_until="networkidle")
+            sp.wait_for_timeout(900)
+            on = sp.query_selector(".preset.on")
+            shared_active = on.text_content() if on else ""
+            shared_cards = sp.eval_on_selector_all(".card", "els => els.length")
+            fav_ls = sp.evaluate(
+                "() => JSON.parse(localStorage.getItem('bo-lodz-2026-2027-fav')||'[]').length")
+            check("Udostępnione" in shared_active and shared_cards == 2,
+                  f"shared link shows view-only tab ({shared_active.strip()!r}, {shared_cards} cards)")
+            check(fav_ls == 0, f"shared link does not import into favourites (fav={fav_ls})")
+            sc.close()
             b.close()
     finally:
         httpd.shutdown()
