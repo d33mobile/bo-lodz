@@ -95,24 +95,32 @@ def test_browser():
             # favourite a card, switch to Ulubione preset, expect it present
             pg.click("text=Wszystkie")
             pg.wait_for_timeout(300)
-            heart = pg.query_selector(".card .fav")
-            heart.click()
+            pg.click(".card .fav")
             pg.wait_for_timeout(200)
             pg.click(".preset[data-p='fav']")
             pg.wait_for_timeout(300)
             fav_n = pg.eval_on_selector_all(".card", "els => els.length")
             check(fav_n >= 1, f"favourite shows under Ulubione preset (got {fav_n})")
 
+# check off a project. With "hide seen" on by default the card then
+            # disappears, so we click via selector (no stale handle) and read the
+            # seen count straight from localStorage.
             pg.click("text=Wszystkie")
             pg.wait_for_timeout(300)
-            cb = pg.query_selector(".card .chk input")
-            cb.check()
+            pg.click(".card .chk input")
             pg.wait_for_timeout(300)
-            prog1 = pg.text_content("#progtxt")
+            n1 = pg.evaluate("() => JSON.parse(localStorage.getItem('bo-lodz-2026-2027-seen')||'[]').length")
             pg.reload(wait_until="networkidle")
             pg.wait_for_timeout(700)
-            prog2 = pg.text_content("#progtxt")
-            check("1 /" in prog2 or prog1 == prog2, "check-off persists across reload")
+            n2 = pg.evaluate("() => JSON.parse(localStorage.getItem('bo-lodz-2026-2027-seen')||'[]').length")
+            check(n1 >= 1 and n2 == n1, f"check-off persists across reload ({n1}->{n2})")
+
+            # favourites are still visible in the Ulubione preset even though
+            # favouriting marks them seen and "hide seen" is on.
+            pg.click(".preset[data-p='fav']")
+            pg.wait_for_timeout(300)
+            fav_visible = pg.eval_on_selector_all(".card", "els => els.length")
+            check(fav_visible >= 1, f"favourites stay visible in Ulubione despite hide-seen ({fav_visible})")
 
             # detail text present once details have been merged into projects.json
             has_opis = pg.eval_on_selector_all(

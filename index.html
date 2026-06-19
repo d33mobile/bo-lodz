@@ -35,9 +35,16 @@
   select{width:100%;padding:8px;border:1px solid var(--line);border-radius:8px;background:#fff;font-size:14px}
   .toggle{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--ink);flex:1 1 100%}
   .count{font-size:12px;color:var(--muted);margin:8px 2px}
-  .csvbtn{width:100%;padding:10px;margin:0 0 10px;border:1px solid var(--accent2);background:#fff;
-          color:var(--accent2);border-radius:10px;font-size:14px;font-weight:600;cursor:pointer}
+  .favtools{display:flex;gap:8px;margin-bottom:10px}
+  .csvbtn{flex:1;padding:10px;border:1px solid var(--accent2);background:#fff;
+          color:var(--accent2);border-radius:10px;font-size:13px;font-weight:600;cursor:pointer}
   .csvbtn:active{background:#eef4fa}
+  .ord{border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:7px;
+       width:30px;height:30px;font-size:16px;line-height:1;cursor:pointer;padding:0;flex:0 0 auto}
+  .ord:active{background:#eef2f0}
+  #toast{position:fixed;left:50%;bottom:calc(70px + var(--pad));transform:translateX(-50%);
+         background:#16241f;color:#fff;padding:10px 16px;border-radius:10px;font-size:13px;
+         box-shadow:0 3px 12px rgba(0,0,0,.3);z-index:60;max-width:90vw;text-align:center}
   .card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;
         margin-bottom:10px;display:flex;gap:11px;align-items:flex-start;box-shadow:0 1px 2px rgba(0,0,0,.04)}
   .card.seen{opacity:.55}
@@ -119,6 +126,7 @@
           <option value="num">numeru</option>
           <option value="cost">kosztu (rosnąco)</option>
           <option value="costd">kosztu (malejąco)</option>
+          <option value="manual">kolejność ręczna (♥)</option>
         </select>
       </label>
     </div>
@@ -128,7 +136,10 @@
   </details>
 
   <div class="count" id="count"></div>
-  <button id="csv" class="csvbtn" hidden>⬇ Pobierz CSV ulubionych</button>
+  <div class="favtools" id="favtools" hidden>
+    <button id="share" class="csvbtn">🔗 Udostępnij ulubione (link)</button>
+    <button id="csv" class="csvbtn">⬇ Pobierz CSV ulubionych</button>
+  </div>
   <div id="list"></div>
   <div class="empty" id="empty" hidden>Brak projektów dla wybranych filtrów.</div>
 </div>
@@ -141,18 +152,22 @@
 </footer>
 
 <button class="pill" id="scrolltop" hidden>↑ góra</button>
+<div id="toast" hidden></div>
 
 <script>
 const SKEY = "bo-lodz-2026-2027-seen";
 const FKEY = "bo-lodz-2026-2027-fav";
 let DATA = [];
-let seen = new Set(), fav = new Set();
+let seen = new Set();
+let favOrder = [];   // ordered list of favourite numery (source of truth)
+let fav = new Set();
 const $ = s => document.querySelector(s);
 
 try { seen = new Set(JSON.parse(localStorage.getItem(SKEY) || "[]")); } catch(e){}
-try { fav  = new Set(JSON.parse(localStorage.getItem(FKEY) || "[]")); } catch(e){}
+try { const a = JSON.parse(localStorage.getItem(FKEY) || "[]"); if(Array.isArray(a)) favOrder = a; } catch(e){}
+fav = new Set(favOrder);
 function saveSeen(){ localStorage.setItem(SKEY, JSON.stringify([...seen])); }
-function saveFav(){ localStorage.setItem(FKEY, JSON.stringify([...fav])); }
+function saveFav(){ localStorage.setItem(FKEY, JSON.stringify(favOrder)); }
 
 const state = { preset:"all", q:"", cat:"", dist:"", osiedle:"", sort:"num", hideseen:true };
 let OSIEDLA = {};  // dzielnica -> sorted [osiedle]
@@ -168,7 +183,7 @@ function passes(p){
   if(state.cat && p.kategoria!==state.cat) return false;
   if(state.dist && p.dzielnica!==state.dist) return false;
   if(state.osiedle && p.osiedle!==state.osiedle) return false;
-  if(state.hideseen && seen.has(p.numer)) return false;
+  if(state.hideseen && state.preset!=="fav" && seen.has(p.numer)) return false;
   if(state.q){
     const q = state.q.toLowerCase();
     if(!(p.tytul.toLowerCase().includes(q) || p.numer.toLowerCase().includes(q)
@@ -189,11 +204,18 @@ function gmaps(p){ return `https://www.google.com/maps?q=${p.lat},${p.lon}`; }
 
 function render(){
   const list = $("#list");
-  const items = DATA.filter(passes).sort(sortFn);
+  const manual = state.preset==="fav" && state.sort==="manual";
+  let items = DATA.filter(passes);
+  if(manual) items.sort((a,b)=> favOrder.indexOf(a.numer)-favOrder.indexOf(b.numer));
+  else items.sort(sortFn);
   $("#count").textContent = `${items.length} z ${DATA.length} projektów`;
   $("#empty").hidden = items.length>0;
-  list.innerHTML = items.map(p=>{
+  list.innerHTML = items.map((p,idx)=>{
     const isSeen = seen.has(p.numer), isFav = fav.has(p.numer);
+    const ord = manual
+      ? `<button class="ord" data-up="${p.numer}" title="w górę" ${idx===0?'disabled':''}>↑</button>`
+      + `<button class="ord" data-down="${p.numer}" title="w dół" ${idx===items.length-1?'disabled':''}>↓</button>`
+      : "";
     const where = p.typ==="PONADOSIEDLOWE" ? "Ogólnołódzki"
                   : `${p.dzielnica||""}${p.osiedle? " — "+p.osiedle:""}`;
     const addr = p.adres ? `<br>${esc(p.adres)}` : "";
@@ -205,6 +227,7 @@ function render(){
           <span class="tag num">${p.numer}</span>
           <span class="tag ${p.typ==='PONADOSIEDLOWE'?'pon':''}">${p.typ==='PONADOSIEDLOWE'?'ogólnołódzki':'osiedlowy'}</span>
           <button class="fav${isFav?' on':''}" data-f="${p.numer}" title="Ulubiony" aria-label="Ulubiony">${isFav?'♥':'♡'}</button>
+          ${ord}
         </div>
         <div class="ttl">${esc(p.tytul)||'(bez tytułu)'}</div>
         <div class="meta">
@@ -227,8 +250,8 @@ function updateProgress(){
   const total = DATA.length, n = DATA.filter(p=>seen.has(p.numer)).length;
   $("#bar").style.width = total? (100*n/total)+"%" : "0";
   $("#progtxt").textContent = `Odhaczone: ${n} / ${total} · ♥ ${fav.size}`;
-  $("#csv").hidden = fav.size === 0;
-  $("#csv").textContent = `⬇ Pobierz CSV ulubionych (${fav.size})`;
+  $("#favtools").hidden = fav.size === 0;
+  $("#csv").textContent = `⬇ CSV ulubionych (${fav.size})`;
 }
 
 function csvCell(v){
@@ -240,7 +263,7 @@ function exportCsv(){
   const cols = [["numer","Numer"],["tytul","Tytuł"],["typ","Typ"],["dzielnica","Dzielnica"],
                 ["osiedle","Osiedle"],["kategoria","Kategoria"],["koszt","Koszt (zł)"],
                 ["adres","Lokalizacja"],["opis","Opis"],["link","Link"]];
-  const rows = DATA.filter(p=>fav.has(p.numer)).sort(sortFn);
+  const rows = favOrder.map(n=>DATA.find(p=>p.numer===n)).filter(Boolean);
   const lines = [cols.map(c=>csvCell(c[1])).join(";")];
   rows.forEach(p=> lines.push(cols.map(c=>csvCell(p[c[0]])).join(";")));
   const blob = new Blob(["﻿" + lines.join("\r\n")], {type:"text/csv;charset=utf-8"});
@@ -254,10 +277,22 @@ function exportCsv(){
 $("#csv").addEventListener("click", exportCsv);
 
 $("#list").addEventListener("click", e=>{
+  // reorder favourites
+  const o = e.target.closest(".ord");
+  if(o){
+    const up = "up" in o.dataset, n = up ? o.dataset.up : o.dataset.down;
+    const i = favOrder.indexOf(n), j = up ? i-1 : i+1;
+    if(i>=0 && j>=0 && j<favOrder.length){
+      [favOrder[i], favOrder[j]] = [favOrder[j], favOrder[i]];
+      saveFav(); render();
+    }
+    return;
+  }
   const f = e.target.closest(".fav"); if(!f) return;
   const n = f.dataset.f;
   const adding = !fav.has(n);
-  if(adding){ fav.add(n); } else { fav.delete(n); }
+  if(adding){ fav.add(n); favOrder.push(n); }
+  else { fav.delete(n); favOrder = favOrder.filter(x=>x!==n); }
   saveFav(); f.classList.toggle("on", adding); f.textContent = adding?'♥':'♡';
   const card = f.closest(".card");
   if(adding && !seen.has(n)){           // dodanie do ulubionych odhacza wpis
@@ -270,6 +305,25 @@ $("#list").addEventListener("click", e=>{
   if((state.preset==="fav" && !adding) || (state.hideseen && adding)) render();
 });
 
+let toastT;
+function toast(msg){
+  const t = $("#toast"); t.textContent = msg; t.hidden = false;
+  clearTimeout(toastT); toastT = setTimeout(()=>{ t.hidden = true; }, 2600);
+}
+
+function shareFav(){
+  if(!favOrder.length){ toast("Brak ulubionych do udostępnienia"); return; }
+  const url = location.origin + location.pathname + "#fav=" + encodeURIComponent(favOrder.join(","));
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(url)
+      .then(()=> toast(`Skopiowano link do ${favOrder.length} ulubionych`))
+      .catch(()=> prompt("Skopiuj link do ulubionych:", url));
+  } else {
+    prompt("Skopiuj link do ulubionych:", url);
+  }
+}
+$("#share").addEventListener("click", shareFav);
+
 $("#list").addEventListener("change", e=>{
   const n = e.target.dataset.n; if(!n) return;
   if(e.target.checked) seen.add(n); else seen.delete(n);
@@ -281,6 +335,8 @@ $("#list").addEventListener("change", e=>{
 $("#presets").addEventListener("click", e=>{
   const b = e.target.closest(".preset"); if(!b) return;
   state.preset = b.dataset.p;
+  if(state.preset==="fav"){ state.sort="manual"; $("#sort").value="manual"; }
+  else if(state.sort==="manual"){ state.sort="num"; $("#sort").value="num"; }
   [...$("#presets").children].forEach(c=>c.classList.toggle("on", c===b));
   render();
 });
@@ -349,6 +405,20 @@ loadData("data/projects.json").then(d=>{
   DATA.forEach(p=>{ if(p.dzielnica && p.osiedle){ (OSIEDLA[p.dzielnica] ||= []).push(p.osiedle); } });
   for(const k in OSIEDLA) OSIEDLA[k] = [...new Set(OSIEDLA[k])].sort((a,b)=>a.localeCompare(b,"pl"));
   fillOsiedla("");
+  // import a shared favourites list from the URL hash (#fav=NUM,NUM,...)
+  const m = location.hash.match(/^#fav=(.+)$/);
+  if(m){
+    const valid = new Set(DATA.map(p=>p.numer));
+    const shared = decodeURIComponent(m[1]).split(",").map(s=>s.trim()).filter(n=>valid.has(n));
+    if(shared.length){
+      const rest = favOrder.filter(n=>!shared.includes(n));
+      favOrder = [...shared, ...rest];
+      fav = new Set(favOrder); saveFav();
+      state.preset = "fav"; state.sort = "manual";
+      $("#sort").value = "manual";
+      setTimeout(()=> toast(`Zaimportowano ${shared.length} ulubionych z linku`), 400);
+    }
+  }
   [...$("#presets").children].forEach(c=>c.classList.toggle("on", c.dataset.p===state.preset));
   updateProgress(); render(); hideLoading();
 }).catch(e=>{
