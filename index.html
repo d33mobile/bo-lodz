@@ -123,7 +123,7 @@
       </label>
     </div>
     <div class="row">
-      <label class="toggle"><input type="checkbox" id="hideseen"> Ukryj odhaczone</label>
+      <label class="toggle"><input type="checkbox" id="hideseen" checked> Ukryj odhaczone</label>
     </div>
   </details>
 
@@ -153,7 +153,7 @@ try { fav  = new Set(JSON.parse(localStorage.getItem(FKEY) || "[]")); } catch(e)
 function saveSeen(){ localStorage.setItem(SKEY, JSON.stringify([...seen])); }
 function saveFav(){ localStorage.setItem(FKEY, JSON.stringify([...fav])); }
 
-const state = { preset:"all", q:"", cat:"", dist:"", osiedle:"", sort:"num", hideseen:false };
+const state = { preset:"all", q:"", cat:"", dist:"", osiedle:"", sort:"num", hideseen:true };
 let OSIEDLA = {};  // dzielnica -> sorted [osiedle]
 
 function fmtCost(c){
