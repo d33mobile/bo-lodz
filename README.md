@@ -33,6 +33,11 @@ Scraper steruje prawdziwym Chromium (Playwright): otwiera stronę głosowania, a
 warstwy pobiera z kontekstu strony (cookies + Referer), w losowej kolejności z
 losowymi odstępami — żeby zachowywać się jak zwykły klient mapy.
 
+> **Uwaga:** serwis UMŁ najprawdopodobniej stosuje zabezpieczenia przeciw
+> scrapingowi (zwykłe `curl`/`requests` dostają connection-refused, endpointy
+> wymagają tokenu CODE i sesji przeglądarki). Stąd prawdziwa przeglądarka,
+> losowa kolejność, opóźnienia i małe batche. Scrapuj delikatnie.
+
 Pełne opisy projektów dociąga `scrape_details.py` (osobny, batchowany przebieg
 po podstronach `szczegoly-projektu-…`).
 

@@ -3,8 +3,14 @@
 
 Driven through a real Chromium (Playwright): we open the voting page so the
 site sets its session, then fetch every KML map layer from *inside* the page
-context (carrying the page's cookies + Referer), sequentially and with small
+context (carrying the page's cookies + Referer), in randomised order with small
 delays, so the server treats us as the ordinary map client and does not block.
+
+NOTE: the UMŁ site (budzetobywatelski.uml.lodz.pl) very likely has anti-scraping
+measures — plain `requests`/`curl` hits get connection-refused, and the layer
+endpoints require a per-layer CODE token plus a valid browser session. Hence the
+real-browser approach, randomised access and polite delays. Scrape gently and
+respect the source; this tool only mirrors the public voting data for browsing.
 
 The map exposes one KML datasource per neighbourhood (osiedle), one city-wide
 "Ponadosiedlowe" pool and several per-category layers. Two editions are served
@@ -105,6 +111,9 @@ async def main():
         browser = await p.chromium.launch()
         ctx = await browser.new_context(user_agent=UA, locale="pl-PL")
         page = await ctx.new_page()
+        print("NOTE: UMŁ likely employs anti-scraping protections — using a real "
+              "browser session, randomised order and delays; scraping gently.",
+              file=sys.stderr)
         print("opening voting page ...", file=sys.stderr)
         await page.goto(PAGE, wait_until="networkidle", timeout=60000)
         await page.wait_for_timeout(1500)
