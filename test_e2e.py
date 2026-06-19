@@ -133,6 +133,21 @@ def test_browser():
             else:
                 print("skip  opis render (details not merged yet)")
 
+            # negative Rada Miejska opinion filter
+            pg.click("text=Wszystkie")
+            pg.wait_for_timeout(200)
+            pg.click("summary")
+            pg.wait_for_timeout(150)
+            pg.check("#negonly")
+            pg.wait_for_timeout(300)
+            neg_cards = pg.eval_on_selector_all(".card", "els => els.length")
+            neg_badges = pg.eval_on_selector_all(".card .tag.neg", "els => els.length")
+            neg_data = sum(1 for p in proj["projects"] if (p.get("opinia_rm") or "").startswith("NEGATYWNA"))
+            check(0 < neg_cards <= neg_data and neg_badges == neg_cards,
+                  f"negative-opinion filter ({neg_cards} cards, {neg_badges} badges, data {neg_data})")
+            pg.uncheck("#negonly")
+            pg.wait_for_timeout(200)
+
             # map view (Leaflet from CDN — needs network)
             pg.click("#viewMap")
             pg.wait_for_timeout(2000)

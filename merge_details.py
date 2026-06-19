@@ -18,6 +18,7 @@ FIELDS = {
     "lokalizacja_dodatkowa": "lokalizacja_dodatkowa",
     "kontakt": "kontakt",
     "analiza_formalna": "analiza_formalna",
+    "opinia_rm": "opinia_rm",   # Opinia Rady Miejskiej (POZYTYWNA/NEGATYWNA)
 }
 
 

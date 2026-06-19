@@ -48,6 +48,7 @@
   .toggle{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--ink);flex:1 1 100%}
   .count{font-size:12px;color:var(--muted);margin:8px 2px}
   .favtools{display:flex;gap:8px;margin-bottom:10px}
+  .favtools[hidden]{display:none}   /* class display:flex would otherwise beat [hidden] */
   .csvbtn{flex:1;padding:10px;border:1px solid var(--accent2);background:#fff;
           color:var(--accent2);border-radius:10px;font-size:13px;font-weight:600;cursor:pointer}
   .csvbtn:active{background:#eef4fa}
@@ -91,6 +92,7 @@
   /* in the shared view, highlight entries the user has already seen */
   .card.seen-hi{border-left:4px solid var(--accent)}
   .tag.seenmark{background:#e7f1ec;color:var(--accent)}
+  .tag.neg{background:#fde2e4;color:#b3261e}
   .empty a{color:var(--accent2);font-weight:600}
   /* compact "tidy" mode: shrink cards so reordering big entries is practical */
   .reorder .card{padding:8px 10px}
@@ -176,6 +178,9 @@
     <div class="row">
       <label class="toggle"><input type="checkbox" id="hideseen" checked> Ukryj odhaczone</label>
     </div>
+    <div class="row">
+      <label class="toggle"><input type="checkbox" id="negonly"> Tylko z negatywną opinią Rady Miejskiej <span id="negcount"></span></label>
+    </div>
   </details>
 
   <div class="viewtoggle">
@@ -220,7 +225,7 @@ fav = new Set(favOrder);
 function saveSeen(){ localStorage.setItem(SKEY, JSON.stringify([...seen])); }
 function saveFav(){ localStorage.setItem(FKEY, JSON.stringify(favOrder)); }
 
-const state = { preset:"all", q:"", cat:"", dist:"", osiedle:"", sort:"num", hideseen:true, reorder:false, view:"list" };
+const state = { preset:"all", q:"", cat:"", dist:"", osiedle:"", sort:"num", hideseen:true, reorder:false, view:"list", negonly:false };
 let OSIEDLA = {};  // dzielnica -> sorted [osiedle]
 
 function fmtCost(c){
@@ -235,6 +240,7 @@ function passes(p, ignoreSeen){
   if(state.cat && p.kategoria!==state.cat) return false;
   if(state.dist && p.dzielnica!==state.dist) return false;
   if(state.osiedle && p.osiedle!==state.osiedle) return false;
+  if(state.negonly && !(p.opinia_rm||"").startsWith("NEGATYWNA")) return false;
   // "hide seen" never applies in the favourites or shared views
   if(!ignoreSeen && state.hideseen && state.preset!=="fav" && state.preset!=="shared" && seen.has(p.numer)) return false;
   if(state.q){
@@ -313,6 +319,7 @@ function render(){
           <span class="tag num">${p.numer}</span>
           <span class="tag ${p.typ==='PONADOSIEDLOWE'?'pon':''}">${p.typ==='PONADOSIEDLOWE'?'ogólnołódzki':'osiedlowy'}</span>
           ${seenHi?'<span class="tag seenmark">✓ widziane</span>':''}
+          ${(p.opinia_rm||"").startsWith("NEGATYWNA")?'<span class="tag neg" title="Rada Miejska zaopiniowała projekt negatywnie">✗ neg. opinia RM</span>':''}
           <button class="fav${isFav?' on':''}" data-f="${p.numer}" title="Ulubiony" aria-label="Ulubiony">${isFav?'♥':'♡'}</button>
           ${reorder}
         </div>
@@ -350,7 +357,7 @@ function csvCell(v){
 function exportCsv(){
   const cols = [["numer","Numer"],["tytul","Tytuł"],["typ","Typ"],["dzielnica","Dzielnica"],
                 ["osiedle","Osiedle"],["kategoria","Kategoria"],["koszt","Koszt (zł)"],
-                ["adres","Lokalizacja"],["opis","Opis"],["link","Link"]];
+                ["adres","Lokalizacja"],["opinia_rm","Opinia RM"],["opis","Opis"],["link","Link"]];
   const rows = favOrder.map(n=>DATA.find(p=>p.numer===n)).filter(Boolean);
   const lines = [cols.map(c=>csvCell(c[1])).join(";")];
   rows.forEach(p=> lines.push(cols.map(c=>csvCell(p[c[0]])).join(";")));
@@ -550,6 +557,7 @@ $("#dist").addEventListener("change", e=>{
 $("#osi").addEventListener("change", e=>{ state.osiedle=e.target.value; render(); });
 $("#sort").addEventListener("change", e=>{ state.sort=e.target.value; render(); });
 $("#hideseen").addEventListener("change", e=>{ state.hideseen=e.target.checked; render(); });
+$("#negonly").addEventListener("change", e=>{ state.negonly=e.target.checked; render(); });
 $("#count").addEventListener("click", e=>{
   if(e.target.id === "incSeen"){
     e.preventDefault();
@@ -653,6 +661,7 @@ async function boot(d){
   DATA.forEach(p=>{ if(p.dzielnica && p.osiedle){ (OSIEDLA[p.dzielnica] ||= []).push(p.osiedle); } });
   for(const k in OSIEDLA) OSIEDLA[k] = [...new Set(OSIEDLA[k])].sort((a,b)=>a.localeCompare(b,"pl"));
   fillOsiedla(state.dist);
+  $("#negcount").textContent = "(" + DATA.filter(p=>(p.opinia_rm||"").startsWith("NEGATYWNA")).length + ")";
   if(!boot.hashDone){   // a #favz=/#fav= link opens a view-only "Udostępnione" tab, once
     boot.hashDone = true;
     const mz = location.hash.match(/^#favz=(.+)$/);   // gzip+base64url (new, compact)
