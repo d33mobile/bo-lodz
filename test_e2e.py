@@ -132,6 +132,16 @@ def test_browser():
                 check(has_opis > 0, f"description blocks rendered on cards ({has_opis})")
             else:
                 print("skip  opis render (details not merged yet)")
+
+            # map view (Leaflet from CDN — needs network)
+            pg.click("#viewMap")
+            pg.wait_for_timeout(2000)
+            has_map = pg.eval_on_selector_all(".leaflet-container", "els => els.length")
+            markers = pg.eval_on_selector_all("path.leaflet-interactive", "els => els.length")
+            if has_map:
+                check(markers > 0, f"map view shows project markers ({markers})")
+            else:
+                print("skip  map view (Leaflet CDN unavailable)")
             b.close()
     finally:
         httpd.shutdown()
