@@ -48,10 +48,9 @@
         touch-action:none;user-select:none}
   .grip:active{cursor:grabbing;background:#eef2f0}
   .card.dragging{opacity:.45;box-shadow:0 6px 18px rgba(0,0,0,.18)}
-  .seam{height:0;margin:-5px 0;border-top:3px solid var(--accent);border-radius:3px;
-        box-shadow:0 0 0 1px rgba(11,110,79,.25)}
-  .seam::before{content:"";display:block;width:10px;height:10px;border-radius:50%;
-        background:var(--accent);margin:-6px 0 0 -2px}
+  /* drop indicator sits in the existing gap between cards, inset on the sides */
+  .seam{height:4px;background:var(--accent);border-radius:4px;margin:3px 6px;
+        box-shadow:0 0 0 2px rgba(11,110,79,.18)}
   #toast{position:fixed;left:50%;bottom:calc(70px + var(--pad));transform:translateX(-50%);
          background:#16241f;color:#fff;padding:10px 16px;border-radius:10px;font-size:13px;
          box-shadow:0 3px 12px rgba(0,0,0,.3);z-index:60;max-width:90vw;text-align:center}
@@ -71,6 +70,13 @@
   .fav:active{transform:scale(.85)}
   .ttl{font-weight:600;margin:1px 0 5px;font-size:15px;word-wrap:break-word}
   .card.seen .ttl{text-decoration:line-through;color:var(--seen)}
+  /* in the favourites view, do not dim/strike checked-off entries */
+  .favview .card.seen{opacity:1}
+  .favview .card.seen .ttl{text-decoration:none;color:var(--ink)}
+  /* compact "tidy" mode: shrink cards so reordering big entries is practical */
+  .reorder .card{padding:8px 10px}
+  .reorder .card .meta,.reorder .card .opis,.reorder .card .links,.reorder .card .chk{display:none}
+  .reorder .card .ttl{margin:3px 0 0;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .meta{font-size:12.5px;color:var(--muted);line-height:1.5}
   .meta b{color:var(--ink);font-weight:600}
   .opis{margin-top:7px;font-size:13px;color:#33403b}
@@ -150,6 +156,7 @@
     <button id="share" class="csvbtn">🔗 Udostępnij ulubione (link)</button>
     <button id="csv" class="csvbtn">⬇ Pobierz CSV ulubionych</button>
   </div>
+  <button id="reorderBtn" class="csvbtn" hidden>↕ Tryb porządkowania</button>
   <div id="list"></div>
   <div class="empty" id="empty" hidden>Brak projektów dla wybranych filtrów.</div>
 </div>
@@ -179,7 +186,7 @@ fav = new Set(favOrder);
 function saveSeen(){ localStorage.setItem(SKEY, JSON.stringify([...seen])); }
 function saveFav(){ localStorage.setItem(FKEY, JSON.stringify(favOrder)); }
 
-const state = { preset:"all", q:"", cat:"", dist:"", osiedle:"", sort:"num", hideseen:true };
+const state = { preset:"all", q:"", cat:"", dist:"", osiedle:"", sort:"num", hideseen:true, reorder:false };
 let OSIEDLA = {};  // dzielnica -> sorted [osiedle]
 
 function fmtCost(c){
@@ -215,6 +222,10 @@ function gmaps(p){ return `https://www.google.com/maps?q=${p.lat},${p.lon}`; }
 function render(){
   const list = $("#list");
   const manual = state.preset==="fav" && state.sort==="manual";
+  list.classList.toggle("favview", state.preset==="fav");
+  list.classList.toggle("reorder", state.preset==="fav" && state.reorder);
+  $("#reorderBtn").hidden = state.preset!=="fav";
+  $("#reorderBtn").textContent = state.reorder ? "✓ Gotowe" : "↕ Tryb porządkowania";
   let items = DATA.filter(passes);
   if(manual) items.sort((a,b)=> favOrder.indexOf(a.numer)-favOrder.indexOf(b.numer));
   else items.sort(sortFn);
@@ -229,7 +240,7 @@ function render(){
       : "";
     const where = p.typ==="PONADOSIEDLOWE" ? "Ogólnołódzki"
                   : `${p.dzielnica||""}${p.osiedle? " — "+p.osiedle:""}`;
-    const addr = p.adres ? `<br>${esc(p.adres)}` : "";
+    const addr = p.lokalizacja_dodatkowa ? `<br>${esc(p.lokalizacja_dodatkowa)}` : "";
     const opis = p.opis ? `<details class="opis"><summary>Pokaż opis</summary><p>${esc(p.opis)}</p></details>` : "";
     return `<div class="card${isSeen?' seen':''}" data-numer="${p.numer}">
       <label class="chk"><input type="checkbox" data-n="${p.numer}" ${isSeen?'checked':''}></label>
@@ -382,6 +393,7 @@ function shareFav(){
   }
 }
 $("#share").addEventListener("click", shareFav);
+$("#reorderBtn").addEventListener("click", ()=>{ state.reorder = !state.reorder; render(); });
 
 $("#list").addEventListener("change", e=>{
   const n = e.target.dataset.n; if(!n) return;
@@ -395,7 +407,7 @@ $("#presets").addEventListener("click", e=>{
   const b = e.target.closest(".preset"); if(!b) return;
   state.preset = b.dataset.p;
   if(state.preset==="fav"){ state.sort="manual"; $("#sort").value="manual"; }
-  else if(state.sort==="manual"){ state.sort="num"; $("#sort").value="num"; }
+  else { state.reorder=false; if(state.sort==="manual"){ state.sort="num"; $("#sort").value="num"; } }
   [...$("#presets").children].forEach(c=>c.classList.toggle("on", c===b));
   render();
 });

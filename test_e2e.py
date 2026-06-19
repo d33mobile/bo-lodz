@@ -123,9 +123,15 @@ def test_browser():
             check(fav_visible >= 1, f"favourites stay visible in Ulubione despite hide-seen ({fav_visible})")
 
             # detail text present once details have been merged into projects.json
-            has_opis = pg.eval_on_selector_all(
-                ".card .opis", "els => els.length") if pg.query_selector(".opis") else 0
-            print(f"info  cards with .opis block: {has_opis}")
+            pg.click("text=Wszystkie")
+            pg.wait_for_timeout(300)
+            has_opis = pg.eval_on_selector_all(".card .opis", "els => els.length")
+            proj = json.loads((HERE / "data" / "projects.json").read_text("utf-8"))
+            merged = any("opis" in p for p in proj["projects"])
+            if merged:
+                check(has_opis > 0, f"description blocks rendered on cards ({has_opis})")
+            else:
+                print("skip  opis render (details not merged yet)")
             b.close()
     finally:
         httpd.shutdown()
