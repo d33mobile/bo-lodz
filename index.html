@@ -35,6 +35,9 @@
   select{width:100%;padding:8px;border:1px solid var(--line);border-radius:8px;background:#fff;font-size:14px}
   .toggle{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--ink);flex:1 1 100%}
   .count{font-size:12px;color:var(--muted);margin:8px 2px}
+  .csvbtn{width:100%;padding:10px;margin:0 0 10px;border:1px solid var(--accent2);background:#fff;
+          color:var(--accent2);border-radius:10px;font-size:14px;font-weight:600;cursor:pointer}
+  .csvbtn:active{background:#eef4fa}
   .card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;
         margin-bottom:10px;display:flex;gap:11px;align-items:flex-start;box-shadow:0 1px 2px rgba(0,0,0,.04)}
   .card.seen{opacity:.55}
@@ -106,6 +109,11 @@
       </label>
     </div>
     <div class="row">
+      <label>Osiedle
+        <select id="osi"><option value="">— wszystkie —</option></select>
+      </label>
+    </div>
+    <div class="row">
       <label>Sortuj wg
         <select id="sort">
           <option value="num">numeru</option>
@@ -120,6 +128,7 @@
   </details>
 
   <div class="count" id="count"></div>
+  <button id="csv" class="csvbtn" hidden>⬇ Pobierz CSV ulubionych</button>
   <div id="list"></div>
   <div class="empty" id="empty" hidden>Brak projektów dla wybranych filtrów.</div>
 </div>
@@ -144,7 +153,8 @@ try { fav  = new Set(JSON.parse(localStorage.getItem(FKEY) || "[]")); } catch(e)
 function saveSeen(){ localStorage.setItem(SKEY, JSON.stringify([...seen])); }
 function saveFav(){ localStorage.setItem(FKEY, JSON.stringify([...fav])); }
 
-const state = { preset:"all", q:"", cat:"", dist:"", sort:"num", hideseen:false };
+const state = { preset:"all", q:"", cat:"", dist:"", osiedle:"", sort:"num", hideseen:false };
+let OSIEDLA = {};  // dzielnica -> sorted [osiedle]
 
 function fmtCost(c){
   if(c==null) return "—";
@@ -156,6 +166,7 @@ function passes(p){
   if(state.preset==="fav" && !fav.has(p.numer)) return false;
   if(state.cat && p.kategoria!==state.cat) return false;
   if(state.dist && p.dzielnica!==state.dist) return false;
+  if(state.osiedle && p.osiedle!==state.osiedle) return false;
   if(state.hideseen && seen.has(p.numer)) return false;
   if(state.q){
     const q = state.q.toLowerCase();
@@ -215,7 +226,31 @@ function updateProgress(){
   const total = DATA.length, n = DATA.filter(p=>seen.has(p.numer)).length;
   $("#bar").style.width = total? (100*n/total)+"%" : "0";
   $("#progtxt").textContent = `Odhaczone: ${n} / ${total} · ♥ ${fav.size}`;
+  $("#csv").hidden = fav.size === 0;
+  $("#csv").textContent = `⬇ Pobierz CSV ulubionych (${fav.size})`;
 }
+
+function csvCell(v){
+  const s = (v==null ? "" : String(v));
+  return /[";\n]/.test(s) ? '"' + s.replace(/"/g,'""') + '"' : s;
+}
+
+function exportCsv(){
+  const cols = [["numer","Numer"],["tytul","Tytuł"],["typ","Typ"],["dzielnica","Dzielnica"],
+                ["osiedle","Osiedle"],["kategoria","Kategoria"],["koszt","Koszt (zł)"],
+                ["adres","Lokalizacja"],["opis","Opis"],["link","Link"]];
+  const rows = DATA.filter(p=>fav.has(p.numer)).sort(sortFn);
+  const lines = [cols.map(c=>csvCell(c[1])).join(";")];
+  rows.forEach(p=> lines.push(cols.map(c=>csvCell(p[c[0]])).join(";")));
+  const blob = new Blob(["﻿" + lines.join("\r\n")], {type:"text/csv;charset=utf-8"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "bo-lodz-ulubione.csv";
+  document.body.appendChild(a); a.click();
+  setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); }, 0);
+}
+
+$("#csv").addEventListener("click", exportCsv);
 
 $("#list").addEventListener("click", e=>{
   const f = e.target.closest(".fav"); if(!f) return;
@@ -249,9 +284,22 @@ $("#presets").addEventListener("click", e=>{
   render();
 });
 
+function fillOsiedla(dz){
+  const sel = $("#osi");
+  const list = dz ? (OSIEDLA[dz] || [])
+                  : [...new Set(Object.values(OSIEDLA).flat())].sort((a,b)=>a.localeCompare(b,"pl"));
+  sel.innerHTML = '<option value="">— wszystkie —</option>';
+  list.forEach(o=>{ const op=document.createElement("option"); op.value=op.textContent=o; sel.appendChild(op); });
+  if(state.osiedle && !list.includes(state.osiedle)) state.osiedle = "";
+  sel.value = state.osiedle;
+}
+
 $("#q").addEventListener("input", e=>{ state.q=e.target.value; render(); });
 $("#cat").addEventListener("change", e=>{ state.cat=e.target.value; render(); });
-$("#dist").addEventListener("change", e=>{ state.dist=e.target.value; render(); });
+$("#dist").addEventListener("change", e=>{
+  state.dist=e.target.value; fillOsiedla(state.dist); render();
+});
+$("#osi").addEventListener("change", e=>{ state.osiedle=e.target.value; render(); });
 $("#sort").addEventListener("change", e=>{ state.sort=e.target.value; render(); });
 $("#hideseen").addEventListener("change", e=>{ state.hideseen=e.target.checked; render(); });
 
@@ -296,6 +344,10 @@ loadData("data/projects.json").then(d=>{
   cats.forEach(c=>{ const o=document.createElement("option"); o.value=o.textContent=c; $("#cat").appendChild(o); });
   const dz = [...new Set(DATA.map(p=>p.dzielnica).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pl"));
   dz.forEach(c=>{ const o=document.createElement("option"); o.value=o.textContent=c; $("#dist").appendChild(o); });
+  OSIEDLA = {};
+  DATA.forEach(p=>{ if(p.dzielnica && p.osiedle){ (OSIEDLA[p.dzielnica] ||= []).push(p.osiedle); } });
+  for(const k in OSIEDLA) OSIEDLA[k] = [...new Set(OSIEDLA[k])].sort((a,b)=>a.localeCompare(b,"pl"));
+  fillOsiedla("");
   [...$("#presets").children].forEach(c=>c.classList.toggle("on", c.dataset.p===state.preset));
   updateProgress(); render(); hideLoading();
 }).catch(e=>{
