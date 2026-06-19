@@ -95,18 +95,19 @@
   /* compact "tidy" mode: shrink cards so reordering big entries is practical */
   .reorder .card{padding:8px 10px}
   .reorder .card .meta,.reorder .card .links,.reorder .card .chk{display:none}
-  .reorder .card details.opis{display:none}
   .reorder .card .ttl{margin:3px 0 0;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   /* expanding a card in tidy mode reveals its full normal-mode content */
-  .reorder .card.expanded .chk,.reorder .card.expanded .meta,
-  .reorder .card.expanded details.opis{display:block}
+  .reorder .card.expanded .chk,.reorder .card.expanded .meta{display:block}
   .reorder .card.expanded .links{display:flex}
   .reorder .card.expanded .ttl{white-space:normal;overflow:visible;font-size:15px}
   .meta{font-size:12.5px;color:var(--muted);line-height:1.5}
   .meta b{color:var(--ink);font-weight:600}
-  .opis{margin-top:7px;font-size:13px;color:#33403b}
-  .opis>summary{cursor:pointer;color:var(--accent2);font-weight:600;font-size:12.5px}
-  .opis p{margin:6px 0 0;white-space:pre-wrap}
+  .opis{display:none;margin-top:7px;font-size:13px;color:#33403b}
+  .card.expanded .opis{display:block}
+  .opis p{margin:0;white-space:pre-wrap}
+  .chev{display:inline-block;color:var(--accent2);font-size:12px;transition:transform .15s}
+  .card.expanded .chev{transform:rotate(180deg)}
+  .ttl{cursor:pointer}
   .links{margin-top:7px;display:flex;gap:14px;flex-wrap:wrap}
   .links a{font-size:13px;color:var(--accent2);text-decoration:none;font-weight:600}
   .links a:active{opacity:.6}
@@ -304,7 +305,7 @@ function render(){
     const where = p.typ==="PONADOSIEDLOWE" ? "Ogólnołódzki"
                   : `${p.dzielnica||""}${p.osiedle? " — "+p.osiedle:""}`;
     const addr = p.lokalizacja_dodatkowa ? `<br>${esc(p.lokalizacja_dodatkowa)}` : "";
-    const opis = p.opis ? `<details class="opis"><summary>Pokaż opis</summary><p>${esc(p.opis)}</p></details>` : "";
+    const opis = p.opis ? `<div class="opis"><p>${esc(p.opis)}</p></div>` : "";
     return `<div class="card${isSeen?' seen':''}${seenHi?' seen-hi':''}" data-numer="${p.numer}">
       <label class="chk"><input type="checkbox" data-n="${p.numer}" ${isSeen?'checked':''}></label>
       <div class="body">
@@ -315,7 +316,7 @@ function render(){
           <button class="fav${isFav?' on':''}" data-f="${p.numer}" title="Ulubiony" aria-label="Ulubiony">${isFav?'♥':'♡'}</button>
           ${reorder}
         </div>
-        <div class="ttl">${esc(p.tytul)||'(bez tytułu)'}</div>
+        <div class="ttl">${esc(p.tytul)||'(bez tytułu)'}${p.opis?' <span class="chev">▾</span>':''}</div>
         <div class="meta">
           <b>${esc(where)}</b> · ${esc(p.kategoria)}${addr}<br>
           Koszt: <b>${fmtCost(p.koszt)}</b>
@@ -395,12 +396,11 @@ $("#list").addEventListener("click", e=>{
     if((state.preset==="fav" && !adding) || (state.hideseen && adding)) render();
     return;
   }
-  // a tap anywhere on the card (not on a control/link) toggles its description;
-  // in tidy mode this expands the card to show its full normal-mode content
-  if(e.target.closest("a, button, input, summary, label, .grip")) return;
+  // a tap anywhere on the card (not on a control/link) expands/collapses it:
+  // shows the description (normal mode) or the full content (tidy mode)
+  if(e.target.closest("a, button, input, label, .grip")) return;
   const card = e.target.closest(".card");
-  const det = card && card.querySelector("details.opis");
-  if(det){ det.open = !det.open; card.classList.toggle("expanded", det.open); }
+  if(card) card.classList.toggle("expanded");
 });
 
 // long-press on ↑/↓ moves the favourite to the very start/end
