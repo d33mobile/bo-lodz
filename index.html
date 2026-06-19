@@ -220,10 +220,18 @@ function updateProgress(){
 $("#list").addEventListener("click", e=>{
   const f = e.target.closest(".fav"); if(!f) return;
   const n = f.dataset.f;
-  if(fav.has(n)){ fav.delete(n); } else { fav.add(n); }
-  saveFav(); f.classList.toggle("on", fav.has(n)); f.textContent = fav.has(n)?'♥':'♡';
+  const adding = !fav.has(n);
+  if(adding){ fav.add(n); } else { fav.delete(n); }
+  saveFav(); f.classList.toggle("on", adding); f.textContent = adding?'♥':'♡';
+  const card = f.closest(".card");
+  if(adding && !seen.has(n)){           // dodanie do ulubionych odhacza wpis
+    seen.add(n); saveSeen();
+    const cb = card.querySelector(".chk input");
+    if(cb) cb.checked = true;
+    card.classList.add("seen");
+  }
   updateProgress();
-  if(state.preset==="fav" && !fav.has(n)) render();
+  if((state.preset==="fav" && !adding) || (state.hideseen && adding)) render();
 });
 
 $("#list").addEventListener("change", e=>{
