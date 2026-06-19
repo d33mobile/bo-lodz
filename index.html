@@ -688,12 +688,14 @@ async function boot(d){
 // then revalidate in the background and re-render only if it actually changed.
 // The network fetch itself rides the browser HTTP cache (ETag → cheap 304s),
 // so the 1.2 MB payload is not re-downloaded on every visit.
-const CACHE_KEY = "bo-lodz-2026-2027-data-v1";
-const dataSig = d => [d.count, (d.projects||[]).length,
-                      (d.projects||[]).at(-1) && d.projects.at(-1).idwpis].join("|");
+const CACHE_KEY = "bo-lodz-2026-2027-data-v2";
+// content-sensitive signature: the serialized length changes whenever any field
+// is added/edited, so adding e.g. opinia_rm correctly invalidates the cache.
+const dataSig = d => [d.count, (d.projects||[]).length, JSON.stringify(d.projects||[]).length].join("|");
 let shownSig = null;
 
 (async function init(){
+  try { localStorage.removeItem("bo-lodz-2026-2027-data-v1"); } catch(e){}
   let cached = null;
   try { cached = JSON.parse(localStorage.getItem(CACHE_KEY) || "null"); } catch(e){}
   if(cached && cached.data && cached.data.projects){
