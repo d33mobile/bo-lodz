@@ -4,9 +4,17 @@ import prettier from "eslint-config-prettier";
 
 export default [
   {
-    ignores: ["node_modules/", "data/", "coverage/"],
+    ignores: ["node_modules/", "data/", "coverage/", "coverage-e2e/", "test-results/"],
   },
   js.configs.recommended,
+  {
+    // Node-side tooling: Playwright config, e2e specs and teardown run under
+    // Node, not in the browser, so they get the Node globals (process, etc.).
+    files: ["playwright.config.js", "test/**/*.js", "vitest.config.js"],
+    languageOptions: {
+      globals: { ...globals.node },
+    },
+  },
   {
     languageOptions: {
       ecmaVersion: "latest",

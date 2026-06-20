@@ -1,6 +1,8 @@
 # Generated / scraped artefacts and committed HTML/data we don't reformat.
 node_modules/
 coverage/
+coverage-e2e/
+test-results/
 data/
 index.html
 README.md
