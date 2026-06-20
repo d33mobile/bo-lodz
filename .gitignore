@@ -2,6 +2,8 @@ __pycache__/
 *.pyc
 shot-*.png
 .DS_Store
+node_modules/
+coverage/
 # heavy raw detail HTML archive + parsed dump live on the scraper host, not in the repo
 data/raw/detail/
 data/details.json
