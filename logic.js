@@ -4,7 +4,10 @@
 
 // HTML-escape a string for safe interpolation into innerHTML.
 export function esc(s) {
-  return (s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  return (s || "").replace(
+    /[&<>"]/g,
+    (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]
+  );
 }
 
 // Format a cost in PLN, or an em dash when it's missing.
