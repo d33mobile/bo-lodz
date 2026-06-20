@@ -1,0 +1,24 @@
+{
+  "url_uchwaly": "https://dziennik.lodzkie.eu/eli/POL_WOJ_LD/2023/2848",
+  "url_pdf": "https://dziennik.lodzkie.eu/eli/POL_WOJ_LD/2023/2848/ogl/pol/pdf",
+  "tytul": "Uchwała Nr LXXIII/2173/23 Rady Miejskiej w Łodzi z dnia 15 marca 2023 r. w sprawie określenia wymagań, jakie powinien spełniać projekt Łódzkiego Budżetu Obywatelskiego",
+  "zrodlo": "Dziennik Urzędowy Województwa Łódzkiego z 5 kwietnia 2023 r., poz. 2848",
+  "paragrafy": {
+    "§ 2 ust. 2 pkt 7": {
+      "tekst": "W ramach ŁBO nie mogą być realizowane projekty: (...) 7) dotyczące opracowania samej dokumentacji, jeśli nie jest ona częścią składową projektu;",
+      "podsumowanie": "Niedopuszczalny jest projekt polegający wyłącznie na opracowaniu dokumentacji (np. projektowej), jeśli nie jest ona częścią szerszego przedsięwzięcia."
+    },
+    "§ 2 ust. 2 pkt 12": {
+      "tekst": "W ramach ŁBO nie mogą być realizowane projekty: (...) 12) dotyczące realizacji stacji roweru miejskiego, zmian układu linii lokalnego transportu zbiorowego w mieście Łodzi, projektów badawczych, przeprowadzania sondaży, ankiet, konsultacji, badania opinii publicznej, budowy pomników upamiętniających osoby lub wydarzenia w przestrzeni miejskiej;",
+      "podsumowanie": "Wykluczone są projekty dotyczące stacji roweru miejskiego, zmian linii komunikacji miejskiej, badań/sondaży/ankiet/konsultacji oraz budowy pomników."
+    },
+    "§ 2 ust. 2 pkt 15": {
+      "tekst": "W ramach ŁBO nie mogą być realizowane projekty: (...) 15) których koszty szacunkowe nie są większe od kwoty 0,00 zł, przekraczają pulę na projekty, o których mowa w § 1 pkt. 8 i 9 w ramach ŁBO na dany rok budżetowy;",
+      "podsumowanie": "Projekt musi mieć koszt szacunkowy większy niż 0 zł i nie może przekraczać puli środków przewidzianej dla danej kategorii (osiedlowej/ponadosiedlowej) na dany rok."
+    },
+    "§ 9 ust. 3": {
+      "tekst": "W przypadku złożenia formularza z brakami formalnymi lub bez dołączonej listy podpisów mieszkańców, Lider jest zobowiązany do ich uzupełnienia w terminie 7 dni od wezwania. Niezastosowanie się do wezwania skutkuje brakiem dalszego procedowania projektu.",
+      "podsumowanie": "Braki formalne lub brak listy podpisów trzeba uzupełnić w ciągu 7 dni od wezwania; brak reakcji oznacza pozostawienie projektu bez dalszego rozpatrzenia."
+    }
+  }
+}
