@@ -1581,3 +1581,227 @@ test("B3: status line surfaces filters when collapsed; filters survive preset ro
   await page.click(".preset[data-p='all']");
   expect(await page.locator("#cat").inputValue()).toBe("Sport");
 });
+
+// ---- B4: list <-> map view ----
+// A crafted dataset with well-separated coordinates (so markers don't overlap
+// and each can be clicked / measured unambiguously), a project WITHOUT lat/lon
+// (never a marker) and a project with a unique opis word (isolatable by query).
+const MAP = {
+  count: 6,
+  projects: [
+    { numer: "M001", tytul: "Pon A", typ: "PONADOSIEDLOWE", dzielnica: null, osiedle: null, kategoria: "Sport", koszt: 100, link: "https://e/1", lat: 51.7, lon: 19.4, opis: "o1", opinia_rm: "POZYTYWNA" }, // prettier-ignore
+    { numer: "M002", tytul: "Osiedle B", typ: "OSIEDLOWE", dzielnica: "Górna", osiedle: "Chojny", kategoria: "Zieleń", koszt: 200, link: "https://e/2", lat: 51.75, lon: 19.45, opis: "o2", opinia_rm: "POZYTYWNA" }, // prettier-ignore
+    { numer: "M003", tytul: "Osiedle C", typ: "OSIEDLOWE", dzielnica: "Polesie", osiedle: "Karolew", kategoria: "Sport", koszt: 300, link: "https://e/3", lat: 51.8, lon: 19.5, opis: "o3", opinia_rm: "NEGATYWNA - x" }, // prettier-ignore
+    { numer: "M004", tytul: "Pon D", typ: "PONADOSIEDLOWE", dzielnica: null, osiedle: null, kategoria: "Kultura", koszt: 400, link: "https://e/4", lat: 51.85, lon: 19.55, opis: "o4", opinia_rm: "POZYTYWNA" }, // prettier-ignore
+    { numer: "M005", tytul: "Bez wsp", typ: "OSIEDLOWE", dzielnica: "Górna", osiedle: "Chojny", kategoria: "Zieleń", koszt: 500, link: null, lat: null, lon: null, opis: "o5", opinia_rm: "POZYTYWNA" }, // prettier-ignore
+    { numer: "M006", tytul: "Osiedle F szukaj", typ: "OSIEDLOWE", dzielnica: "Polesie", osiedle: "Karolew", kategoria: "Kultura", koszt: 600, link: "https://e/6", lat: 51.72, lon: 19.42, opis: "o6 unikalne", opinia_rm: "POZYTYWNA" }, // prettier-ignore
+  ],
+};
+
+async function loadMap(page) {
+  await page.route("**/data/projects.json", (r) =>
+    r.fulfill({
+      status: 200,
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(MAP),
+    })
+  );
+  await page.goto("/");
+  await expect(page.locator("#sub")).toContainText("projektów", { timeout: 15000 });
+  await page.click("text=Wszystkie");
+  await page.click("summary"); // open the filter pane so its selects stay reachable
+}
+
+const markers = (page) => page.locator("path.leaflet-interactive").count();
+const MAP_HAS_COORDS = new Set(MAP.projects.filter((p) => p.lat != null).map((p) => p.numer));
+
+async function openMap(page) {
+  await page.click("#viewMap");
+  await page.waitForTimeout(1500);
+  return (await page.locator(".leaflet-container").count()) > 0;
+}
+
+// Across preset/category/dzielnica/osiedle/query/negonly/hide-seen permutations,
+// the map shows exactly one marker per list card that carries coordinates.
+test("B4: marker count matches the visible list (with coords) in every filter state", async ({
+  page,
+}) => {
+  await loadMap(page);
+  if (!(await openMap(page))) test.skip(true, "Leaflet CDN unavailable");
+
+  async function check(label, setup) {
+    await page.click("#viewList");
+    await setup();
+    await page.waitForTimeout(100);
+    const numery = await page
+      .locator("#list .card")
+      .evaluateAll((cs) => cs.map((c) => c.dataset.numer));
+    const want = numery.filter((n) => MAP_HAS_COORDS.has(n)).length;
+    await page.click("#viewMap");
+    await expect.poll(() => markers(page), { message: label }).toBe(want);
+  }
+
+  await check("all", async () => page.click("text=Wszystkie"));
+  await check("pon", async () => page.click(".preset[data-p='pon']"));
+  await check("cat=Sport", async () => {
+    await page.click("text=Wszystkie");
+    await page.selectOption("#cat", "Sport");
+  });
+  await check("dist=Polesie", async () => {
+    await page.selectOption("#cat", "");
+    await page.selectOption("#dist", "Polesie");
+  });
+  await check("osi=Karolew", async () => {
+    await page.selectOption("#dist", "");
+    await page.selectOption("#osi", "Karolew");
+  });
+  await check("query", async () => {
+    await page.selectOption("#osi", "");
+    await page.fill("#q", "unikalne");
+  });
+  await check("negonly", async () => {
+    await page.fill("#q", "");
+    await page.check("#negonly");
+  });
+  await check("hide-seen", async () => {
+    await page.uncheck("#negonly");
+    // check off M002 (has coords); hide-seen (default on) drops it from both views
+    await page.locator('#list .card[data-numer="M002"] .chk input').click();
+    await expect.poll(() => page.locator('#list .card[data-numer="M002"]').count()).toBe(0);
+  });
+});
+
+// Changing a filter WHILE the map view is active re-renders the markers live
+// (render() calls updateMap when state.view === "map").
+test("B4: changing a filter while on the map updates markers live", async ({ page }) => {
+  await loadMap(page);
+  if (!(await openMap(page))) test.skip(true, "Leaflet CDN unavailable");
+  await expect.poll(() => markers(page)).toBe(5); // M005 has no coords
+  await page.selectOption("#cat", "Sport"); // M001 + M003 have coords
+  await expect.poll(() => markers(page)).toBe(2);
+  await page.selectOption("#cat", "");
+  await page.fill("#q", "unikalne"); // only M006
+  await expect.poll(() => markers(page)).toBe(1);
+});
+
+// Marker colours encode the project: ponadosiedlowy = blue, osiedlowy = green,
+// and a favourite recolours red.
+test("B4: marker colours follow type, and favouriting recolours red", async ({ page }) => {
+  await loadMap(page);
+  if (!(await openMap(page))) test.skip(true, "Leaflet CDN unavailable");
+  async function strokeFor(q) {
+    await page.click("#viewList");
+    await page.fill("#q", q);
+    await page.click("#viewMap");
+    await expect.poll(() => markers(page)).toBe(1);
+    return (
+      await page.locator("path.leaflet-interactive").first().getAttribute("stroke")
+    ).toLowerCase();
+  }
+  expect(await strokeFor("Pon A")).toBe("#0a5f97"); // M001 ponadosiedlowy → blue
+  expect(await strokeFor("Osiedle B")).toBe("#0b6e4f"); // M002 osiedlowy → green
+  // Favourite M002 (with favMarksSeen off so it isn't hidden) → red marker.
+  await page.click("#viewList");
+  await page.click("#gear");
+  await page.uncheck("#setFavSeen");
+  await page.click("#setClose");
+  await page.fill("#q", "Osiedle B");
+  await page.locator('.card[data-numer="M002"] .fav').click();
+  await page.click("#viewMap");
+  await expect
+    .poll(async () =>
+      (await page.locator("path.leaflet-interactive").first().getAttribute("stroke")).toLowerCase()
+    )
+    .toBe("#e23b5a");
+});
+
+// The map popup's "add to favourites" adds the project, recolours its marker red
+// and surfaces it under the Ulubione list view.
+test("B4: map popup adds a favourite, recolours the marker and lists it", async ({ page }) => {
+  await loadMap(page);
+  if (!(await openMap(page))) test.skip(true, "Leaflet CDN unavailable");
+  // favMarksSeen off so the freshly-favourited marker isn't hidden by hide-seen
+  await page.click("#viewList");
+  await page.click("#gear");
+  await page.uncheck("#setFavSeen");
+  await page.click("#setClose");
+  await page.fill("#q", "unikalne"); // isolate M006 → exactly one marker
+  await page.click("#viewMap");
+  await expect.poll(() => markers(page)).toBe(1);
+  await page.locator("path.leaflet-interactive").first().click({ force: true });
+  const pf = page.locator(".leaflet-popup .pf").first();
+  await expect(pf).toBeVisible();
+  // A normal (hit-tested) click on the popup button — a force-click can land on
+  // stale coordinates after the map re-lays out, missing the small target.
+  await pf.click();
+  await expect
+    .poll(async () =>
+      (await page.locator("path.leaflet-interactive").first().getAttribute("stroke")).toLowerCase()
+    )
+    .toBe("#e23b5a");
+  await page.click("#viewList");
+  await page.fill("#q", "");
+  await page.click(".preset[data-p='fav']");
+  await expect.poll(() => page.locator("#list .card").count()).toBe(1);
+  await expect(page.locator('#list .card[data-numer="M006"]')).toHaveCount(1);
+});
+
+// The marker-size setting resizes the markers live while the map is open and the
+// size survives a reload.
+test("B4: marker size from settings resizes markers live and persists", async ({ page }) => {
+  await loadMap(page);
+  if (!(await openMap(page))) test.skip(true, "Leaflet CDN unavailable");
+  await page.click("#viewList");
+  await page.fill("#q", "Pon A"); // a single marker to measure
+  await page.click("#viewMap");
+  await expect.poll(() => markers(page)).toBe(1);
+  const w = () => page.locator("path.leaflet-interactive").first().evaluate((e) => e.getBBox().width); // prettier-ignore
+  const before = await w();
+  await page.click("#gear");
+  await page.locator("#setSize").fill("14");
+  await page.locator("#setSize").dispatchEvent("input");
+  await page.click("#setClose");
+  await expect.poll(w).toBeGreaterThan(before);
+  // Reload keeps the size: a fresh marker is drawn at the larger radius.
+  const big = await w();
+  await page.reload();
+  await expect(page.locator("#sub")).toContainText("projektów", { timeout: 15000 });
+  await page.click("text=Wszystkie");
+  await page.click("summary");
+  await page.fill("#q", "Pon A");
+  await page.click("#viewMap");
+  await expect.poll(() => markers(page)).toBe(1);
+  expect(Math.abs((await w()) - big)).toBeLessThan(1);
+});
+
+// Switching list <-> map keeps the filter/sort state and toggles the right
+// container visibility; an empty result draws zero markers without crashing.
+test("B4: list<->map round-trip preserves state and handles an empty result", async ({ page }) => {
+  await loadMap(page);
+  if (!(await openMap(page))) test.skip(true, "Leaflet CDN unavailable");
+  await page.click("#viewList");
+  await page.selectOption("#dist", "Polesie");
+  await page.selectOption("#sort", "costd");
+  const before = await page
+    .locator("#list .card")
+    .evaluateAll((cs) => cs.map((c) => c.dataset.numer));
+  await page.click("#viewMap");
+  expect(await page.locator("#list").evaluate((e) => getComputedStyle(e).display)).toBe("none");
+  expect(await page.locator("#map").evaluate((e) => getComputedStyle(e).display)).not.toBe("none");
+  await page.click("#viewList");
+  expect(await page.locator("#map").evaluate((e) => getComputedStyle(e).display)).toBe("none");
+  expect(await page.locator("#list").evaluate((e) => getComputedStyle(e).display)).not.toBe("none");
+  const after = await page
+    .locator("#list .card")
+    .evaluateAll((cs) => cs.map((c) => c.dataset.numer));
+  expect(after).toEqual(before);
+  expect(await page.locator("#dist").inputValue()).toBe("Polesie");
+  expect(await page.locator("#sort").inputValue()).toBe("costd");
+  // Empty result on the map → zero markers, no crash (fitBounds skipped).
+  await page.selectOption("#dist", "");
+  await page.fill("#q", "zzzznomatch");
+  await expect.poll(() => page.locator("#list .card").count()).toBe(0);
+  await page.click("#viewMap");
+  await expect.poll(() => markers(page)).toBe(0);
+  expect(await page.locator(".leaflet-container").count()).toBe(1);
+});
