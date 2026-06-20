@@ -31,7 +31,7 @@ PAGE = "https://budzetobywatelski.uml.lodz.pl/glosowanie-2026-2027/glosowanie.ph
 MAPA_JS = "https://budzetobywatelski.uml.lodz.pl/glosowanie-2026-2027/js/glosowanie-mapa.js?t=200"
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
-DATA = Path(__file__).parent / "data"
+DATA = Path(__file__).parent.parent / "data"
 OUT = DATA / "projects.json"
 RAW = DATA / "raw"  # every HTTP response is saved here verbatim
 CURRENT_IDBAZA = "1402200148"  # live 2026/2027 edition; the other IDBAZA is old

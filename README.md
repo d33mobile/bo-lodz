@@ -17,7 +17,7 @@ Pozwala przejrzeć wszystkie projekty i **odhaczać te, które już się obejrza
 
 ## Dane
 
-`data/projects.json` powstaje ze scrapera `scrape.py`. Mapa serwuje markery jako
+`data/projects.json` powstaje ze scrapera `scraper/scrape.py`. Mapa serwuje markery jako
 warstwy KML z `/we/service.php` (jedna na osiedle, jedna ogólnomiejska). Bierzemy
 tylko bieżącą edycję (`IDBAZA=1402200148`, linki `…szczegoly-projektu-2026-2027-…`)
 i deduplikujemy projekty po numerze. Surowe odpowiedzi HTTP lądują w `data/raw/`.
@@ -26,7 +26,7 @@ i deduplikujemy projekty po numerze. Surowe odpowiedzi HTTP lądują w `data/raw
 
 ```bash
 pip install playwright && playwright install chromium
-python3 scrape.py        # → data/projects.json + data/raw/*
+python3 scraper/scrape.py        # → data/projects.json + data/raw/*
 ```
 
 Scraper steruje prawdziwym Chromium (Playwright): otwiera stronę głosowania, a
@@ -38,8 +38,9 @@ losowymi odstępami — żeby zachowywać się jak zwykły klient mapy.
 > wymagają tokenu CODE i sesji przeglądarki). Stąd prawdziwa przeglądarka,
 > losowa kolejność, opóźnienia i małe batche. Scrapuj delikatnie.
 
-Pełne opisy projektów dociąga `scrape_details.py` (osobny, batchowany przebieg
-po podstronach `szczegoly-projektu-…`).
+Pełne opisy projektów dociąga `scraper/scrape_details.py` (osobny, batchowany
+przebieg po podstronach `szczegoly-projektu-…`), a `scraper/merge_details.py`
+scala je z powrotem do `data/projects.json`.
 
 ---
 Strona pomocnicza, nie jest powiązana z Urzędem Miasta Łodzi.

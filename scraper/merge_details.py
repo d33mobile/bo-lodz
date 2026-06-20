@@ -7,7 +7,7 @@ site can show them. Idempotent — re-running just refreshes the merged fields.
 import json
 from pathlib import Path
 
-DATA = Path(__file__).parent / "data"
+DATA = Path(__file__).parent.parent / "data"
 PROJECTS = DATA / "projects.json"
 DETAILS = DATA / "details.json"
 

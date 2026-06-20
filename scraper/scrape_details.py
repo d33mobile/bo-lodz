@@ -24,7 +24,7 @@ from pathlib import Path
 
 from playwright.async_api import async_playwright
 
-DATA = Path(__file__).parent / "data"
+DATA = Path(__file__).parent.parent / "data"
 PROJECTS = DATA / "projects.json"
 DETAILS = DATA / "details.json"
 RAWDIR = DATA / "raw" / "detail"

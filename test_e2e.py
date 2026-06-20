@@ -51,8 +51,8 @@ def test_parser():
     if not fixtures:
         print("skip  parser test (no detail fixtures yet)")
         return
+    sys.path.insert(0, str(HERE / "scraper"))
     from scrape_details import parse  # noqa: WPS433
-    sys.path.insert(0, str(HERE))
     # re-derive body text the same way the scraper does is browser-only; instead
     # assert the parser handles a labelled body string.
     sample = ("Font\nL001\n\nNazwa i lokalizacja:\n\nFoo\n\nOpis projektu:\n\n"
