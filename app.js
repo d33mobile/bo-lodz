@@ -67,7 +67,6 @@ function gmaps(p) {
 // ---- render (list + status line) ----
 function render() {
   const list = $("#list");
-  const manual = state.preset === "fav" && state.sort === "manual";
   list.classList.toggle("favview", state.preset === "fav" || state.preset === "shared");
   list.classList.toggle("reorder", state.preset === "fav" && state.reorder);
   $("#reorderBtn").hidden = state.preset !== "fav";
@@ -80,9 +79,19 @@ function render() {
   hs.checked = seenNA ? false : state.hideseen;
   hs.closest("label").style.opacity = seenNA ? ".5" : "";
   let items = DATA.filter((p) => passes(p));
-  if (state.preset === "shared")
-    items.sort((a, b) => shared.indexOf(a.numer) - shared.indexOf(b.numer));
-  else if (manual) items.sort((a, b) => favOrder.indexOf(a.numer) - favOrder.indexOf(b.numer));
+  // "manual" means "the view's own custom order": the shared link order in the
+  // Udostępnione view, the favOrder in Ulubione. Any other #sort value (num /
+  // cost / costd) goes through sortFn, in shared too — so the dropdown works.
+  const customOrder =
+    state.sort === "manual"
+      ? state.preset === "shared"
+        ? shared
+        : state.preset === "fav"
+          ? favOrder
+          : null
+      : null;
+  if (customOrder)
+    items.sort((a, b) => customOrder.indexOf(a.numer) - customOrder.indexOf(b.numer));
   else items.sort(sortFn);
   // transparent status: what's shown, which filters are active, what's hidden
   const presetName = {
@@ -429,7 +438,10 @@ $("#presets").addEventListener("click", (e) => {
   const b = e.target.closest(".preset");
   if (!b) return;
   state.preset = b.dataset.p;
-  if (state.preset === "fav") {
+  if (state.preset === "fav" || state.preset === "shared") {
+    // these presets carry their own custom order (favOrder / shared link order),
+    // shown as the "manual" sort by default; the dropdown still re-sorts them
+    if (state.preset !== "fav") state.reorder = false;
     state.sort = "manual";
     $("#sort").value = "manual";
   } else {
@@ -732,6 +744,9 @@ async function boot(d) {
       if (shared.length) {
         $("#presetShared").hidden = false;
         state.preset = "shared";
+        // default to the shared link order; the #sort dropdown can still re-sort
+        state.sort = "manual";
+        $("#sort").value = "manual";
         setTimeout(() => toast(`Udostępniona lista: ${shared.length} projektów (podgląd)`), 400);
       }
     }

@@ -176,6 +176,53 @@ test("shared link shows view-only tab and does not import favourites", async ({ 
   expect(favLs).toBe(0);
 });
 
+test("sort dropdown works in the shared (Udostępnione) view", async ({ page }) => {
+  // Regression for B1: in the shared view the #sort dropdown was ignored — the
+  // render hard-coded the link order. Open a shared link with three projects of
+  // distinct costs (L001=280000, L003=800000, L005=20000) and assert that each
+  // sort option actually reorders the cards, and that "manual" restores the link
+  // order.
+  const numerOrder = () =>
+    page.locator(".card").evaluateAll((cards) => cards.map((c) => c.dataset.numer));
+  const costOrder = () =>
+    page.locator(".card .meta").evaluateAll((metas) =>
+      metas.map((m) => {
+        // "Koszt: <b>… zł</b>" — strip everything but the digits.
+        const b = m.querySelectorAll("b");
+        return Number(b[b.length - 1].textContent.replace(/[^\d]/g, ""));
+      })
+    );
+
+  await loadApp(page, "#fav=L001,L003,L005");
+  await expect.poll(() => page.locator(".card").count()).toBe(3);
+  await page.click("summary");
+
+  // Default (manual / link order): exactly as given in the link.
+  expect(await page.locator("#sort").inputValue()).toBe("manual");
+  expect(await numerOrder()).toEqual(["L001", "L003", "L005"]);
+
+  // Sort by cost ascending — the cards must be reordered by cost, and the order
+  // must differ from the link order (L005 is cheapest, so it moves to the top).
+  await page.selectOption("#sort", "cost");
+  await expect.poll(() => numerOrder()).toEqual(["L005", "L001", "L003"]);
+  const asc = await costOrder();
+  expect(asc).toEqual([...asc].sort((a, b) => a - b));
+
+  // Sort by cost descending.
+  await page.selectOption("#sort", "costd");
+  await expect.poll(() => numerOrder()).toEqual(["L003", "L001", "L005"]);
+  const desc = await costOrder();
+  expect(desc).toEqual([...desc].sort((a, b) => b - a));
+
+  // Sort by number.
+  await page.selectOption("#sort", "num");
+  await expect.poll(() => numerOrder()).toEqual(["L001", "L003", "L005"]);
+
+  // Back to manual restores the shared link order.
+  await page.selectOption("#sort", "manual");
+  await expect.poll(() => numerOrder()).toEqual(["L001", "L003", "L005"]);
+});
+
 // ---- targeted coverage tests (C4): exercise the still-uncovered branches ----
 
 // Favourite the first three visible cards under "Wszystkie" and switch to the
