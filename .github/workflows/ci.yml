@@ -20,9 +20,37 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      # The Playwright webServer serves the repo via `python3 -m http.server`,
+      # so a Python interpreter must be on PATH.
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - run: pip install playwright
-      - run: python -m playwright install --with-deps chromium
-      - run: python test_e2e.py
+      # Runs the Playwright e2e suite and generates the monocart V8 branch
+      # coverage report; the global teardown fails the run if branch coverage
+      # drops below the enforced threshold (currently 95%).
+      - run: npm run coverage:e2e
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: coverage-e2e
+          path: coverage-e2e/
+          if-no-files-found: ignore
+
+  scraper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      # Lightweight Python check: data integrity + detail-page parser. The
+      # browser part of test_e2e.py is intentionally not run here — it is now
+      # covered by the Playwright e2e job above. No Playwright/Chromium needed.
+      - run: |
+          python3 -c "import sys, test_e2e as t; t.test_data(); t.test_parser(); sys.exit(1 if t.FAILS else 0)"
