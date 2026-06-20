@@ -1,3 +1,5 @@
+import * as logic from "./logic.js";
+
 const SKEY = "bo-lodz-2026-2027-seen";
 const FKEY = "bo-lodz-2026-2027-fav";
 const SETKEY = "bo-lodz-2026-2027-settings";
@@ -20,36 +22,13 @@ function saveFav(){ localStorage.setItem(FKEY, JSON.stringify(favOrder)); }
 const state = { preset:"all", q:"", cat:"", dist:"", osiedle:"", sort:"num", hideseen:true, reorder:false, view:"list", negonly:false };
 let OSIEDLA = {};  // dzielnica -> sorted [osiedle]
 
-function fmtCost(c){
-  if(c==null) return "—";
-  return c.toLocaleString("pl-PL",{maximumFractionDigits:0}) + " zł";
-}
+const fmtCost = logic.fmtCost;
+const esc = logic.esc;
+const csvCell = logic.csvCell;
 
-function passes(p, ignoreSeen){
-  if(state.preset==="pon" && p.typ!=="PONADOSIEDLOWE") return false;
-  if(state.preset==="fav" && !fav.has(p.numer)) return false;
-  if(state.preset==="shared" && !sharedSet.has(p.numer)) return false;
-  if(state.cat && p.kategoria!==state.cat) return false;
-  if(state.dist && p.dzielnica!==state.dist) return false;
-  if(state.osiedle && p.osiedle!==state.osiedle) return false;
-  if(state.negonly && !(p.opinia_rm||"").startsWith("NEGATYWNA")) return false;
-  // "hide seen" never applies in the favourites or shared views
-  if(!ignoreSeen && state.hideseen && state.preset!=="fav" && state.preset!=="shared" && seen.has(p.numer)) return false;
-  if(state.q){
-    const q = state.q.toLowerCase();
-    if(!(p.tytul.toLowerCase().includes(q) || p.numer.toLowerCase().includes(q)
-         || (p.opis||"").toLowerCase().includes(q))) return false;
-  }
-  return true;
-}
-
-function sortFn(a,b){
-  switch(state.sort){
-    case "cost": return (a.koszt??9e15)-(b.koszt??9e15);
-    case "costd": return (b.koszt??-1)-(a.koszt??-1);
-    default: return a.numer.localeCompare(b.numer,"pl",{numeric:true});
-  }
-}
+// thin DOM-side wrappers binding the current state/sets into the pure logic
+function passes(p, ignoreSeen){ return logic.projectPasses(state, p, { fav, sharedSet, seen }, ignoreSeen); }
+function sortFn(a, b){ return logic.compareProjects(state, a, b); }
 
 function gmaps(p){ return `https://www.google.com/maps?q=${p.lat},${p.lon}`; }
 
@@ -131,19 +110,12 @@ function render(){
   if(state.view === "map") updateMap();
 }
 
-function esc(s){ return (s||"").replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
-
 function updateProgress(){
   const total = DATA.length, n = DATA.filter(p=>seen.has(p.numer)).length;
   $("#bar").style.width = total? (100*n/total)+"%" : "0";
   $("#progtxt").textContent = `Odhaczone: ${n} / ${total} · ♥ ${fav.size}`;
   $("#favtools").hidden = fav.size === 0 || state.preset === "shared";
   $("#csv").textContent = `⬇ CSV (${fav.size})`;
-}
-
-function csvCell(v){
-  const s = (v==null ? "" : String(v));
-  return /[";\n]/.test(s) ? '"' + s.replace(/"/g,'""') + '"' : s;
 }
 
 function exportCsv(){
@@ -174,8 +146,7 @@ $("#list").addEventListener("click", e=>{
       const vis = [...$("#list").querySelectorAll(".card")].map(c=>c.dataset.numer);
       const neighbour = vis[vis.indexOf(n) + (up ? -1 : 1)];
       if(neighbour){
-        const a = favOrder.indexOf(n), c = favOrder.indexOf(neighbour);
-        [favOrder[a], favOrder[c]] = [favOrder[c], favOrder[a]];
+        favOrder = logic.swapAdjacent(favOrder, n, neighbour);
         saveFav(); render();
       }
     }
@@ -205,8 +176,7 @@ $("#list").addEventListener("click", e=>{
 // long-press on ↑/↓ moves the favourite to the very start/end
 let ordHoldTimer = null, ordHeld = false;
 function moveExtreme(n, toEnd){
-  favOrder = favOrder.filter(x=>x!==n);
-  if(toEnd) favOrder.push(n); else favOrder.unshift(n);
+  favOrder = logic.moveExtreme(favOrder, n, toEnd);
   saveFav(); render();
 }
 $("#list").addEventListener("pointerdown", e=>{
@@ -283,19 +253,8 @@ function toast(msg){
 }
 
 // compact share payload: gzip + base64url (falls back to the plain list)
-async function gzipB64(str){
-  const cs = new CompressionStream("gzip");
-  const buf = await new Response(new Blob([str]).stream().pipeThrough(cs)).arrayBuffer();
-  let bin = ""; for(const b of new Uint8Array(buf)) bin += String.fromCharCode(b);
-  return btoa(bin).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");
-}
-async function gunzipB64(b64){
-  const bin = atob(b64.replace(/-/g,"+").replace(/_/g,"/"));
-  const bytes = new Uint8Array(bin.length);
-  for(let i=0;i<bin.length;i++) bytes[i] = bin.charCodeAt(i);
-  const ds = new DecompressionStream("gzip");
-  return await new Response(new Blob([bytes]).stream().pipeThrough(ds)).text();
-}
+const gzipB64 = logic.gzipB64;
+const gunzipB64 = logic.gunzipB64;
 async function shareFav(){
   if(!favOrder.length){ toast("Brak ulubionych do udostępnienia"); return; }
   let hash;
@@ -488,9 +447,7 @@ async function boot(d){
   [...new Set(DATA.map(p=>p.dzielnica).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pl"))
     .forEach(c=>{ const o=document.createElement("option"); o.value=o.textContent=c; $("#dist").appendChild(o); });
   $("#dist").value = state.dist;
-  OSIEDLA = {};
-  DATA.forEach(p=>{ if(p.dzielnica && p.osiedle){ (OSIEDLA[p.dzielnica] ||= []).push(p.osiedle); } });
-  for(const k in OSIEDLA) OSIEDLA[k] = [...new Set(OSIEDLA[k])].sort((a,b)=>a.localeCompare(b,"pl"));
+  OSIEDLA = logic.osiedlaMap(DATA);
   fillOsiedla(state.dist);
   $("#negcount").textContent = "(" + DATA.filter(p=>(p.opinia_rm||"").startsWith("NEGATYWNA")).length + ")";
   if(!boot.hashDone){   // a #favz=/#fav= link opens a view-only "Udostępnione" tab, once
@@ -522,7 +479,7 @@ async function boot(d){
 const CACHE_KEY = "bo-lodz-2026-2027-data-v2";
 // content-sensitive signature: the serialized length changes whenever any field
 // is added/edited, so adding e.g. opinia_rm correctly invalidates the cache.
-const dataSig = d => [d.count, (d.projects||[]).length, JSON.stringify(d.projects||[]).length].join("|");
+const dataSig = logic.dataSig;
 let shownSig = null;
 
 (async function init(){
