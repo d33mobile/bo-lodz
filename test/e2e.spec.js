@@ -223,6 +223,110 @@ test("sort dropdown works in the shared (Udostępnione) view", async ({ page }) 
   await expect.poll(() => numerOrder()).toEqual(["L001", "L003", "L005"]);
 });
 
+// ---- B2: preset × sort full matrix ---------------------------------------
+
+const numerOrderOf = (page) =>
+  page.locator(".card").evaluateAll((cards) => cards.map((c) => c.dataset.numer));
+const costOrderOf = (page) =>
+  page.locator(".card .meta").evaluateAll((metas) =>
+    metas.map((m) => {
+      const b = m.querySelectorAll("b");
+      return Number(b[b.length - 1].textContent.replace(/[^\d]/g, ""));
+    })
+  );
+const numericSorted = (arr) =>
+  [...arr].sort((a, b) => String(a).localeCompare(String(b), "pl", { numeric: true }));
+
+// Across every preset (all / pon / fav / shared) the three real sort options
+// (num / cost / costd) must actually order the visible cards. This pins the
+// whole matrix down so a future regression in compareProjects or the render-time
+// custom-order fallback is caught everywhere, not only in the shared view.
+test("preset × sort matrix: num/cost/costd order the visible cards everywhere", async ({
+  page,
+}) => {
+  // Open with a shared link (so the shared preset exists) and make three favs.
+  await loadApp(page, "#fav=L001,L003,L005");
+  await page.click("summary");
+  await page.click(".preset[data-p='all']");
+  await page.uncheck("#hideseen");
+  for (let i = 0; i < 3; i++) {
+    await page.locator(".card").nth(i).locator(".fav").click();
+  }
+
+  for (const preset of ["all", "pon", "fav", "shared"]) {
+    await page.click(`.preset[data-p='${preset}']`);
+    // hide-seen is auto-disabled in fav/shared; turn it off in all/pon too so the
+    // full list is asserted (monotonicity holds either way, but this is cleaner).
+    if (await page.locator("#hideseen").isEnabled()) await page.uncheck("#hideseen");
+
+    await page.selectOption("#sort", "num");
+    await expect.poll(() => page.locator(".card").count()).toBeGreaterThan(0);
+    const byNum = await numerOrderOf(page);
+    expect(byNum, `num order in ${preset}`).toEqual(numericSorted(byNum));
+
+    await page.selectOption("#sort", "cost");
+    const asc = await costOrderOf(page);
+    expect(asc, `cost asc in ${preset}`).toEqual([...asc].sort((a, b) => a - b));
+
+    await page.selectOption("#sort", "costd");
+    const desc = await costOrderOf(page);
+    expect(desc, `cost desc in ${preset}`).toEqual([...desc].sort((a, b) => b - a));
+  }
+});
+
+// The "manual" sort only has meaning where a custom order exists (favOrder /
+// shared link order). Outside fav/shared it is disabled in the dropdown — before
+// this fix it stayed selectable and silently fell back to numeric order, leaving
+// the control reading "manual" while behaving as "num" (misleading).
+test("manual sort option is disabled outside fav/shared, enabled inside", async ({ page }) => {
+  await loadApp(page, "#fav=L001,L003,L005");
+  await page.click("summary");
+  // Playwright's toBeDisabled() doesn't track the <option> disabled property, so
+  // read the live DOM property directly.
+  const manualDisabled = () => page.locator("#sortManual").evaluate((o) => o.disabled);
+
+  // Shared view (opened by the link): manual is the active, enabled sort.
+  expect(await page.locator(".preset.on").textContent()).toContain("Udostępnione");
+  expect(await page.locator("#sort").inputValue()).toBe("manual");
+  expect(await manualDisabled()).toBe(false);
+
+  // Wszystkie / Ogólnołódzkie: no custom order → option disabled, sort reset to num.
+  await page.click(".preset[data-p='all']");
+  expect(await manualDisabled()).toBe(true);
+  expect(await page.locator("#sort").inputValue()).toBe("num");
+  await page.click(".preset[data-p='pon']");
+  expect(await manualDisabled()).toBe(true);
+
+  // Ulubione: favourites carry favOrder → manual enabled again and auto-selected.
+  await page.click(".preset[data-p='all']");
+  await page.locator(".card").first().locator(".fav").click();
+  await page.click(".preset[data-p='fav']");
+  expect(await manualDisabled()).toBe(false);
+  expect(await page.locator("#sort").inputValue()).toBe("manual");
+});
+
+// State consistency across the fav→all / shared→pon transitions: leaving a
+// custom-order preset must drop "manual" back to "num" (dropdown + behaviour),
+// while a real sort (cost) chosen inside fav must survive the preset change.
+test("sort state stays consistent across preset transitions", async ({ page }) => {
+  await loadApp(page);
+  await page.click("text=Wszystkie");
+  await page.click("summary");
+
+  // fav (manual by default) → all resets to num.
+  await page.locator(".card").first().locator(".fav").click();
+  await page.click(".preset[data-p='fav']");
+  expect(await page.locator("#sort").inputValue()).toBe("manual");
+  await page.click(".preset[data-p='all']");
+  expect(await page.locator("#sort").inputValue()).toBe("num");
+
+  // cost chosen inside fav is a real sort → survives leaving the preset.
+  await page.click(".preset[data-p='fav']");
+  await page.selectOption("#sort", "cost");
+  await page.click(".preset[data-p='all']");
+  expect(await page.locator("#sort").inputValue()).toBe("cost");
+});
+
 // ---- targeted coverage tests (C4): exercise the still-uncovered branches ----
 
 // Favourite the first three visible cards under "Wszystkie" and switch to the

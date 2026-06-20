@@ -78,6 +78,11 @@ function render() {
   hs.disabled = seenNA;
   hs.checked = seenNA ? false : state.hideseen;
   hs.closest("label").style.opacity = seenNA ? ".5" : "";
+  // "manual" is a custom-order sort that only exists in fav (favOrder) and shared
+  // (link order). Outside those presets there is no custom order, so the option is
+  // disabled — otherwise picking it would leave the dropdown reading "manual" while
+  // the list silently falls back to numeric order.
+  $("#sortManual").disabled = !seenNA;
   let items = DATA.filter((p) => passes(p));
   // "manual" means "the view's own custom order": the shared link order in the
   // Udostępnione view, the favOrder in Ulubione. Any other #sort value (num /
