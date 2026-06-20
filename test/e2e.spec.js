@@ -1373,3 +1373,211 @@ test("wipe stays armed inside its window then disarms after it", async ({ page }
   expect(armedNow).toBe(true);
   await expect(page.locator("#wipe")).toHaveText("Usuń wszystkie ustawienia", { timeout: 6000 });
 });
+
+// ---- B3: filters × presets (combinations, count line, incSeen, persistence) ----
+
+// A synthetic dataset that gives us deterministic, label-free control over the
+// filter matrix: two dzielnice with a shared-name-free osiedle each, both
+// categories present in each, three NEGATYWNA projects and two ogólnołódzkie.
+const FILT = {
+  count: 6,
+  projects: [
+    { numer: "A001", tytul: "Park Alfa", typ: "OSIEDLOWE", dzielnica: "Bałuty", osiedle: "Doły", kategoria: "Zieleń", koszt: 100, link: null, lat: null, lon: null, opis: "opis alfa", opinia_rm: "NEGATYWNA - x" }, // prettier-ignore
+    { numer: "A002", tytul: "Plac Beta", typ: "OSIEDLOWE", dzielnica: "Bałuty", osiedle: "Doły", kategoria: "Sport", koszt: 200, link: null, lat: null, lon: null, opis: "opis beta", opinia_rm: "POZYTYWNA" }, // prettier-ignore
+    { numer: "A003", tytul: "Droga Gamma", typ: "OSIEDLOWE", dzielnica: "Górna", osiedle: "Chojny", kategoria: "Zieleń", koszt: 300, link: null, lat: null, lon: null, opis: "opis gamma", opinia_rm: "NEGATYWNA - y" }, // prettier-ignore
+    { numer: "A004", tytul: "Skwer Delta", typ: "OSIEDLOWE", dzielnica: "Górna", osiedle: "Chojny", kategoria: "Sport", koszt: 400, link: null, lat: null, lon: null, opis: "opis delta", opinia_rm: "POZYTYWNA" }, // prettier-ignore
+    { numer: "A005", tytul: "Ogolny Epsilon", typ: "PONADOSIEDLOWE", dzielnica: null, osiedle: null, kategoria: "Kultura", koszt: 500, link: null, lat: null, lon: null, opis: "opis epsilon", opinia_rm: "NEGATYWNA - z" }, // prettier-ignore
+    { numer: "A006", tytul: "Ogolny Zeta", typ: "PONADOSIEDLOWE", dzielnica: null, osiedle: null, kategoria: "Sport", koszt: 600, link: null, lat: null, lon: null, opis: "opis zeta", opinia_rm: "POZYTYWNA" }, // prettier-ignore
+  ],
+};
+
+async function loadFilt(page, hash = "") {
+  await page.route("**/data/projects.json", (r) =>
+    r.fulfill({
+      status: 200,
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(FILT),
+    })
+  );
+  await page.goto("/" + hash);
+  await expect(page.locator("#sub")).toContainText("projektów", { timeout: 15000 });
+}
+
+const countText = (page) => page.locator("#count").textContent();
+const hiddenN = async (page) => {
+  const m = (await countText(page)).match(/ukryto (\d+) odhaczonych/);
+  return m ? Number(m[1]) : 0;
+};
+const shownN = async (page) => Number((await countText(page)).match(/Pokazuję (\d+)/)[1]);
+
+// Core invariant: the status-line "Pokazuję X z N" count must equal the number of
+// rendered cards through every filter combination — a mismatch would mean the
+// status line lies about what the list shows.
+test("B3: count line equals visible cards across filter combinations", async ({ page }) => {
+  await loadFilt(page);
+  await page.click("text=Wszystkie");
+  await page.click("summary");
+  const agree = async (label) => {
+    const cards = await page.locator(".card").count();
+    expect(await shownN(page), label).toBe(cards);
+    return cards;
+  };
+  await agree("baseline");
+  await page.selectOption("#cat", "Sport");
+  await agree("cat");
+  await page.selectOption("#dist", "Bałuty");
+  await agree("cat+dist");
+  await page.selectOption("#osi", "Doły");
+  await agree("cat+dist+osi");
+  await page.fill("#q", "Beta");
+  await agree("cat+dist+osi+q");
+  await page.selectOption("#cat", "");
+  await page.selectOption("#dist", "");
+  await page.selectOption("#osi", "");
+  await page.fill("#q", "");
+  await page.check("#negonly");
+  await agree("negonly");
+});
+
+// The dzielnica → osiedle → kategoria triple narrows to a single project, and an
+// osiedle chosen with NO dzielnica still filters (the cascade lists every osiedle).
+test("B3: dzielnica+osiedle+kategoria triple and osiedle-without-dzielnica", async ({ page }) => {
+  await loadFilt(page);
+  await page.click("text=Wszystkie");
+  await page.click("summary");
+  await page.selectOption("#dist", "Bałuty");
+  await page.selectOption("#osi", "Doły");
+  await page.selectOption("#cat", "Sport");
+  await expect.poll(() => page.locator(".card").count()).toBe(1);
+  await expect(page.locator(".card .num")).toHaveText("A002");
+
+  // Clear dzielnica but keep an osiedle: it resets (Doły not under "all" reset),
+  // so reselect from the full list and confirm it still filters on its own.
+  await page.selectOption("#cat", "");
+  await page.selectOption("#dist", "");
+  await page.selectOption("#osi", "Doły");
+  await expect.poll(() => page.locator(".card").count()).toBe(2); // A001, A002
+  expect(await shownN(page)).toBe(2);
+});
+
+// negonly combined with a category narrows correctly, and the negative-opinion
+// badge appears on every surviving card (no false positives).
+test("B3: negonly + kategoria combination", async ({ page }) => {
+  await loadFilt(page);
+  await page.click("text=Wszystkie");
+  await page.click("summary");
+  await page.check("#negonly");
+  await page.selectOption("#cat", "Zieleń");
+  await expect.poll(() => page.locator(".card").count()).toBe(2); // A001, A003
+  expect(await page.locator(".card .tag.neg").count()).toBe(2);
+});
+
+// The Ogólnołódzkie preset combined with a category filter narrows to the matching
+// ogólnołódzki project only (preset and filter compose).
+test("B3: pon preset + kategoria", async ({ page }) => {
+  await loadFilt(page);
+  await page.click(".preset[data-p='pon']");
+  await page.click("summary");
+  await expect.poll(() => page.locator(".card").count()).toBe(2); // A005, A006
+  await page.selectOption("#cat", "Sport");
+  await expect.poll(() => page.locator(".card").count()).toBe(1);
+  await expect(page.locator(".card .num")).toHaveText("A006");
+});
+
+// The "ukryto N odhaczonych" link must count only entries hidden-by-seen under the
+// CURRENT filters, not globally: checking A001 (Bałuty) and A005 (ogólnołódzki)
+// then filtering to Bałuty must report exactly 1 hidden, not 2.
+test("B3: incSeen N respects the active filters", async ({ page }) => {
+  await loadFilt(page);
+  await page.click("text=Wszystkie");
+  await page.click("summary");
+  await page.fill("#q", "Alfa");
+  await page.locator(".card .chk input").first().click();
+  await page.fill("#q", "Epsilon");
+  await page.locator(".card .chk input").first().click();
+  await page.fill("#q", "");
+  await page.selectOption("#dist", "Bałuty");
+  await expect(page.locator("#incSeen")).toBeVisible();
+  expect(await hiddenN(page)).toBe(1); // only A001 within Bałuty, A005 is elsewhere
+});
+
+// Empty-state wording must distinguish "everything matching is checked off" (with
+// the include-seen link) from "nothing matches these filters" (no link). Check off
+// all three negative projects, then assert the all-seen branch is taken.
+test("B3: empty-state all-seen vs no-match distinction", async ({ page }) => {
+  await loadFilt(page);
+  await page.click("text=Wszystkie");
+  await page.click("summary");
+  await page.check("#negonly"); // 3 negative projects
+  await expect.poll(() => page.locator(".card").count()).toBe(3);
+  for (let i = 0; i < 3; i++) await page.locator(".card .chk input").first().click();
+  await expect.poll(() => page.locator(".card").count()).toBe(0);
+  // All-seen branch: the include-seen link + the "odhaczone" wording.
+  await expect(page.locator("#empty")).toContainText("odhaczone");
+  await expect(page.locator("#incSeen")).toBeVisible();
+  expect(await hiddenN(page)).toBe(3);
+
+  // Now a genuinely-empty filter (a query that matches nothing) → no link, the
+  // "brak projektów" wording instead.
+  await page.uncheck("#negonly");
+  await page.fill("#q", "nieistniejącafraza");
+  await expect.poll(() => page.locator(".card").count()).toBe(0);
+  await expect(page.locator("#empty")).toContainText("Brak projektów dla wybranych filtrów");
+  expect(await page.locator("#incSeen").count()).toBe(0);
+});
+
+// Filters apply inside the fav and shared views, and the include-seen link is
+// never offered there (hide-seen does not run in fav/shared), even when the same
+// filter would have hidden entries in the all view.
+test("B3: filters apply in fav/shared with no incSeen link", async ({ page }) => {
+  await loadFilt(page, "#fav=A001,A002,A003");
+  await page.click("summary");
+  await expect.poll(() => page.locator(".card").count()).toBe(3); // shared view
+  await page.selectOption("#cat", "Zieleń");
+  await expect.poll(() => page.locator(".card").count()).toBe(2); // A001, A003
+  expect(await page.locator("#incSeen").count()).toBe(0);
+  expect(await shownN(page)).toBe(2);
+
+  // Favourite two projects, switch to the fav view, and filter it down too.
+  await page.selectOption("#cat", "");
+  await page.click(".preset[data-p='all']");
+  await page.locator('.card[data-numer="A002"] .fav').click();
+  await page.locator('.card[data-numer="A004"] .fav').click();
+  await page.click(".preset[data-p='fav']");
+  await expect.poll(() => page.locator(".card").count()).toBe(2);
+  await page.selectOption("#cat", "Sport"); // both are Sport → still 2
+  await expect.poll(() => page.locator(".card").count()).toBe(2);
+  expect(await page.locator("#incSeen").count()).toBe(0);
+});
+
+// Active filters are always surfaced in the status line, even when the collapsible
+// "Więcej filtrów" pane is closed — so a short list is never unexplained — and a
+// category filter survives the all→fav→all round-trip rather than silently
+// dropping.
+test("B3: status line surfaces filters when collapsed; filters survive preset round-trip", async ({
+  page,
+}) => {
+  await loadFilt(page);
+  await page.click("text=Wszystkie");
+  await page.click("summary");
+  await page.selectOption("#dist", "Bałuty");
+  await page.fill("#q", "Park");
+  await page.click("summary"); // collapse the filter pane
+  expect(await page.locator("details.more").evaluate((d) => d.open)).toBe(false);
+  const status = await countText(page);
+  expect(status).toContain("filtr:");
+  expect(status).toContain("Bałuty");
+  expect(status).toContain("Park");
+
+  // Round-trip: a category filter set in "all" stays applied through fav and back.
+  // Re-open the (now collapsed) filter pane so its selects are actionable.
+  await page.locator("details.more").evaluate((d) => (d.open = true));
+  await page.fill("#q", "");
+  await page.selectOption("#dist", "");
+  await page.selectOption("#cat", "Sport");
+  await page.locator('.card[data-numer="A002"] .fav').click();
+  await page.click(".preset[data-p='fav']");
+  expect(await page.locator("#cat").inputValue()).toBe("Sport");
+  await page.click(".preset[data-p='all']");
+  expect(await page.locator("#cat").inputValue()).toBe("Sport");
+});
