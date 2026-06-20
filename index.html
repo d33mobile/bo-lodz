@@ -574,8 +574,12 @@ let lmap = null, markerLayer = null;
 function ensureMap(){
   if(lmap || !window.L) return lmap;
   lmap = L.map("map", { scrollWheelZoom: true }).setView([51.759, 19.457], 12);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-    { maxZoom: 19, attribution: "© OpenStreetMap" }).addTo(lmap);
+  // OSM tile policy wants an identifying Referer; send the full app URL (not just
+  // the bare github.io origin) and use the canonical tile host. See
+  // https://wiki.openstreetmap.org/wiki/Referer
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    { maxZoom: 19, attribution: "© OpenStreetMap contributors",
+      referrerPolicy: "no-referrer-when-downgrade" }).addTo(lmap);
   markerLayer = L.layerGroup().addTo(lmap);
   lmap.on("popupopen", e=>{
     const el = e.popup.getElement().querySelector(".pf");
