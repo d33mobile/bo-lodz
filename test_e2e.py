@@ -115,6 +115,28 @@ def test_browser():
             n2 = pg.evaluate("() => JSON.parse(localStorage.getItem('bo-lodz-2026-2027-seen')||'[]').length")
             check(n1 >= 1 and n2 == n1, f"check-off persists across reload ({n1}->{n2})")
 
+            # undo the last check-off: checking a card off reveals the Cofnij
+            # button; clicking it un-checks that entry (seen count drops) and the
+            # button hides again. Use "Wszystkie" with hide-seen so the checked
+            # card vanishes, then undo restores it.
+            pg.click("text=Wszystkie")
+            pg.wait_for_timeout(300)
+            before = pg.evaluate(
+                "() => JSON.parse(localStorage.getItem('bo-lodz-2026-2027-seen')||'[]').length")
+            pg.click(".card .chk input")
+            pg.wait_for_timeout(300)
+            undo_visible = pg.eval_on_selector("#undo", "el => !el.hidden")
+            after_check = pg.evaluate(
+                "() => JSON.parse(localStorage.getItem('bo-lodz-2026-2027-seen')||'[]').length")
+            pg.click("#undo")
+            pg.wait_for_timeout(300)
+            after_undo = pg.evaluate(
+                "() => JSON.parse(localStorage.getItem('bo-lodz-2026-2027-seen')||'[]').length")
+            undo_hidden = pg.eval_on_selector("#undo", "el => el.hidden")
+            check(undo_visible and after_check == before + 1 and after_undo == before and undo_hidden,
+                  f"undo last check-off (seen {before}->{after_check}->{after_undo}, "
+                  f"shown={undo_visible}, hidden_after={undo_hidden})")
+
             # favourites are still visible in the Ulubione preset even though
             # favouriting marks them seen and "hide seen" is on.
             pg.click(".preset[data-p='fav']")

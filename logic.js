@@ -103,6 +103,19 @@ export function osiedlaMap(projects) {
   return map;
 }
 
+// Undo of the last check-off. Pops numery from the end of `stack` until one is
+// still in `seenSet` (entries manually unchecked in the meantime are skipped).
+// Returns { numer, stack }: the first matching numer and the remaining stack
+// (with the popped entries removed). If nothing matches → { numer: null, stack: [] }.
+export function popUndo(stack, seenSet) {
+  const arr = stack.slice();
+  while (arr.length) {
+    const numer = arr.pop();
+    if (seenSet.has(numer)) return { numer, stack: arr };
+  }
+  return { numer: null, stack: [] };
+}
+
 // compact share payload: gzip + base64url
 export async function gzipB64(str) {
   const cs = new CompressionStream("gzip");

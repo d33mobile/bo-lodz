@@ -16,6 +16,7 @@ let favOrder = []; // ordered list of favourite numery (source of truth)
 let fav = new Set();
 let shared = [],
   sharedSet = new Set(); // a shared list opened from #fav= (view only)
+let undoStack = []; // numery checked off this session, for the Cofnij button
 const $ = (s) => document.querySelector(s);
 
 try {
@@ -164,6 +165,12 @@ function updateProgress() {
   $("#progtxt").textContent = `Odhaczone: ${n} / ${total} · ♥ ${fav.size}`;
   $("#favtools").hidden = fav.size === 0 || state.preset === "shared";
   $("#csv").textContent = `⬇ CSV (${fav.size})`;
+  updateUndo();
+}
+
+// Show the floating "Cofnij" button only while there's a check-off to undo.
+function updateUndo() {
+  $("#undo").hidden = undoStack.length === 0;
 }
 
 function exportCsv() {
@@ -283,6 +290,7 @@ function toggleFav(n) {
     favOrder.push(n);
     if (settings.favMarksSeen && !seen.has(n)) {
       seen.add(n);
+      undoStack.push(n);
       saveSeen();
     } // optional via settings
   } else {
@@ -400,8 +408,10 @@ $("#reorderBtn").addEventListener("click", () => {
 $("#list").addEventListener("change", (e) => {
   const n = e.target.dataset.n;
   if (!n) return;
-  if (e.target.checked) seen.add(n);
-  else seen.delete(n);
+  if (e.target.checked) {
+    seen.add(n);
+    undoStack.push(n);
+  } else seen.delete(n);
   saveSeen();
   updateProgress();
   e.target.closest(".card").classList.toggle("seen", e.target.checked);
@@ -485,6 +495,19 @@ addEventListener("scroll", () => {
   stbtn.hidden = scrollY < 600;
 });
 stbtn.addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
+
+// undo the most recent check-off (skipping entries unchecked in the meantime)
+$("#undo").addEventListener("click", () => {
+  const res = logic.popUndo(undoStack, seen);
+  undoStack = res.stack;
+  if (res.numer != null) {
+    seen.delete(res.numer);
+    saveSeen();
+    updateProgress();
+    render();
+  }
+  updateUndo();
+});
 
 // ---- map view (Leaflet) ----
 let lmap = null,
