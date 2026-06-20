@@ -14,6 +14,8 @@ export default defineConfig({
   use: {
     baseURL: `http://127.0.0.1:${PORT}`,
     viewport: { width: 390, height: 844 },
+    permissions: ["clipboard-read", "clipboard-write"],
+    acceptDownloads: true,
   },
   projects: [{ name: "chromium", use: { browserName: "chromium" } }],
   webServer: {

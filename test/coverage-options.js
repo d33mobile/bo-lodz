@@ -9,10 +9,11 @@
 
 // Enforced branch-coverage floor for the whole shipped JS (app.js + logic.js),
 // organically gathered from real Chromium execution. The C4 stage ratchets this
-// upward as more branches get covered; for now it is set to (measured − 2 pts).
+// upward as more branches get covered (monotonically; never lowered). It tracks
+// just below the latest measured total so a regression fails CI.
 // When the merged total branch % drops below this, onEnd throws and the
 // `playwright test` run exits non-zero, failing CI.
-export const BRANCH_THRESHOLD = 54;
+export const BRANCH_THRESHOLD = 77;
 
 export const coverageOptions = {
   name: "BO JS coverage",
