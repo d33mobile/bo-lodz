@@ -13,7 +13,7 @@
 // just below the latest measured total so a regression fails CI.
 // When the merged total branch % drops below this, onEnd throws and the
 // `playwright test` run exits non-zero, failing CI.
-export const BRANCH_THRESHOLD = 77;
+export const BRANCH_THRESHOLD = 95;
 
 export const coverageOptions = {
   name: "BO JS coverage",

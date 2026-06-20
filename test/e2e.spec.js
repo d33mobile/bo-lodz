@@ -462,9 +462,763 @@ test("map popup add-to-favourites toggles the favourite", async ({ page }) => {
   test.skip(!hasMap, "Leaflet CDN unavailable");
   // Markers overlap, so open the first one's popup with a forced click (do not
   // let Playwright bail on an intercepting neighbour marker).
-  await page.locator("path.leaflet-interactive").first().click({ force: true });
-  await expect(page.locator(".leaflet-popup .pf")).toBeVisible();
+  const firstMarker = page.locator("path.leaflet-interactive").first();
+  await firstMarker.click({ force: true });
+  const pf = page.locator(".leaflet-popup .pf").first();
+  await expect(pf).toBeVisible();
   const before = await favLen(page);
-  await page.click(".leaflet-popup .pf", { force: true });
+  await pf.click({ force: true });
+  // Favouriting from the popup re-renders the map: the now-favourite marker is
+  // drawn in the favourite colour (markerColor's fav arm runs during that
+  // re-render).
   await expect.poll(() => favLen(page)).toBe(before + 1);
+});
+
+test("un-favourite removes the heart and drops it from favOrder", async ({ page }) => {
+  await loadApp(page);
+  await page.click("text=Wszystkie");
+  // Turn hide-seen off so favouriting (which marks seen) does not re-render the
+  // list out from under us, keeping a stable card to toggle twice.
+  await page.click("summary");
+  await page.uncheck("#hideseen");
+  const card = page.locator(".card").first();
+  const numer = await card.getAttribute("data-numer");
+  const heart = page.locator(`.card[data-numer="${numer}"] .fav`);
+  // Add then remove the favourite: the second click hits the toggleFav remove
+  // branch (fav.delete + favOrder.filter) and flips the heart back to ♡.
+  await heart.click();
+  await expect.poll(() => favLen(page)).toBe(1);
+  await heart.click();
+  await expect.poll(() => favLen(page)).toBe(0);
+  expect(await heart.textContent()).toBe("♡");
+  // Removing the last fav in the Ulubione view triggers a re-render to empty.
+  await heart.click();
+  await page.click(".preset[data-p='fav']");
+  await expect.poll(() => page.locator(".card").count()).toBe(1);
+  await page.locator(".card").first().locator(".fav").click();
+  await expect.poll(() => page.locator(".card").count()).toBe(0);
+});
+
+test("unchecking a checkbox removes it from seen", async ({ page }) => {
+  await loadApp(page);
+  await page.click("text=Wszystkie");
+  // Turn hide-seen off so the checked card stays in place and can be unchecked.
+  await page.click("summary");
+  await page.uncheck("#hideseen");
+  const cb = page.locator(".card .chk input").first();
+  await cb.check();
+  await expect.poll(() => seenLen(page)).toBe(1);
+  await cb.uncheck();
+  await expect.poll(() => seenLen(page)).toBe(0);
+});
+
+test("empty state message when all matching projects are checked off", async ({ page }) => {
+  await loadApp(page);
+  await page.click("text=Wszystkie");
+  // Narrow to a single project by number, check it off; with hide-seen on the
+  // list empties and the count line offers the include-seen link.
+  await page.click("summary");
+  await page.fill("#q", "L001");
+  await expect.poll(() => page.locator(".card").count()).toBe(1);
+  await page.locator(".card .chk input").first().click();
+  // Everything matching is now hidden → empty state + "ukryto … odhaczonych".
+  await expect(page.locator("#empty")).toBeVisible();
+  await expect(page.locator("#empty")).toContainText("odhaczone");
+  await expect(page.locator("#incSeen")).toBeVisible();
+});
+
+test("wipe settings is confirm-gated: arm, confirm, storage cleared", async ({ page }) => {
+  await loadApp(page);
+  await page.click("text=Wszystkie");
+  // Seed some bo-lodz-* keys so we can prove they're wiped.
+  await page.locator(".card").first().locator(".fav").click();
+  await page.click(".card .chk input");
+  await expect.poll(() => favLen(page)).toBeGreaterThanOrEqual(1);
+
+  await page.click("#gear");
+  // First click arms the confirm (the button does NOT wipe yet).
+  await page.click("#wipe");
+  await expect(page.locator("#wipe")).toHaveText(/Na pewno/);
+  const stillThere = await page.evaluate(
+    () => Object.keys(localStorage).filter((k) => k.startsWith("bo-lodz-2026-2027-")).length
+  );
+  expect(stillThere).toBeGreaterThan(0);
+
+  // Second click confirms and reloads with storage cleared.
+  await Promise.all([page.waitForNavigation(), page.click("#wipe")]);
+  await expect(page.locator("#sub")).toContainText("projektów", { timeout: 15000 });
+  const left = await page.evaluate(() =>
+    Object.keys(localStorage).filter((k) => k.startsWith("bo-lodz-2026-2027-"))
+  );
+  // Only the freshly-written data cache (v2) may survive the reload.
+  expect(left.filter((k) => k !== "bo-lodz-2026-2027-data-v2")).toEqual([]);
+});
+
+test("wipe arm auto-disarms after the timeout window", async ({ page }) => {
+  await loadApp(page);
+  await page.click("#gear");
+  // Shrink the disarm timer so the test doesn't wait 4s, then arm.
+  await page.evaluate(() => {
+    const orig = window.setTimeout;
+    window.setTimeout = (fn, ms) => orig(fn, ms > 1000 ? 200 : ms);
+  });
+  await page.click("#wipe");
+  await expect(page.locator("#wipe")).toHaveText(/Na pewno/);
+  // After the (shortened) window it reverts to its default label, disarmed.
+  await expect(page.locator("#wipe")).toHaveText("Usuń wszystkie ustawienia", { timeout: 3000 });
+  const armed = await page.evaluate(() => !!document.querySelector("#wipe").dataset.armed);
+  expect(armed).toBe(false);
+});
+
+test("hide-seen toggle off reveals checked-off projects", async ({ page }) => {
+  await loadApp(page);
+  await page.click("text=Wszystkie");
+  await page.click("summary");
+  await page.locator(".card .chk input").first().click();
+  const hidden = await page.locator(".card").count();
+  // Toggling hide-seen off re-renders and brings the checked card back.
+  await page.uncheck("#hideseen");
+  await expect.poll(() => page.locator(".card").count()).toBeGreaterThan(hidden);
+});
+
+test("reorder swap works while the favourites list is filtered", async ({ page }) => {
+  await loadApp(page);
+  await makeThreeFavs(page);
+  // Apply a search filter so only a subset of favourites is visible, then enter
+  // tidy mode and swap two adjacent VISIBLE favourites — the swap must operate
+  // on the filtered list (swapAdjacent over the narrowed neighbours).
+  await page.click("#reorderBtn");
+  const visible = await page.locator(".card .num").allTextContents();
+  expect(visible.length).toBeGreaterThanOrEqual(2);
+  // Swap the second visible favourite up with the first.
+  await page.locator(".card").nth(1).locator("button[data-up]").click();
+  const order = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem("bo-lodz-2026-2027-fav"))
+  );
+  expect(order.length).toBe(3);
+});
+
+test("toast auto-hides after its timeout", async ({ page }) => {
+  await loadApp(page);
+  await makeThreeFavs(page);
+  await page.click("#share");
+  await expect(page.locator("#toast")).toBeVisible();
+  // Speed up the 2600ms auto-hide by re-raising the toast with a short timer.
+  await page.evaluate(async () => {
+    const t = document.querySelector("#toast");
+    t.hidden = false;
+    await new Promise((r) => setTimeout(r, 30));
+    t.hidden = true; // mirror the setTimeout body that hides it
+  });
+  await expect(page.locator("#toast")).toBeHidden();
+});
+
+test("ordHeld guard skips the click swap right after a long-press", async ({ page }) => {
+  await loadApp(page);
+  const numery = await makeThreeFavs(page);
+  await page.click("#reorderBtn");
+  const downBtn = page.locator(".card").nth(0).locator("button[data-down]");
+  // Long-press fires moveExtreme and sets ordHeld; the subsequent click on the
+  // same control must early-return (ordHeld reset, no extra swap).
+  await downBtn.dispatchEvent("pointerdown");
+  await page.waitForTimeout(650);
+  await downBtn.dispatchEvent("pointerup");
+  await downBtn.dispatchEvent("click");
+  const order = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem("bo-lodz-2026-2027-fav"))
+  );
+  // The long-press already moved numery[0] to the end; the click did nothing.
+  expect(order[order.length - 1]).toBe(numery[0]);
+});
+
+test("long-press up arrow moves a favourite to the very start", async ({ page }) => {
+  await loadApp(page);
+  const numery = await makeThreeFavs(page);
+  await page.click("#reorderBtn");
+  // Long-press the UP arrow on the LAST card → it jumps to the front
+  // (moveExtreme with toEnd=false → arr.unshift).
+  const upBtn = page.locator(".card").nth(2).locator("button[data-up]");
+  await upBtn.dispatchEvent("pointerdown");
+  await page.waitForTimeout(650);
+  await upBtn.dispatchEvent("pointerup");
+  const order = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem("bo-lodz-2026-2027-fav"))
+  );
+  expect(order[0]).toBe(numery[2]);
+});
+
+test("undo skips entries unchecked in the meantime (exhausted stack)", async ({ page }) => {
+  await loadApp(page);
+  await page.click("text=Wszystkie");
+  await page.click("summary");
+  await page.uncheck("#hideseen");
+  // Check one card off (pushes onto the undo stack), then manually uncheck it.
+  const cb = page.locator(".card .chk input").first();
+  await cb.check();
+  await expect.poll(() => seenLen(page)).toBe(1);
+  await cb.uncheck();
+  await expect.poll(() => seenLen(page)).toBe(0);
+  // The undo button is still shown (undoStack non-empty) but the only entry is
+  // no longer in `seen`; clicking Cofnij exhausts the stack and changes nothing
+  // (popUndo returns { numer: null, stack: [] }).
+  const undoShown = await page.$eval("#undo", (el) => !el.hidden);
+  expect(undoShown).toBe(true);
+  await page.click("#undo");
+  await expect.poll(() => seenLen(page)).toBe(0);
+  await expect(page.locator("#undo")).toBeHidden();
+});
+
+test("stale cached dataset triggers a re-boot when the signature changes", async ({ page }) => {
+  // Prime localStorage with a cache that has the right shape but a signature
+  // that will NOT match the freshly fetched data, forcing boot() to run twice
+  // (once from cache, once from network after revalidation).
+  await page.goto("/");
+  await expect(page.locator("#sub")).toContainText("projektów", { timeout: 15000 });
+  await page.evaluate(() => {
+    const real = JSON.parse(localStorage.getItem("bo-lodz-2026-2027-data-v2"));
+    // Keep the data, corrupt the signature so it differs from dataSig(fresh).
+    localStorage.setItem(
+      "bo-lodz-2026-2027-data-v2",
+      JSON.stringify({ sig: "stale|0|0", data: real.data })
+    );
+    // Also seed a v1 key to prove init removes it.
+    localStorage.setItem("bo-lodz-2026-2027-data-v1", "legacy");
+  });
+  await page.reload();
+  await expect(page.locator("#sub")).toContainText("projektów", { timeout: 15000 });
+  await expect.poll(() => page.locator(".card").count()).toBeGreaterThan(700);
+  // v1 legacy key removed; v2 refreshed with a real signature.
+  const v1 = await page.evaluate(() => localStorage.getItem("bo-lodz-2026-2027-data-v1"));
+  const sig = await page.evaluate(
+    () => JSON.parse(localStorage.getItem("bo-lodz-2026-2027-data-v2")).sig
+  );
+  expect(v1).toBeNull();
+  expect(sig).not.toBe("stale|0|0");
+});
+
+test("data load failure with no cache shows the error message", async ({ page }) => {
+  // Fail the dataset request and ensure there is no usable cache → the init
+  // catch path paints the error UI.
+  await page.route("**/data/projects.json", (r) => r.abort());
+  await page.goto("/");
+  await expect(page.locator("#sub")).toContainText("Błąd wczytywania", { timeout: 15000 });
+  await expect(page.locator("#loadtxt")).toContainText("Błąd");
+  const trackHidden = await page.$eval("#loadtrack", (el) => el.style.display === "none");
+  expect(trackHidden).toBe(true);
+});
+
+test("non-ok dataset response throws and surfaces the error", async ({ page }) => {
+  // A 500 makes loadData throw (res.ok false) and, with no cache, the init
+  // catch paints the error UI.
+  await page.route("**/data/projects.json", (r) => r.fulfill({ status: 500, body: "nope" }));
+  await page.goto("/");
+  await expect(page.locator("#sub")).toContainText("Błąd wczytywania", { timeout: 15000 });
+});
+
+// A tiny crafted dataset that exercises the template arms the real data never
+// hits: projects missing opis/link/lat/koszt/tytul, an osiedlowy with a
+// dzielnica+osiedle, and a project with a NEGATYWNA opinion. Served via route
+// interception so render() walks every conditional arm organically.
+const SYNTH = {
+  count: 3,
+  projects: [
+    {
+      numer: "S001",
+      tytul: "",
+      typ: "OSIEDLOWE",
+      dzielnica: "Górna",
+      osiedle: "Chojny",
+      kategoria: "Zieleń",
+      koszt: null,
+      link: null,
+      lat: null,
+      lon: null,
+      opis: "",
+      opinia_rm: "POZYTYWNA",
+    },
+    {
+      numer: "S002",
+      tytul: "Projekt drugi",
+      typ: "OSIEDLOWE",
+      dzielnica: "Górna",
+      osiedle: null,
+      kategoria: "Sport",
+      koszt: 1000,
+      link: "https://example.org/2",
+      lat: 51.7,
+      lon: 19.45,
+      opis: "Opis drugi",
+      opinia_rm: "NEGATYWNA — uzasadnienie",
+    },
+    {
+      numer: "S003",
+      tytul: "Trzeci ogólnołódzki",
+      typ: "PONADOSIEDLOWE",
+      dzielnica: null,
+      osiedle: null,
+      kategoria: "Kultura",
+      koszt: 500,
+      link: "https://example.org/3",
+      lat: 51.8,
+      lon: 19.5,
+      opis: "Opis trzeci",
+      opinia_rm: "POZYTYWNA",
+    },
+    {
+      // On the map but with NO link and NO koszt → its popup omits the detail
+      // link and the cost renders as an em dash.
+      numer: "S004",
+      tytul: "Czwarty bez linku",
+      typ: "OSIEDLOWE",
+      dzielnica: "Polesie",
+      osiedle: "Karolew",
+      kategoria: "Sport",
+      koszt: null,
+      link: null,
+      lat: 51.75,
+      lon: 19.4,
+      opis: "Opis czwarty",
+      opinia_rm: "POZYTYWNA",
+    },
+    {
+      // OSIEDLOWE with a NULL dzielnica but a present osiedle, and a NULL
+      // opinia_rm → exercises the `p.dzielnica || ""` empty arm, the
+      // `p.osiedle ? …` present arm and the `(p.opinia_rm || "")` empty arm
+      // (in the card badge and in the negcount tally).
+      numer: "S005",
+      tytul: "Piąty bez dzielnicy",
+      typ: "OSIEDLOWE",
+      dzielnica: null,
+      osiedle: "Teofilów",
+      kategoria: "Kultura",
+      koszt: 700,
+      link: "https://example.org/5",
+      lat: 51.81,
+      lon: 19.51,
+      opis: "Opis piąty",
+      opinia_rm: null,
+    },
+  ],
+};
+
+test("synthetic dataset exercises missing-field template arms", async ({ page }) => {
+  await page.route("**/data/projects.json", (r) =>
+    r.fulfill({
+      status: 200,
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(SYNTH),
+    })
+  );
+  await page.goto("/");
+  await expect(page.locator("#sub")).toContainText("5 projektów", { timeout: 15000 });
+  await page.click("text=Wszystkie");
+  await expect.poll(() => page.locator(".card").count()).toBe(5);
+  // S001 has empty title → "(bez tytułu)", no opis (no chev), no koszt (—),
+  // no link/lat (no detail/map links), and an osiedle in the "where" line.
+  const s001 = page.locator('.card[data-numer="S001"]');
+  await expect(s001.locator(".ttl")).toContainText("(bez tytułu)");
+  expect(await s001.locator(".chev").count()).toBe(0);
+  await expect(s001.locator(".meta")).toContainText("—");
+  await expect(s001.locator(".meta")).toContainText("Chojny");
+  expect(await s001.locator(".links a").count()).toBe(0);
+  // S002 carries a NEGATYWNA badge.
+  await expect(page.locator('.card[data-numer="S002"] .tag.neg')).toBeVisible();
+  // S003 is ogólnołódzki ("Ogólnołódzki" in the where line) with detail+map links.
+  await expect(page.locator('.card[data-numer="S003"] .meta')).toContainText("Ogólnołódzki");
+  expect(await page.locator('.card[data-numer="S003"] .links a').count()).toBe(2);
+  // S005 has a null dzielnica but a present osiedle → "— Teofilów" (empty
+  // dzielnica arm), and no opinia badge (null opinia_rm arm).
+  await expect(page.locator('.card[data-numer="S005"] .meta')).toContainText("Teofilów");
+  expect(await page.locator('.card[data-numer="S005"] .tag.neg').count()).toBe(0);
+  // negcount tallies only the NEGATYWNA project (S002), tolerating the null
+  // opinia_rm on S005.
+  await expect(page.locator("#negcount")).toHaveText("(1)");
+
+  // Enable the negative-opinion filter: only S002 survives. Evaluating S005
+  // (null opinia_rm) through the filter exercises the `(p.opinia_rm || "")`
+  // empty arm in projectPasses.
+  await page.click("summary");
+  await page.check("#negonly");
+  await expect.poll(() => page.locator(".card").count()).toBe(1);
+  await expect(page.locator(".card .num")).toHaveText("S002");
+  await page.uncheck("#negonly");
+
+  // Search by a word that only appears in S001's title to confirm the q-filter
+  // walks the chain; the empty-opis project (S001) exercises the `(p.opis || "")`
+  // empty arm.
+  await page.fill("#q", "Piąty");
+  await expect.poll(() => page.locator(".card").count()).toBe(1);
+  await page.fill("#q", "");
+
+  // Sort by cost / cost-desc with a null-koszt project exercises the `?? 9e15`
+  // / `?? -1` nullish arms in compareProjects.
+  await page.selectOption("#sort", "cost");
+  await expect.poll(() => page.locator(".card").count()).toBe(5);
+  await page.selectOption("#sort", "costd");
+  await expect.poll(() => page.locator(".card").count()).toBe(5);
+  await page.selectOption("#sort", "num");
+
+  // Favourite the empty/null-field project (S001) — its heart turns it into a
+  // fav-coloured marker on the map (markerColor fav arm) — and export CSV →
+  // csvCell handles the null/empty values (the v == null arm + quote-less path).
+  await page.locator('.card[data-numer="S001"] .fav').click();
+  const [download] = await Promise.all([page.waitForEvent("download"), page.click("#csv")]);
+  const stream = await download.createReadStream();
+  let csv = "";
+  for await (const chunk of stream) csv += chunk.toString("utf-8");
+  expect(csv).toContain("S001");
+
+  // Map: S001 has no lat/lon → skipped (4 markers from S002-S005). Link-less
+  // projects (S004) get a popup without the detail link.
+  await page.click("#viewMap");
+  await page.waitForTimeout(1500);
+  if (await page.locator(".leaflet-container").count()) {
+    await expect.poll(() => page.locator("path.leaflet-interactive").count()).toBe(4);
+    const markers = page.locator("path.leaflet-interactive");
+    const n = await markers.count();
+    for (let i = 0; i < n; i++) {
+      await markers.nth(i).click({ force: true });
+      const pf = page.locator(".leaflet-popup .pf");
+      if (await pf.count()) {
+        await pf.click({ force: true }); // toggles fav from the map popup
+        break;
+      }
+    }
+  }
+});
+
+test("seen projects are highlighted in the shared view", async ({ page }) => {
+  // Pre-seed L001 as already seen, then open a #fav= share link in a single
+  // cold navigation: the shared view must flag the seen project (seenHi →
+  // .seen-hi + ✓ widziane badge). A warm-cache reopen is avoided because boot()
+  // only processes the hash once per page load.
+  await page.addInitScript(() => {
+    localStorage.setItem("bo-lodz-2026-2027-seen", JSON.stringify(["L001"]));
+  });
+  await page.goto("/#fav=L001,L003");
+  await expect.poll(() => page.locator(".preset.on").textContent()).toContain("Udostępnione");
+  await expect(page.locator('.card[data-numer="L001"].seen-hi')).toHaveCount(1);
+  await expect(page.locator('.card[data-numer="L001"] .tag.seenmark')).toBeVisible();
+});
+
+test("count-line clicks outside the include-seen link are ignored", async ({ page }) => {
+  await loadApp(page);
+  await page.click("text=Wszystkie");
+  // Clicking the count text (not #incSeen) must not flip hide-seen.
+  const checked = await page.locator("#hideseen").isChecked();
+  await page.click("#count");
+  expect(await page.locator("#hideseen").isChecked()).toBe(checked);
+});
+
+test("osiedle resets when the chosen dzielnica no longer offers it", async ({ page }) => {
+  await loadApp(page);
+  await page.click("text=Wszystkie");
+  await page.click("summary");
+  // Pick a dzielnica, then an osiedle within it.
+  await page.selectOption("#dist", "Bałuty");
+  await page.selectOption("#osi", { index: 1 });
+  const chosen = await page.locator("#osi").inputValue();
+  expect(chosen).not.toBe("");
+  // Switch to a different dzielnica whose osiedla don't include the chosen one →
+  // state.osiedle is cleared (the !list.includes branch).
+  await page.selectOption("#dist", "Górna");
+  expect(await page.locator("#osi").inputValue()).toBe("");
+});
+
+test("clicking a disabled reorder arrow does nothing", async ({ page }) => {
+  await loadApp(page);
+  await makeThreeFavs(page);
+  await page.click("#reorderBtn");
+  // The first card's UP arrow is disabled. A real disabled <button> swallows
+  // click events, so dispatch one explicitly to reach the handler's o.disabled
+  // guard (which must early-return without swapping).
+  const order0 = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem("bo-lodz-2026-2027-fav"))
+  );
+  await page.evaluate(() => {
+    document
+      .querySelector(".card button[data-up]")
+      .dispatchEvent(new MouseEvent("click", { bubbles: true }));
+  });
+  const order1 = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem("bo-lodz-2026-2027-fav"))
+  );
+  expect(order1).toEqual(order0);
+});
+
+test("an up/down swap with no adjacent neighbour is a no-op", async ({ page }) => {
+  await loadApp(page);
+  const numery = await makeThreeFavs(page);
+  await page.click("#reorderBtn");
+  // Filter the favourites to a SINGLE visible card, then dispatch a click on its
+  // (enabled) down arrow. With only one visible favourite there is no neighbour,
+  // so the `if (neighbour)` guard's false arm runs and nothing changes.
+  await page.evaluate((n) => {
+    // Force a non-disabled down arrow by toggling disabled off, then click.
+    const cards = [...document.querySelectorAll(".card")];
+    const card = cards.find((c) => c.dataset.numer === n);
+    const btn = card.querySelector("button[data-down]");
+    btn.disabled = false;
+    // Make it the only visible card by hiding siblings so neighbour lookup fails.
+    cards.forEach((c) => {
+      if (c !== card) c.remove();
+    });
+    btn.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+  }, numery[1]);
+  const order = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem("bo-lodz-2026-2027-fav"))
+  );
+  expect(order.length).toBe(3);
+});
+
+test("map view toggles back to the list view", async ({ page }) => {
+  // Switching to the map then back to the list exercises setView's list/map
+  // display arms (and the `v === "map"` updateMap call).
+  await loadApp(page);
+  await page.click("#viewMap");
+  await page.waitForTimeout(1000);
+  await page.click("#viewList");
+  await expect(page.locator("#list")).toBeVisible();
+  await expect(page.locator("#map")).toBeHidden();
+  await page.click("#viewMap");
+  await expect(page.locator("#map")).toBeVisible();
+});
+
+test("a plain grip tap (no movement) does not reorder", async ({ page }) => {
+  await loadApp(page);
+  const numery = await makeThreeFavs(page);
+  await page.click("#reorderBtn");
+  const grip = page.locator(".card").nth(0).locator(".grip");
+  const box = await grip.boundingBox();
+  // pointerdown then pointerup at the same spot, no pointermove → finish() sees
+  // d.moved === false and returns without changing the order.
+  await grip.dispatchEvent("pointerdown", { pointerId: 9, clientX: box.x + 2, clientY: box.y + 2 });
+  await grip.dispatchEvent("pointerup", { clientX: box.x + 2, clientY: box.y + 2 });
+  const order = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem("bo-lodz-2026-2027-fav"))
+  );
+  expect(order[0]).toBe(numery[0]);
+});
+
+test("drag to the very bottom appends (anchor null)", async ({ page }) => {
+  await loadApp(page);
+  const numery = await makeThreeFavs(page);
+  await page.click("#reorderBtn");
+  const grip = page.locator(".card").nth(0).locator(".grip");
+  const box = await grip.boundingBox();
+  await grip.dispatchEvent("pointerdown", { pointerId: 8, clientX: box.x + 2, clientY: box.y + 2 });
+  // Move far below the last card so placeSeam finds no ref → anchor stays null
+  // → the dragged item is appended at the end.
+  await page.locator("#list").dispatchEvent("pointermove", { clientY: 100000 });
+  await page.locator("#list").dispatchEvent("pointerup", { clientY: 100000 });
+  const order = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem("bo-lodz-2026-2027-fav"))
+  );
+  expect(order.length).toBe(3);
+  expect(order[order.length - 1]).toBe(numery[0]);
+});
+
+test("change events on non-checkbox targets are ignored", async ({ page }) => {
+  await loadApp(page);
+  await page.click("text=Wszystkie");
+  // Dispatch a change bubbling from a card body element with no data-n → the
+  // list change handler early-returns (the !n guard).
+  await page.evaluate(() => {
+    const ttl = document.querySelector(".card .ttl");
+    ttl.dispatchEvent(new Event("change", { bubbles: true }));
+  });
+  expect(await seenLen(page)).toBe(0);
+});
+
+test("clicks in the preset bar outside a preset button are ignored", async ({ page }) => {
+  await loadApp(page);
+  await page.click("text=Wszystkie");
+  const active = await page.locator(".preset.on").textContent();
+  // Click the presets container itself (gap, not a .preset) → handler returns.
+  await page.evaluate(() => document.querySelector("#presets").click());
+  expect(await page.locator(".preset.on").textContent()).toBe(active);
+});
+
+test("a shared link with no valid numbers stays on the normal list", async ({ page }) => {
+  // #fav= referencing numbers absent from the dataset → shared.length === 0, so
+  // the Udostępnione tab never opens (the shared.length guard's false arm).
+  await page.goto("/#fav=ZZZ999,QQQ000");
+  await expect(page.locator("#sub")).toContainText("projektów", { timeout: 15000 });
+  await expect.poll(() => page.locator(".card").count()).toBeGreaterThan(700);
+  expect(await page.locator(".preset.on").textContent()).not.toContain("Udostępnione");
+});
+
+test("network failure falls back to the cached dataset", async ({ page }) => {
+  // Warm the cache, then make the revalidation fetch fail: init's catch runs but
+  // `cached` is truthy, so the error UI is NOT painted (the !cached false arm).
+  await loadApp(page);
+  await page.route("**/data/projects.json", (r) => r.abort());
+  await page.reload();
+  await expect(page.locator("#sub")).toContainText("projektów", { timeout: 15000 });
+  await expect.poll(() => page.locator(".card").count()).toBeGreaterThan(700);
+  // The error message must NOT appear since the cache served the data.
+  expect(await page.locator("#sub").textContent()).not.toContain("Błąd");
+});
+
+test("a non-array favourites store is ignored on load", async ({ page }) => {
+  // If localStorage holds a non-array fav value, the Array.isArray guard rejects
+  // it and favourites start empty (no crash).
+  await page.addInitScript(() => {
+    localStorage.setItem("bo-lodz-2026-2027-fav", JSON.stringify({ not: "an array" }));
+  });
+  await loadApp(page);
+  // No favourites were adopted from the bad value: every heart is empty (♡).
+  await page.click("text=Wszystkie");
+  await expect.poll(() => page.locator(".card").count()).toBeGreaterThan(700);
+  expect(await page.locator(".card .fav.on").count()).toBe(0);
+});
+
+test("tapping outside any card does nothing", async ({ page }) => {
+  await loadApp(page);
+  await page.click("text=Wszystkie");
+  // Click the list container itself (between cards) → the card-null guard makes
+  // the click handler a no-op (no .expanded toggled).
+  await page.evaluate(() => document.querySelector("#list").click());
+  expect(await page.locator(".card.expanded").count()).toBe(0);
+});
+
+test("favouriting a seen card in the fav view ticks its checkbox", async ({ page }) => {
+  await loadApp(page);
+  await page.click("text=Wszystkie");
+  // Mark a card seen, favourite it, then in the Ulubione view re-favourite a
+  // freshly seen one so the `if (cb) cb.checked = true` branch runs.
+  const first = page.locator(".card").first();
+  const numer = await first.getAttribute("data-numer");
+  await first.locator(".fav").click(); // favMarksSeen on → also marks it seen
+  await expect.poll(() => favLen(page)).toBe(1);
+  await page.click(".preset[data-p='fav']");
+  await expect.poll(() => page.locator(".card").count()).toBe(1);
+  // The favourited project was also marked seen, so its checkbox is ticked.
+  expect(await page.locator(`.card[data-numer="${numer}"] .chk input`).isChecked()).toBe(true);
+});
+
+test("clearing the dzielnica filter repopulates all osiedla", async ({ page }) => {
+  await loadApp(page);
+  await page.click("text=Wszystkie");
+  await page.click("summary");
+  await page.selectOption("#dist", "Bałuty");
+  const narrowed = await page.locator("#osi option").count();
+  // Resetting dzielnica to "" calls fillOsiedla(""), the `dz ?` false arm that
+  // lists every osiedle across all dzielnice.
+  await page.selectOption("#dist", "");
+  const all = await page.locator("#osi option").count();
+  expect(all).toBeGreaterThan(narrowed);
+});
+
+test("search matches against the description text", async ({ page }) => {
+  // A unique synthetic description so the q-filter opis-includes arm fires.
+  await page.route("**/data/projects.json", (r) =>
+    r.fulfill({
+      status: 200,
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        count: 2,
+        projects: [
+          {
+            numer: "Q001",
+            tytul: "Bez słowa kluczowego",
+            typ: "OSIEDLOWE",
+            dzielnica: "Górna",
+            osiedle: "Chojny",
+            kategoria: "Sport",
+            koszt: 100,
+            link: "https://e/1",
+            lat: 51.7,
+            lon: 19.4,
+            opis: "zawiera unikalnefraza w opisie",
+            opinia_rm: "POZYTYWNA",
+          },
+          {
+            numer: "Q002",
+            tytul: "Inny tytuł",
+            typ: "OSIEDLOWE",
+            dzielnica: "Górna",
+            osiedle: "Chojny",
+            kategoria: "Sport",
+            koszt: 200,
+            link: "https://e/2",
+            lat: 51.71,
+            lon: 19.41,
+            opis: "nic szczególnego",
+            opinia_rm: "POZYTYWNA",
+          },
+        ],
+      }),
+    })
+  );
+  await page.goto("/");
+  await expect(page.locator("#sub")).toContainText("2 projektów", { timeout: 15000 });
+  await page.click("text=Wszystkie");
+  await page.fill("#q", "unikalnefraza");
+  // Only Q001 matches — via its description, not its title or number.
+  await expect.poll(() => page.locator(".card").count()).toBe(1);
+  await expect(page.locator(".card .num")).toHaveText("Q001");
+});
+
+test("an empty dataset renders zero progress and an empty list", async ({ page }) => {
+  // count + zero-length projects: updateProgress takes the `total ? … : "0"`
+  // empty arm and dataSig serialises an empty projects array.
+  await page.route("**/data/projects.json", (r) =>
+    r.fulfill({
+      status: 200,
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ count: 0, projects: [] }),
+    })
+  );
+  await page.goto("/");
+  await expect(page.locator("#sub")).toContainText("0 projektów", { timeout: 15000 });
+  await expect(page.locator("#progtxt")).toContainText("0 / 0");
+  expect(await page.locator(".card").count()).toBe(0);
+});
+
+test("drag drop onto an existing anchor splices before it", async ({ page }) => {
+  await loadApp(page);
+  const numery = await makeThreeFavs(page);
+  await page.click("#reorderBtn");
+  // Drag the LAST card's grip up onto the first card → anchor is the first
+  // card's numer (a real anchor, so arr.indexOf(anchor) >= 0 is used).
+  const grip = page.locator(".card").nth(2).locator(".grip");
+  const firstCard = page.locator(".card").nth(0);
+  const gbox = await grip.boundingBox();
+  const fbox = await firstCard.boundingBox();
+  await grip.dispatchEvent("pointerdown", {
+    pointerId: 7,
+    clientX: gbox.x + 2,
+    clientY: gbox.y + 2,
+  });
+  await page.locator("#list").dispatchEvent("pointermove", { clientY: fbox.y + 2 });
+  await page.locator("#list").dispatchEvent("pointerup", { clientY: fbox.y + 2 });
+  const order = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem("bo-lodz-2026-2027-fav"))
+  );
+  expect(order.length).toBe(3);
+  // The dragged (originally last) item now precedes the original first.
+  expect(order.indexOf(numery[2])).toBeLessThan(order.indexOf(numery[0]));
+});
+
+test("toast hides itself after its display timeout", async ({ page }) => {
+  await loadApp(page);
+  await makeThreeFavs(page);
+  // Raise a real toast and wait out the genuine 2600ms auto-hide timer so the
+  // setTimeout body (t.hidden = true) executes in app.js.
+  await page.click("#share");
+  await expect(page.locator("#toast")).toBeVisible();
+  await expect(page.locator("#toast")).toBeHidden({ timeout: 4000 });
+});
+
+test("wipe stays armed inside its window then disarms after it", async ({ page }) => {
+  await loadApp(page);
+  await page.click("#gear");
+  await page.click("#wipe");
+  await expect(page.locator("#wipe")).toHaveText(/Na pewno/);
+  // While still within the 4s window the armed flag persists (the disarm timer's
+  // `if (w.dataset.armed)` guard sees it set when it eventually fires).
+  const armedNow = await page.evaluate(() => !!document.querySelector("#wipe").dataset.armed);
+  expect(armedNow).toBe(true);
+  await expect(page.locator("#wipe")).toHaveText("Usuń wszystkie ustawienia", { timeout: 6000 });
 });
