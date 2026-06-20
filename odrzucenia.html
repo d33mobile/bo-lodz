@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b6e4f">
+<title>Odrzucone projekty — ŁBO 2026/2027</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#16241f; --muted:#5d6b66; --line:#e1e6e4;
+    --accent:#0b6e4f; --accent2:#0a5f97; --neg:#b3261e; --chip:#eef2f0;
+    --pad: env(safe-area-inset-bottom,0px);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.45 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+       background:var(--bg);color:var(--ink)}
+  header{position:sticky;top:0;z-index:10;background:var(--accent);color:#fff;
+         padding:10px 14px;box-shadow:0 1px 6px rgba(0,0,0,.18)}
+  header h1{margin:0;font-size:17px;font-weight:700}
+  header .sub{font-size:12px;opacity:.9;margin-top:3px}
+  header .back{display:inline-block;margin-top:6px;font-size:13px;color:#fff;
+               background:rgba(255,255,255,.18);padding:4px 10px;border-radius:999px;
+               text-decoration:none;font-weight:600}
+  header .back:active{background:rgba(255,255,255,.32)}
+  .wrap{max-width:760px;margin:0 auto;padding:12px 12px calc(40px + var(--pad))}
+  h2.sec{font-size:16px;margin:26px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--accent);
+         color:var(--accent)}
+  /* stats bar chart */
+  .stats{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;
+         box-shadow:0 1px 2px rgba(0,0,0,.04)}
+  .statrow{display:block;width:100%;text-align:left;border:none;background:none;cursor:pointer;
+           padding:5px 0;margin:0;font:inherit;color:inherit}
+  .statrow:active{opacity:.7}
+  .statlabel{display:flex;justify-content:space-between;font-size:13px;margin-bottom:3px}
+  .statlabel .n{font-weight:700;color:var(--accent)}
+  .statbar{height:10px;border-radius:6px;background:var(--chip);overflow:hidden}
+  .statbar>span{display:block;height:100%;background:var(--accent);border-radius:6px}
+  /* category group */
+  .grp{margin:16px 0}
+  .grphd{font-size:14.5px;font-weight:700;color:var(--ink);margin:0 0 8px;
+         display:flex;justify-content:space-between;align-items:baseline;gap:8px;
+         padding-top:6px;scroll-margin-top:64px}
+  .grphd .cnt{font-size:12px;font-weight:600;color:var(--muted);
+              background:var(--chip);padding:2px 9px;border-radius:999px;flex:0 0 auto}
+  /* project entry */
+  details.proj{background:var(--card);border:1px solid var(--line);border-radius:11px;
+               padding:0;margin-bottom:8px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+  details.proj>summary{cursor:pointer;list-style:none;padding:11px 12px;display:block}
+  details.proj>summary::-webkit-details-marker{display:none}
+  .proj .ttl{font-weight:600;font-size:14.5px;word-wrap:break-word;display:flex;gap:7px;align-items:flex-start}
+  .proj .chev{color:var(--accent2);font-size:12px;transition:transform .15s;flex:0 0 auto;margin-top:3px}
+  details.proj[open] .chev{transform:rotate(180deg)}
+  .proj .pods{font-size:13px;color:#33403b;margin:6px 0 0;line-height:1.5}
+  .proj .inner{padding:0 12px 12px}
+  .proj .uzas{font-size:13px;color:#33403b;white-space:pre-wrap;line-height:1.55;
+              background:#f8faf9;border:1px solid var(--line);border-radius:8px;padding:9px 10px;margin:4px 0 8px}
+  .proj .meta{font-size:12px;color:var(--muted);line-height:1.6}
+  .proj .meta b{color:var(--ink);font-weight:600}
+  .badge{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;
+         margin-left:4px;vertical-align:middle}
+  .badge.poz{background:#e7f1ec;color:var(--accent)}
+  .badge.neg{background:#fde2e4;color:var(--neg)}
+  .proj .links{margin-top:8px}
+  .proj .links a{font-size:13px;color:var(--accent2);text-decoration:none;font-weight:600}
+  .proj .links a:active{opacity:.6}
+  /* negatywna entries */
+  .negcard{background:var(--card);border:1px solid var(--line);border-radius:11px;
+           padding:12px;margin-bottom:9px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+  .negcard .ttl{font-weight:600;font-size:14.5px;margin-bottom:6px;word-wrap:break-word}
+  .negcard .uwagi{font-size:13px;color:#33403b;line-height:1.55}
+  .cytat{margin-top:9px;border-left:3px solid var(--accent);padding:4px 0 4px 10px}
+  .cytat a{color:var(--accent2);font-weight:700;text-decoration:none}
+  .cytat a:active{opacity:.6}
+  .cytat .pods{font-size:12.5px;color:var(--muted);display:block;margin-top:2px}
+  .negcard .links{margin-top:8px}
+  .negcard .links a{font-size:13px;color:var(--accent2);text-decoration:none;font-weight:600}
+  .podstawa{background:#eef4fa;border:1px solid var(--line);border-radius:10px;padding:11px 12px;
+            font-size:13px;margin-top:14px;line-height:1.5}
+  .podstawa a{color:var(--accent2);font-weight:700;text-decoration:none}
+  footer{max-width:760px;margin:0 auto;padding:18px 12px 40px;color:var(--muted);
+         font-size:11.5px;text-align:center;line-height:1.6}
+  footer a{color:var(--accent2);font-weight:600;text-decoration:none}
+  /* loading overlay */
+  #loading{position:fixed;inset:0;z-index:50;background:var(--bg);display:flex;
+           flex-direction:column;align-items:center;justify-content:center;gap:14px;
+           transition:opacity .3s}
+  #loading.hide{opacity:0;pointer-events:none}
+  #loading .lt{font-size:14px;color:var(--muted);font-weight:600}
+  #loadtrack{width:min(72vw,300px);height:8px;border-radius:8px;background:var(--line);overflow:hidden}
+  #loadbar{height:100%;width:40%;background:var(--accent);border-radius:8px;
+           animation:slide 1.1s ease-in-out infinite}
+  @keyframes slide{0%{margin-left:-40%}100%{margin-left:100%}}
+  #err{display:none;text-align:center;color:var(--neg);padding:40px 16px;font-size:14px}
+</style>
+</head>
+<body>
+<div id="loading">
+  <div class="lt">Wczytywanie zestawienia…</div>
+  <div id="loadtrack"><div id="loadbar"></div></div>
+</div>
+<header>
+  <h1>Odrzucone projekty — ŁBO 2026/2027</h1>
+  <div class="sub" id="sub">wczytywanie…</div>
+  <a class="back" href="index.html">← wróć do przeglądarki projektów</a>
+</header>
+
+<div class="wrap">
+  <div id="err">Nie udało się wczytać danych (data/odrzucenia.json).</div>
+
+  <h2 class="sec">Statystyki — powody niedopuszczenia</h2>
+  <div class="stats" id="stats"></div>
+
+  <h2 class="sec" id="sec-niedop">Niedopuszczone do głosowania (<span id="ndCount">0</span>)</h2>
+  <div id="niedop"></div>
+
+  <h2 class="sec" id="sec-neg">Negatywna analiza formalna (<span id="negCount">0</span>)</h2>
+  <div id="neg"></div>
+</div>
+
+<footer>
+  Dane: oficjalne strony Urzędu Miasta Łodzi (budzetobywatelski.uml.lodz.pl) oraz Dziennik Urzędowy
+  Województwa Łódzkiego. Strona nieoficjalna, pomocnicza.<br>
+  <a href="https://github.com/d33mobile/bo-lodz" target="_blank" rel="noopener">kod źródłowy na GitHub ↗</a><br>
+  <span style="opacity:.8">shamelessly vibecoded by d33tah</span>
+</footer>
+
+<script>
+"use strict";
+function esc(s){
+  return String(s==null?"":s)
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+}
+function slug(s){ return "grp-"+String(s).replace(/[^a-zA-Z0-9]+/g,"-").toLowerCase(); }
+
+fetch("data/odrzucenia.json")
+  .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+  .then(render)
+  .catch(function(e){
+    document.getElementById("loading").classList.add("hide");
+    var err=document.getElementById("err"); err.style.display="block";
+    err.textContent="Nie udało się wczytać danych: "+e.message;
+  });
+
+function render(d){
+  var meta=d.meta||{};
+  var total=(meta.niedopuszczone||0)+(meta.negatywna||0);
+  document.getElementById("sub").textContent=
+    total+" odrzuconych projektów = "+(meta.niedopuszczone||0)+" niedopuszczonych do głosowania + "
+    +(meta.negatywna||0)+" z negatywną analizą formalną";
+  document.getElementById("ndCount").textContent=meta.niedopuszczone||0;
+  document.getElementById("negCount").textContent=meta.negatywna||0;
+
+  // ---- stats bar chart ----
+  var kats=d.kategorie||[];
+  var max=kats.reduce(function(m,k){ return Math.max(m,k.liczba); },1);
+  var statsEl=document.getElementById("stats");
+  statsEl.innerHTML=kats.map(function(k){
+    var w=Math.round(k.liczba/max*100);
+    return '<button class="statrow" data-grp="'+esc(slug(k.kategoria))+'">'
+      +'<div class="statlabel"><span>'+esc(k.kategoria)+'</span><span class="n">'+k.liczba+'</span></div>'
+      +'<div class="statbar"><span style="width:'+w+'%"></span></div></button>';
+  }).join("");
+  statsEl.querySelectorAll(".statrow").forEach(function(b){
+    b.addEventListener("click",function(){
+      var t=document.getElementById(b.getAttribute("data-grp"));
+      if(t) t.scrollIntoView({behavior:"smooth",block:"start"});
+    });
+  });
+
+  // ---- niedopuszczone grouped by category (category order = stats order = desc) ----
+  var byCat={};
+  (d.niedopuszczone||[]).forEach(function(p){
+    var c=p.kategoria_powodu||"inne";
+    (byCat[c]=byCat[c]||[]).push(p);
+  });
+  var ndEl=document.getElementById("niedop");
+  ndEl.innerHTML=kats.map(function(k){
+    var list=byCat[k.kategoria]||[];
+    var items=list.map(projHtml).join("");
+    return '<div class="grp"><div class="grphd" id="'+esc(slug(k.kategoria))+'">'
+      +'<span>'+esc(k.kategoria)+'</span><span class="cnt">'+list.length+'</span></div>'
+      +items+'</div>';
+  }).join("");
+
+  // ---- negatywna ----
+  var negEl=document.getElementById("neg");
+  negEl.innerHTML=(d.negatywna||[]).map(negHtml).join("")
+    +'<div class="podstawa">Podstawa prawna: '
+    +'<a href="'+esc(meta.uchwala_url)+'" target="_blank" rel="noopener">'
+    +'uchwała Nr LXXIII/2173/23 Rady Miejskiej w Łodzi z dnia 15 marca 2023 r. ↗</a> '
+    +'w sprawie określenia wymagań, jakie powinien spełniać projekt Łódzkiego Budżetu Obywatelskiego.</div>';
+
+  document.getElementById("loading").classList.add("hide");
+}
+
+function projHtml(p){
+  var title=esc(p.tytul) || esc(p.idwpis);
+  var roBadge="";
+  if(p.opinia_ro==="POZYTYWNA") roBadge=' <span class="badge poz">opinia RO: pozytywna</span>';
+  else if(p.opinia_ro==="NEGATYWNA") roBadge=' <span class="badge neg">opinia RO: negatywna</span>';
+  var uzas=p.uzasadnienie ? '<div class="uzas">'+esc(p.uzasadnienie)+'</div>' : "";
+  var link=p.url ? '<div class="links"><a href="'+esc(p.url)+'" target="_blank" rel="noopener">szczegóły projektu ↗</a></div>' : "";
+  return '<details class="proj">'
+    +'<summary><div class="ttl"><span class="chev">▼</span><span>'+title+'</span></div>'
+    +'<div class="pods">'+esc(p.podsumowanie)+'</div></summary>'
+    +'<div class="inner">'+uzas
+    +'<div class="meta"><b>Komórka opiniująca:</b> '+esc(p.komorka)+roBadge+'</div>'
+    +link+'</div></details>';
+}
+
+function negHtml(p){
+  var title=esc(p.tytul) || esc(p.idwpis);
+  var uwagi=esc(p.uwagi);
+  var cyt=(p.cytaty||[]).map(function(c){
+    var pods=c.podsumowanie
+      ? '<span class="pods">'+esc(c.podsumowanie)+'</span>'
+      : '<span class="pods">(brak podsumowania w bazie przepisów)</span>';
+    return '<div class="cytat"><a href="'+esc(c.url)+'" target="_blank" rel="noopener">'
+      +esc(c.ref)+' ↗</a>'+pods+'</div>';
+  }).join("");
+  var link=p.url ? '<div class="links"><a href="'+esc(p.url)+'" target="_blank" rel="noopener">szczegóły projektu ↗</a></div>' : "";
+  return '<div class="negcard"><div class="ttl">'+title+'</div>'
+    +'<div class="uwagi">'+uwagi+'</div>'+cyt+link+'</div>';
+}
+</script>
+</body>
+</html>
